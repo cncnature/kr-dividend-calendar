@@ -55,11 +55,12 @@ def corp_codes() -> dict[str, str]:
 
 
 def list_disclosures(corp_code: str, bgn: str, end: str) -> list[dict]:
-    q = dict(crtfc_key=KEY, corp_code=corp_code, bgn_de=bgn, end_de=end, pblntf_ty="B", page_count=100)
+    # 현금·현물배당결정은 거래소 수시공시(I)로 분류됨 — 유형 필터 없이 보고서명으로 거른다
+    q = dict(crtfc_key=KEY, corp_code=corp_code, bgn_de=bgn, end_de=end, page_count=100)
     data = json.loads(_get(LIST_URL + urllib.parse.urlencode(q)))
     if data.get("status") != "000":
         return []
-    return [x for x in data.get("list", []) if "배당" in x.get("report_nm", "")]
+    return [x for x in data.get("list", []) if "배당" in x.get("report_nm", "") and "결정" in x.get("report_nm", "")]
 
 
 def parse_doc(rcept_no: str) -> dict:
