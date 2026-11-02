@@ -107,7 +107,7 @@ def main():
     end = dt.date.today()
     bgn = end - dt.timedelta(days=int(os.environ.get("DART_LOOKBACK_DAYS", "120")))
     for st in stocks:
-        cc = codes.get(st["code"])
+        cc = codes.get(st["code"]) or codes.get(st.get("parent_code", ""))
         if not cc:
             print(f"[{st['code']}] corp_code 없음")
             continue

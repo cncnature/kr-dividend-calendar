@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: dividend-update
   cancel-in-progress: false
 
 jobs:
@@ -42,7 +42,7 @@ jobs:
             [ -f "$f" ] && git add "$f"
           done
           if git diff --cached --quiet; then echo "변경 없음"; else
-            git commit -m "chore: 배당 캘린더 자동 갱신 $(date -u +%F)" && git push
+            git commit -m "chore: 배당 캘린더 자동 갱신 $(date -u +%F)" && git pull --rebase origin main && git push
           fi
       - uses: actions/upload-pages-artifact@v3
         with:
