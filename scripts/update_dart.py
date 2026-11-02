@@ -60,7 +60,7 @@ def list_disclosures(corp_code: str, bgn: str, end: str) -> list[dict]:
     data = json.loads(_get(LIST_URL + urllib.parse.urlencode(q)))
     if data.get("status") != "000":
         return []
-    return [x for x in data.get("list", []) if "배당" in x.get("report_nm", "") and "결정" in x.get("report_nm", "")]
+    return [x for x in data.get("list", []) if "배당" in x.get("report_nm", "") and "결정" in x.get("report_nm", "") and "자회사" not in x.get("report_nm", "")]
 
 
 def parse_doc(rcept_no: str) -> dict:
