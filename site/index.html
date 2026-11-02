@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>국내 배당 캘린더</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* 레이아웃: 상단 연도/종목 필터 → 월별 그리드(배당락·매수마감·기준일 칩) → 선택 이벤트 상세(배당액 참고·배당락 통계) */
+:root{
+  --bg:#f5f6f8; --paper:#ffffff; --ink:#1b2330; --mute:#5f6b7a; --line:#dde2e9;
+  --accent:#1f4e8c; --accent-soft:#e3ecf8; --buy:#0f7b4f; --buy-soft:#e0f3ea; --ex:#b3261e; --ex-soft:#fbe5e3;
+  --rec:#7a5a10; --rec-soft:#fbf1d6; --hol:#9aa3af; --today:#fff2c8;
+  --display:"IBM Plex Sans KR",system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f141b; --paper:#171e27; --ink:#e6ebf2; --mute:#98a4b3; --line:#2a3440;
+  --accent:#8db4ea; --accent-soft:#1d2d44; --buy:#5fd3a0; --buy-soft:#153227; --ex:#ff8a80; --ex-soft:#3d1c1a;
+  --rec:#e8c56a; --rec-soft:#3a2f12; --hol:#5c6775; --today:#3a3416; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141b; --paper:#171e27; --ink:#e6ebf2; --mute:#98a4b3; --line:#2a3440;
+  --accent:#8db4ea; --accent-soft:#1d2d44; --buy:#5fd3a0; --buy-soft:#153227; --ex:#ff8a80; --ex-soft:#3d1c1a;
+  --rec:#e8c56a; --rec-soft:#3a2f12; --hol:#5c6775; --today:#3a3416; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 var(--display);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 40px}
+.wrap{max-width:1180px;margin:0 auto;display:grid;gap:16px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--mute);font-size:13px}
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.tabs{display:flex;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:3px}
+.tabs button{border:0;background:transparent;color:var(--mute);padding:6px 12px;border-radius:6px;font:inherit;font-weight:600;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+select,input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--mute)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.badge{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.badge.warn{background:var(--rec-soft);color:var(--rec)}
+.badge.ok{background:var(--buy-soft);color:var(--buy)}
+.months{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.month{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px;min-width:0}
+.month h2{font-size:15px;margin:0 0 8px;display:flex;justify-content:space-between;align-items:baseline}
+.month h2 small{color:var(--mute);font-weight:400;font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px}
+.dow{font-size:11px;color:var(--mute);text-align:center;padding:2px 0 4px}
+.day{min-height:58px;border:1px solid var(--line);border-radius:5px;padding:3px;font-size:11px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.day.empty{border-color:transparent}
+.day.we{background:color-mix(in srgb,var(--bg) 70%,var(--paper))}
+.day.hol .n{color:var(--ex);font-weight:600}
+.day.today{background:var(--today)}
+.day .n{font-family:var(--mono);font-size:11px;color:var(--mute);display:flex;justify-content:space-between}
+.day .n .h{font-family:var(--display);font-size:9px;color:var(--hol);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}
+.chip{display:block;border-radius:3px;padding:0 4px;line-height:1.5;cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:0;text-align:left;font:inherit;font-size:10.5px;width:100%}
+.chip.buy{background:var(--buy-soft);color:var(--buy)}
+.chip.ex{background:var(--ex-soft);color:var(--ex);font-weight:600}
+.chip.rec{background:var(--rec-soft);color:var(--rec)}
+.chip:focus-visible{outline:2px solid var(--accent)}
+.chip.more{background:transparent;color:var(--mute);font-size:10px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:12px}
+.panel h3{margin:0;font-size:17px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.kv div{border-left:3px solid var(--line);padding:2px 10px}
+.kv div.buy{border-color:var(--buy)} .kv div.ex{border-color:var(--ex)} .kv div.rec{border-color:var(--rec)}
+.kv b{display:block;font-family:var(--mono);font-size:16px;font-variant-numeric:tabular-nums}
+.kv span{font-size:12px;color:var(--mute)}
+table{border-collapse:collapse;width:100%;font-size:12.5px;font-variant-numeric:tabular-nums}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--mute);font-weight:500}
+.tw{overflow-x:auto}
+.neg{color:var(--ex)} .pos{color:var(--buy)}
+.note{font-size:12.5px;color:var(--mute)}
+a{color:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}
+.stat{background:var(--bg);border-radius:8px;padding:8px 10px}
+.stat b{display:block;font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums}
+.stat span{font-size:11.5px;color:var(--mute)}
+.upcoming{display:grid;gap:4px}
+.upcoming button{display:grid;grid-template-columns:90px 1fr auto;gap:10px;align-items:center;text-align:left;font:inherit;border:1px solid var(--line);background:var(--paper);border-radius:8px;padding:6px 10px;cursor:pointer;color:var(--ink)}
+.upcoming button:hover{border-color:var(--accent)}
+.upcoming .d{font-family:var(--mono);font-size:12.5px}
+footer{font-size:12px;color:var(--mute);line-height:1.6}
+@media (max-width:480px){.months{grid-template-columns:1fr}.day{min-height:52px}}
+@media (prefers-reduced-motion:no-preference){.chip{transition:filter .12s}.chip:hover{filter:brightness(.92)}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>국내 배당 캘린더</h1>
+    <span class="sub" id="gen"></span>
+  </header>
+  <div class="toolbar">
+    <div class="tabs" id="years" role="tablist"></div>
+    <select id="stock"><option value="">전체 종목</option></select>
+    <label><input type="checkbox" id="onlyA" checked> 패턴 불확실(C) 종목 숨기기</label>
+    <span class="badge" id="holbadge"></span>
+  </div>
+  <div class="legend">
+    <span><i style="background:var(--buy)"></i>마지막 매수일 (장 마감까지 보유)</span>
+    <span><i style="background:var(--ex)"></i>배당락일 (이날부터 매도해도 배당 수령)</span>
+    <span><i style="background:var(--rec)"></i>배당기준일</span>
+    <span><i style="background:var(--hol)"></i>휴장일</span>
+    <span>상태: <span class="badge ok">확정</span> DART 공시 반영 · <span class="badge">예상</span> 정관·최근 2년 패턴 · <span class="badge warn">예상(불확실)</span> 공시 확인 필요</span>
+  </div>
+
+  <section class="panel" id="detail" hidden></section>
+
+  <section class="months" id="months"></section>
+
+  <section class="panel">
+    <h3>다가오는 일정 <span class="sub">(오늘 이후 20건)</span></h3>
+    <div class="upcoming" id="upcoming"></div>
+  </section>
+
+  <footer>
+    계산 규칙: 국내 주식 T+2 결제 → 배당락일 = 배당기준일(휴장이면 직전 거래일)의 직전 거래일, 마지막 매수일 = 배당락일의 직전 거래일.
+    2027년 휴장일은 한국거래소 공지 기준(확정), 2028년 이후는 공휴일 규정·대체공휴일 규칙·연말휴장일 관행으로 자동 산출(KRX 공지 시 교체).
+    배당기준일을 이사회 결의로 정하는 종목(배당절차 개선 채택)은 최근 공시 패턴으로 예상하며, DART 공시가 올라오면 자동으로 "확정"으로 바뀝니다.
+    배당락 통계(상승 시작일·상승폭·배당락일 하락률·회복 기간)는 네이버 금융 일봉으로 계산한 과거 실적이며 미래를 보장하지 않습니다. 투자 판단의 책임은 본인에게 있습니다.
+  </footer>
+</div>
+
+<script>
+(async function(){
+  const el = id => document.getElementById(id);
+  let DATA;
+  try { DATA = await (await fetch('data.json')).json(); }
+  catch(e){ el('months').innerHTML = '<p class="note">data.json을 불러오지 못했습니다. scripts/build.py를 실행해 site/data.json을 생성하세요.</p>'; return; }
+
+  const today = new Date(); const tISO = today.toISOString().slice(0,10);
+  el('gen').textContent = '데이터 생성 ' + DATA.generated_at.slice(0,16).replace('T',' ') + ' KST';
+  let year = DATA.years[0]; let stockFilter = ''; let hideC = true; let selected = null;
+  try { const s = JSON.parse(localStorage.getItem('divcal')||'{}'); if (DATA.years.includes(s.year)) year = s.year; if (s.stock!==undefined) stockFilter = s.stock; if (s.hideC!==undefined) hideC = s.hideC; } catch(e){}
+  el('onlyA').checked = hideC;
+  const save = () => { try { localStorage.setItem('divcal', JSON.stringify({year, stock:stockFilter, hideC})); } catch(e){} };
+
+  DATA.years.forEach(y => { const b = document.createElement('button'); b.textContent = y; b.setAttribute('role','tab'); b.onclick = () => { year = y; save(); render(); }; el('years').appendChild(b); });
+  DATA.stocks.forEach(s => { const o = document.createElement('option'); o.value = s.code; o.textContent = `${s.name} (${s.freq}, ${s.confidence})`; el('stock').appendChild(o); });
+  el('stock').value = stockFilter;
+  el('stock').onchange = e => { stockFilter = e.target.value; save(); render(); };
+  el('onlyA').onchange = e => { hideC = e.target.checked; save(); render(); };
+
+  const fmt = d => d.slice(5).replace('-','/');
+  const pct = v => v==null ? '–' : `<span class="${v<0?'neg':'pos'}">${v>0?'+':''}${v.toFixed(2)}%</span>`;
+  const won = v => v==null ? '미정' : v.toLocaleString('ko-KR') + '원';
+  const badge = s => `<span class="badge ${s==='확정'?'ok':s.includes('불확실')?'warn':''}">${s}</span>`;
+  const visible = () => DATA.events.filter(e => (!stockFilter || e.code===stockFilter) && (!hideC || e.confidence!=='C'));
+
+  function render(){
+    [...el('years').children].forEach(b => b.setAttribute('aria-selected', String(+b.textContent===year)));
+    const hols = DATA.holidays[year] || {};
+    const official = DATA.holiday_official_years.includes(year);
+    el('holbadge').className = 'badge ' + (official?'ok':'warn');
+    el('holbadge').textContent = official ? `${year} 휴장일: KRX 공지(확정)` : `${year} 휴장일: 공휴일 규정으로 자동 산출(예상)`;
+
+    const byDay = {};
+    visible().forEach(e => {
+      [['last_buy_date','buy','매수마감'],['ex_date','ex','배당락'],['record_date','rec','기준일']].forEach(([k,cls,label]) => {
+        if (e[k].startsWith(String(year))) (byDay[e[k]] ||= []).push({e, cls, label});
+      });
+    });
+    const dows = ['월','화','수','목','금','토','일'];
+    let html = '';
+    for (let m=1; m<=12; m++){
+      const first = new Date(Date.UTC(year, m-1, 1)); const days = new Date(Date.UTC(year, m, 0)).getUTCDate();
+      let offset = (first.getUTCDay()+6)%7;
+      const exCount = Object.keys(byDay).filter(d => d.startsWith(`${year}-${String(m).padStart(2,'0')}`)).reduce((n,d)=>n+byDay[d].filter(x=>x.cls==='ex').length,0);
+      html += `<div class="month"><h2>${m}월 <small>배당락 ${exCount}건</small></h2><div class="grid">` + dows.map(d=>`<div class="dow">${d}</div>`).join('');
+      for (let i=0;i<offset;i++) html += '<div class="day empty"></div>';
+      for (let d=1; d<=days; d++){
+        const iso = `${year}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+        const dow = (offset + d - 1) % 7; const we = dow>=5; const hol = hols[iso];
+        const items = (byDay[iso]||[]).sort((a,b)=> ({ex:0,buy:1,rec:2})[a.cls]-({ex:0,buy:1,rec:2})[b.cls]);
+        const shown = items.slice(0,3);
+        html += `<div class="day${we?' we':''}${hol?' hol':''}${iso===tISO?' today':''}"><div class="n"><span>${d}</span>${hol?`<span class="h" title="${hol}">${hol}</span>`:''}</div>`;
+        html += shown.map(x => `<button class="chip ${x.cls}" data-id="${x.e.code}|${x.e.record_date}" title="${x.e.name} ${x.label} (${x.e.status})">${x.label==='배당락'?'▼':x.label==='매수마감'?'🛒':'📋'} ${x.e.name}</button>`).join('');
+        if (items.length>3) html += `<button class="chip more" data-day="${iso}">+${items.length-3}건 더</button>`;
+        html += '</div>';
+      }
+      html += '</div></div>';
+    }
+    el('months').innerHTML = html;
+    el('months').querySelectorAll('.chip[data-id]').forEach(b => b.onclick = () => showDetail(b.dataset.id));
+    el('months').querySelectorAll('.chip[data-day]').forEach(b => b.onclick = () => showDay(b.dataset.day));
+    renderUpcoming();
+    if (selected) showDetail(selected, false);
+  }
+
+  function renderUpcoming(){
+    const list = visible().filter(e => e.last_buy_date >= tISO).sort((a,b)=>a.last_buy_date.localeCompare(b.last_buy_date)).slice(0,20);
+    el('upcoming').innerHTML = list.map(e => `<button data-id="${e.code}|${e.record_date}"><span class="d">${e.last_buy_date}</span><span>${e.name} <span class="sub">${e.period}</span> · 매수마감 ${fmt(e.last_buy_date)} → 배당락 ${fmt(e.ex_date)} · ${e.ref_dividends[0]?'직전 '+won(e.ref_dividends[0].dps):'배당액 미공시'}</span>${badge(e.status)}</button>`).join('') || '<p class="note">표시할 일정이 없습니다.</p>';
+    el('upcoming').querySelectorAll('button').forEach(b => b.onclick = () => { showDetail(b.dataset.id); el('detail').scrollIntoView({behavior:'smooth'}); });
+  }
+
+  function showDay(iso){
+    const items = visible().filter(e => [e.last_buy_date,e.ex_date,e.record_date].includes(iso));
+    el('detail').hidden = false;
+    el('detail').innerHTML = `<h3>${iso} 일정</h3><div class="upcoming">` + items.map(e => `<button data-id="${e.code}|${e.record_date}"><span class="d">${e.name}</span><span>${e.period} · 매수마감 ${fmt(e.last_buy_date)} / 배당락 ${fmt(e.ex_date)} / 기준일 ${fmt(e.record_date)}</span>${badge(e.status)}</button>`).join('') + '</div>';
+    el('detail').querySelectorAll('button').forEach(b => b.onclick = () => showDetail(b.dataset.id));
+  }
+
+  function showDetail(id, scroll=true){
+    const [code, rec] = id.split('|');
+    const e = DATA.events.find(x => x.code===code && x.record_date===rec); if (!e) return;
+    selected = id;
+    const refs = e.ref_dividends.length ? `<div class="tw"><table><thead><tr><th>귀속</th><th>기준일</th><th>1주당 배당금</th><th>지급일</th><th>출처</th></tr></thead><tbody>` +
+      e.ref_dividends.map(r => `<tr><td>${r.period}</td><td>${r.record_date}</td><td>${won(r.dps)}</td><td>${r.pay_date||'–'}</td><td>${r.source?`<a href="${r.source}" target="_blank" rel="noopener">공시/기사</a>`:'–'}</td></tr>`).join('') + '</tbody></table></div>'
+      : '<p class="note">아직 수집된 배당액 공시가 없습니다. DART 자동 갱신(update_dart.py)으로 채워집니다.</p>';
+    const s = e.ex_stats;
+    const stats = s ? `<div class="stats">
+        <div class="stat"><b>${pct(s.avg_ex_day_pct)}</b><span>배당락일 평균 등락 (전일 종가 대비, 최근 ${s.n}회)</span></div>
+        <div class="stat"><b>D-${Math.round(s.avg_runup_days)}</b><span>배당락 전 저점 → 상승 시작 시점(평균)</span></div>
+        <div class="stat"><b>${pct(s.avg_runup_pct)}</b><span>저점 → 배당락 전일 상승폭(평균)</span></div>
+        <div class="stat"><b>${s.avg_recover_days!=null? Math.round(s.avg_recover_days)+'일':'–'}</b><span>배당락 전 종가 회복까지(평균 거래일)</span></div></div>
+      <div class="tw"><table><thead><tr><th>배당락일</th><th>상승 시작</th><th>상승폭</th><th>직전 5일</th><th>배당락일</th><th>이론 배당락</th><th>초과 하락</th><th>회복</th></tr></thead><tbody>` +
+      e.ex_history.map(h => `<tr><td>${h.ex_date}</td><td>${h.runup_start} (D-${h.runup_days})</td><td>${pct(h.runup_pct)}</td><td>${pct(h.pre5_pct)}</td><td>${pct(h.ex_day_pct)}</td><td>${pct(h.theory_pct)}</td><td>${pct(h.excess_pct)}</td><td>${h.recover_days!=null?h.recover_days+'일':'60일내 미회복'}</td></tr>`).join('') + '</tbody></table></div>'
+      : '<p class="note">배당락 전후 주가 통계는 GitHub Actions에서 네이버 일봉을 받아 계산합니다(update_prices.py). 첫 실행 후 표시됩니다.</p>';
+    el('detail').hidden = false;
+    el('detail').innerHTML = `
+      <h3>${e.name} <span class="sub">${e.code} · ${e.period} · ${e.freq}배당</span> ${badge(e.status)}</h3>
+      <div class="kv">
+        <div class="buy"><b>${e.last_buy_date}</b><span>마지막 매수일 (장 마감까지 보유)</span></div>
+        <div class="ex"><b>${e.ex_date}</b><span>배당락일</span></div>
+        <div class="rec"><b>${e.record_date}</b><span>배당기준일${e.holiday_official?'':' · 휴장일 예상치 기준'}</span></div>
+        <div><b>${e.dps!=null?won(e.dps):(e.ref_dividends[0]?'직전 '+won(e.ref_dividends[0].dps):'미공시')}</b><span>${e.dps!=null?'확정 배당금':'참고 배당금(직전)'}</span></div>
+      </div>
+      <p class="note">${e.note}${e.source?` · <a href="${e.source}" target="_blank" rel="noopener">확정 공시</a>`:''}</p>
+      <h4 style="margin:0">참고 배당액 (최근 공시)</h4>${refs}
+      <h4 style="margin:0">배당락 전후 주가 패턴</h4>${stats}`;
+    if (scroll) el('detail').scrollIntoView({behavior:'smooth', block:'start'});
+  }
+  render();
+})();
+</script>
+
+</body>
+</html>

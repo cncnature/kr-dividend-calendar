@@ -1,0 +1,55 @@
+name: 배당 캘린더 갱신
+
+on:
+  schedule:
+    - cron: "10 22 * * *"   # 매일 07:10 KST (UTC 22:10) — DART 전일 공시·네이버 일봉 반영
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/stocks.json", "scripts/**", "site/index.html"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install korean_lunar_calendar
+      - name: DART 공시로 기준일·배당금 확정값 수집
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python scripts/update_dart.py
+      - name: 배당락 전후 주가 통계 계산 (네이버 일봉)
+        run: python scripts/update_prices.py
+      - name: 캘린더 데이터 생성 (2027 + 향후 3년 예상)
+        run: CAL_YEARS=2027,2028,2029,2030 python scripts/build.py
+      - name: 변경사항 커밋
+        run: |
+          git config user.name "dividend-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/confirmed.json data/price_stats.json data/corp_codes.json site/data.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: 배당 캘린더 자동 갱신 $(date -u +%F)"
+          git push
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
