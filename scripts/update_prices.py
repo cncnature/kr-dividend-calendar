@@ -32,7 +32,12 @@ RECOVER_WINDOW = 60
 def fetch_daily(code: str, count: int = 800) -> list[tuple[dt.date, float]]:
     req = urllib.request.Request(NAVER.format(code=code, count=count), headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=20) as r:
-        root = ET.fromstring(r.read())
+        raw = r.read()
+    # 네이버 응답은 <?xml ... encoding="euc-kr"?> 선언 — expat이 다바이트 인코딩을 거부하므로 먼저 문자열로 디코딩
+    import re
+    txt = raw.decode("euc-kr", "ignore") if b"euc-kr" in raw[:100].lower() else raw.decode("utf-8", "ignore")
+    txt = re.sub(r"^<\?xml[^>]*\?>", "", txt.strip())
+    root = ET.fromstring(txt)
     out = []
     for item in root.iter("item"):
         d, o, h, l, c, v = item.attrib["data"].split("|")
