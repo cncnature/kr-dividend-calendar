@@ -134,8 +134,8 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
 
   const today = new Date(); const tISO = today.toISOString().slice(0,10);
   el('gen').textContent = '데이터 생성 ' + DATA.generated_at.slice(0,16).replace('T',' ') + ' KST';
-  let year = DATA.years[0]; let stockFilter = ''; let hideC = true; let selected = null;
-  try { const s = JSON.parse(localStorage.getItem('divcal')||'{}'); if (DATA.years.includes(s.year)) year = s.year; if (s.stock!==undefined) stockFilter = s.stock; if (s.hideC!==undefined) hideC = s.hideC; } catch(e){}
+  let year = DATA.years.includes(today.getFullYear()) ? today.getFullYear() : DATA.years[0]; // 접속 시 항상 올해부터 let stockFilter = ''; let hideC = true; let selected = null;
+  try { const s = JSON.parse(localStorage.getItem('divcal')||'{}');  if (s.stock!==undefined) stockFilter = s.stock; if (s.hideC!==undefined) hideC = s.hideC; } catch(e){}
   el('onlyA').checked = hideC;
   const save = () => { try { localStorage.setItem('divcal', JSON.stringify({year, stock:stockFilter, hideC})); } catch(e){} };
 
@@ -170,7 +170,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
       const first = new Date(Date.UTC(year, m-1, 1)); const days = new Date(Date.UTC(year, m, 0)).getUTCDate();
       let offset = (first.getUTCDay()+6)%7;
       const exCount = Object.keys(byDay).filter(d => d.startsWith(`${year}-${String(m).padStart(2,'0')}`)).reduce((n,d)=>n+byDay[d].filter(x=>x.cls==='ex').length,0);
-      html += `<div class="month"><h2>${m}월 <small>배당락 ${exCount}건</small></h2><div class="grid">` + dows.map(d=>`<div class="dow">${d}</div>`).join('');
+      html += `<div class="month" id="m-${year}-${m}"><h2>${m}월 <small>배당락 ${exCount}건</small></h2><div class="grid">` + dows.map(d=>`<div class="dow">${d}</div>`).join('');
       for (let i=0;i<offset;i++) html += '<div class="day empty"></div>';
       for (let d=1; d<=days; d++){
         const iso = `${year}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
@@ -189,6 +189,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
     el('months').querySelectorAll('.chip[data-day]').forEach(b => b.onclick = () => showDay(b.dataset.day));
     renderUpcoming();
     if (selected) showDetail(selected, false);
+    else if (year===today.getFullYear() && !render.scrolled){ render.scrolled=true; const cur=el(`m-${year}-${today.getMonth()+1}`); if (cur) cur.scrollIntoView({block:'start'}); }
   }
 
   function renderUpcoming(){
