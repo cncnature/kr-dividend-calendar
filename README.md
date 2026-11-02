@@ -13,6 +13,7 @@ scripts/holidays.py     KRX 휴장일 (2026·2027 공지본 + 2028~ 자동 생�
 scripts/build.py        기준일 → 배당락 → 마지막 매수일 계산, site/data.json 생성
 scripts/update_dart.py  OpenDART '현금·현물배당결정' 수집
 scripts/update_prices.py 네이버 일봉으로 배당락 통계 계산
+scripts/notify_telegram.py 매매 타이밍 텔레그램 알림
 site/index.html         캘린더 웹페이지 (GitHub Pages)
 .github/workflows/update.yml  매일 07:10 KST 자동 갱신 + Pages 배포
 ```
@@ -39,7 +40,8 @@ site/index.html         캘린더 웹페이지 (GitHub Pages)
 1. 이 폴더를 GitHub 저장소(main)로 푸시.
 2. Settings → Pages → Source: **GitHub Actions**.
 3. [OpenDART](https://opendart.fss.or.kr)에서 무료 API 키 발급 → Settings → Secrets → `DART_API_KEY`.
-4. Actions 탭에서 "배당 캘린더 갱신" 수동 실행(workflow_dispatch) → 이후 매일 자동.
+4. 텔레그램 알림: Secrets에 `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` 추가 (매일 07:10 매수마감·배당락·상승구간 알림).
+5. Actions 탭에서 "배당 캘린더 갱신" 수동 실행(workflow_dispatch) → 이후 매일 자동.
 
 ## 로컬 실행
 

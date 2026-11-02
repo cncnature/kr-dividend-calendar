@@ -24,7 +24,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 import holidays as H  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-YEARS = [int(y) for y in os.environ.get("CAL_YEARS", "2027,2028,2029,2030").split(",")]
+YEARS = [int(y) for y in os.environ.get("CAL_YEARS", "2026,2027,2028,2029,2030").split(",")]
 
 
 def load(path, default):
@@ -95,7 +95,14 @@ def main():
                 "avg_recover_days": avg("recover_days"),
             }
         for year in YEARS:
+            # 규칙으로 산출한 기준일을 귀속기간(period)별로 모으고, 같은 기간에 DART 확정 공시가 있으면 그 날짜로 교체
+            by_period = {}
             for rec in rule_dates(st["rule"], year):
+                by_period[period_label(st, rec)] = rec
+            for c in confirmed.get(code, []):
+                if c["record_date"].startswith(str(year)):
+                    by_period[c["period"]] = dt.date.fromisoformat(c["record_date"])
+            for rec in sorted(by_period.values()):
                 d = derive(rec)
                 c = conf_map.get(d["record_date"])
                 status = "확정" if c else ("예상" if st["confidence"] in ("A", "B") else "예상(불확실)")

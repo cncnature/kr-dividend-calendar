@@ -34,7 +34,12 @@ jobs:
       - name: 배당락 전후 주가 통계 계산 (네이버 일봉)
         run: python scripts/update_prices.py
       - name: 캘린더 데이터 생성 (2027 + 향후 3년 예상)
-        run: CAL_YEARS=2027,2028,2029,2030 python scripts/build.py
+        run: CAL_YEARS=2026,2027,2028,2029,2030 python scripts/build.py
+      - name: 텔레그램 매매 타이밍 알림
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/notify_telegram.py
       - name: 변경사항 커밋
         run: |
           git config user.name "dividend-bot"

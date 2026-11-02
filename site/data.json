@@ -1,12 +1,32 @@
 {
- "generated_at": "2026-11-03T07:50:40+09:00",
+ "generated_at": "2026-11-03T07:52:32+09:00",
  "years": [
+  2026,
   2027,
   2028,
   2029,
   2030
  ],
  "holidays": {
+  "2026": {
+   "2026-01-01": "신정",
+   "2026-02-16": "설날",
+   "2026-02-17": "설날",
+   "2026-02-18": "설날",
+   "2026-03-02": "삼일절 대체휴일",
+   "2026-05-01": "노동절",
+   "2026-05-05": "어린이날",
+   "2026-05-25": "부처님오신날 대체휴일",
+   "2026-06-03": "전국동시지방선거",
+   "2026-07-17": "제헌절",
+   "2026-08-17": "광복절 대체휴일",
+   "2026-09-24": "추석",
+   "2026-09-25": "추석",
+   "2026-10-05": "개천절 대체휴일",
+   "2026-10-09": "한글날",
+   "2026-12-25": "성탄절",
+   "2026-12-31": "연말휴장일"
+  },
   "2027": {
    "2027-01-01": "신정",
    "2027-02-08": "설날",
@@ -87,9 +107,6226 @@
   }
  },
  "holiday_official_years": [
+  2026,
   2027
  ],
  "events": [
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-20",
+   "ex_date": "2026-02-19",
+   "last_buy_date": "2026-02-13",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/20, 2Q 7/30(740원), 3Q 11/3(740원).  (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-03",
+     "dps": 740,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800250",
+     "rcept_no": "20261027800250",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              (2026년 3분기)"
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-30",
+     "dps": 740,
+     "pay_date": "2026-08-28",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800287",
+     "rcept_no": "20260723800287",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              (2026년 2분기)"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-04-30",
+     "dps": 740,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800321",
+     "rcept_no": "20260423800321",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              (2026년 1분기)"
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.54,
+    "avg_runup_pct": 19.76,
+    "avg_runup_days": 28.0,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 100900.0,
+     "ex_close": 98300.0,
+     "ex_day_pct": -2.58,
+     "theory_pct": -0.73,
+     "excess_pct": -1.84,
+     "runup_days": 22,
+     "runup_pct": 10.15,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -3.63,
+     "recover_days": 3,
+     "low_close": 91600.0,
+     "ex_date": "2026-07-29"
+    },
+    {
+     "pre_close": 99900.0,
+     "ex_close": 100000.0,
+     "ex_day_pct": 0.1,
+     "theory_pct": -0.74,
+     "excess_pct": 0.84,
+     "runup_days": 21,
+     "runup_pct": 13.91,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 0.1,
+     "recover_days": 1,
+     "low_close": 87700.0,
+     "ex_date": "2026-04-29"
+    },
+    {
+     "pre_close": 102500.0,
+     "ex_close": 100300.0,
+     "ex_day_pct": -2.15,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 35.22,
+     "runup_start": "2025-12-16",
+     "pre5_pct": 9.51,
+     "recover_days": null,
+     "low_close": 75800.0,
+     "ex_date": "2026-02-19"
+    }
+   ]
+  },
+  {
+   "code": "030200",
+   "name": "KT",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-25",
+   "ex_date": "2026-02-24",
+   "last_buy_date": "2026-02-23",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/25, 2Q 7/29, 3Q 10/28(각 600원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-10-28",
+     "dps": 600,
+     "pay_date": "2026-11-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800366",
+     "rcept_no": "20261013800366",
+     "disclosed": "20261013",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-29",
+     "dps": 600,
+     "pay_date": "2026-08-13",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714800569",
+     "rcept_no": "20260714800569",
+     "disclosed": "20260714",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 600,
+     "pay_date": "2026-06-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359",
+     "rcept_no": "20260512800359",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -2.23,
+    "avg_runup_pct": 9.39,
+    "avg_runup_days": 11.5,
+    "avg_recover_days": 11.33
+   },
+   "ex_history": [
+    {
+     "pre_close": 45800.0,
+     "ex_close": 44800.0,
+     "ex_day_pct": -2.18,
+     "theory_pct": -1.31,
+     "excess_pct": -0.87,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-26",
+     "pre5_pct": -9.49,
+     "recover_days": 2,
+     "low_close": 45800.0,
+     "ex_date": "2026-10-27"
+    },
+    {
+     "pre_close": 54400.0,
+     "ex_close": 53900.0,
+     "ex_day_pct": -0.92,
+     "theory_pct": -1.1,
+     "excess_pct": 0.18,
+     "runup_days": 9,
+     "runup_pct": 5.43,
+     "runup_start": "2026-07-14",
+     "pre5_pct": 1.68,
+     "recover_days": 22,
+     "low_close": 51600.0,
+     "ex_date": "2026-07-28"
+    },
+    {
+     "pre_close": 55800.0,
+     "ex_close": 54200.0,
+     "ex_day_pct": -2.87,
+     "theory_pct": -1.08,
+     "excess_pct": -1.79,
+     "runup_days": 2,
+     "runup_pct": 0.18,
+     "runup_start": "2026-05-21",
+     "pre5_pct": -4.94,
+     "recover_days": 10,
+     "low_close": 55700.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 67700.0,
+     "ex_close": 65700.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 34,
+     "runup_pct": 31.97,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 7.97,
+     "recover_days": null,
+     "low_close": 51300.0,
+     "ex_date": "2026-02-24"
+    }
+   ]
+  },
+  {
+   "code": "000270",
+   "name": "기아",
+   "market": "KOSPI",
+   "freq": "연",
+   "period": "2025-결산",
+   "record_date": "2026-02-28",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "배당절차 개선 채택 종목 — 2월 말 기준일 추정. 금액·날짜 DART 자동 갱신 대기.",
+   "ref_dividends": [],
+   "ex_stats": null,
+   "ex_history": []
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-28",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31(375원), 3Q 11/30(20,000원). 결산 기준일 2월 말.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 20000,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045",
+     "rcept_no": "20261028800045",
+     "disclosed": "20261028",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589",
+     "rcept_no": "20260807800589",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-3Q",
+     "record_date": "2025-11-30",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dealsite.co.kr/articles/150403"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 2.65,
+    "avg_runup_pct": 41.75,
+    "avg_runup_days": 26.25,
+    "avg_recover_days": 2.25
+   },
+   "ex_history": [
+    {
+     "pre_close": 1730000.0,
+     "ex_close": 1653000.0,
+     "ex_day_pct": -4.45,
+     "theory_pct": -0.02,
+     "excess_pct": -4.43,
+     "runup_days": 20,
+     "runup_pct": 30.86,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.31,
+     "recover_days": 6,
+     "low_close": 1322000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 1018000.0,
+     "ex_close": 1099000.0,
+     "ex_day_pct": 7.96,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 74.32,
+     "runup_start": "2025-12-23",
+     "pre5_pct": 15.68,
+     "recover_days": 1,
+     "low_close": 584000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 524000.0,
+     "ex_close": 544000.0,
+     "ex_day_pct": 3.82,
+     "theory_pct": -0.07,
+     "excess_pct": 3.89,
+     "runup_days": 39,
+     "runup_pct": 55.72,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -6.76,
+     "recover_days": 1,
+     "low_close": 336500.0,
+     "ex_date": "2025-11-27"
+    },
+    {
+     "pre_close": 260000.0,
+     "ex_close": 268500.0,
+     "ex_day_pct": 3.27,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 5,
+     "runup_pct": 6.12,
+     "runup_start": "2025-08-21",
+     "pre5_pct": 1.76,
+     "recover_days": 1,
+     "low_close": 245000.0,
+     "ex_date": "2025-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-28",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "배당절차 개선 채택: 분기 실적 확정 후 2·5·8·11월 말을 기준일로 설정. 분기당 2,500원(연 최소 1만원 정책, 2025~2027 TSR 35%).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2500,
+     "pay_date": "2026-12-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800269",
+     "rcept_no": "20261029800269",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 2500,
+     "pay_date": "2026-09-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
+     "rcept_no": "20260723800323",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-31",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800359",
+     "rcept_no": "20260423800359",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-29",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://www.knowingasset.com/app/calendar/7068"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.56,
+    "avg_runup_pct": 47.04,
+    "avg_runup_days": 34.25,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 398000.0,
+     "ex_close": 399500.0,
+     "ex_day_pct": 0.38,
+     "theory_pct": -0.63,
+     "excess_pct": 1.01,
+     "runup_days": 20,
+     "runup_pct": 13.39,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -4.67,
+     "recover_days": 1,
+     "low_close": 351000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 681000.0,
+     "ex_close": 677000.0,
+     "ex_day_pct": -0.59,
+     "theory_pct": -0.37,
+     "excess_pct": -0.22,
+     "runup_days": 39,
+     "runup_pct": 52.86,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 12.75,
+     "recover_days": 1,
+     "low_close": 445500.0,
+     "ex_date": "2026-05-28"
+    },
+    {
+     "pre_close": 572000.0,
+     "ex_close": 609000.0,
+     "ex_day_pct": 6.47,
+     "theory_pct": -0.44,
+     "excess_pct": 6.91,
+     "runup_days": 39,
+     "runup_pct": 100.0,
+     "runup_start": "2025-12-26",
+     "pre5_pct": 14.63,
+     "recover_days": 1,
+     "low_close": 286000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 261500.0,
+     "ex_close": 261500.0,
+     "ex_day_pct": 0.0,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 39,
+     "runup_pct": 21.91,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -0.95,
+     "recover_days": 1,
+     "low_close": 214500.0,
+     "ex_date": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "확정",
+   "dps": 2500,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-24",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
+     "rcept_no": "20260807800561",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 2000,
+     "pay_date": "2026-06-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
+     "rcept_no": "20260512800729",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 2500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
+     "rcept_no": "20260203801053",
+     "disclosed": "20260203",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.15,
+    "avg_runup_pct": 20.67,
+    "avg_runup_days": 22.5,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 321500.0,
+     "ex_close": 310000.0,
+     "ex_day_pct": -3.58,
+     "theory_pct": -0.62,
+     "excess_pct": -2.95,
+     "runup_days": 16,
+     "runup_pct": 11.44,
+     "runup_start": "2026-07-29",
+     "pre5_pct": -1.08,
+     "recover_days": 1,
+     "low_close": 288500.0,
+     "ex_date": "2026-08-21"
+    },
+    {
+     "pre_close": 305000.0,
+     "ex_close": 333000.0,
+     "ex_day_pct": 9.18,
+     "theory_pct": -0.23,
+     "excess_pct": 9.41,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -14.45,
+     "recover_days": 1,
+     "low_close": 305000.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 447500.0,
+     "ex_close": 442000.0,
+     "ex_day_pct": -1.23,
+     "theory_pct": -0.45,
+     "excess_pct": -0.78,
+     "runup_days": 37,
+     "runup_pct": 34.59,
+     "runup_start": "2026-03-31",
+     "pre5_pct": -4.28,
+     "recover_days": null,
+     "low_close": 332500.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 406500.0,
+     "ex_close": 407500.0,
+     "ex_day_pct": 0.25,
+     "theory_pct": -0.62,
+     "excess_pct": 0.86,
+     "runup_days": 36,
+     "runup_pct": 36.64,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 8.26,
+     "recover_days": 1,
+     "low_close": 297500.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "017670",
+   "name": "SK텔레콤",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-28",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31, 3Q 11/30(각 830원) — 2·5·8·11월 말 패턴 확인.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 830,
+     "pay_date": "2026-12-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800802",
+     "rcept_no": "20261029800802",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 830,
+     "pay_date": "2026-09-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800522",
+     "rcept_no": "20260723800522",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.5,
+    "avg_runup_pct": 26.73,
+    "avg_runup_days": 20.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 99100.0,
+     "ex_close": 98600.0,
+     "ex_day_pct": -0.5,
+     "theory_pct": -0.84,
+     "excess_pct": 0.33,
+     "runup_days": 20,
+     "runup_pct": 26.73,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.59,
+     "recover_days": null,
+     "low_close": 78200.0,
+     "ex_date": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "code": "033780",
+   "name": "KT&G",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026년 분기배당 도입: 2Q 기준일 8/21(2,000원). 결산 2/27. 1·3Q는 추정.",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-21",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800319",
+     "rcept_no": "20260806800319",
+     "disclosed": "20260806",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -3.8,
+    "avg_runup_pct": 16.51,
+    "avg_runup_days": 35.0,
+    "avg_recover_days": 27.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 175500.0,
+     "ex_close": 171900.0,
+     "ex_day_pct": -2.05,
+     "theory_pct": -1.14,
+     "excess_pct": -0.91,
+     "runup_days": 34,
+     "runup_pct": 5.03,
+     "runup_start": "2026-07-01",
+     "pre5_pct": -2.45,
+     "recover_days": 6,
+     "low_close": 167100.0,
+     "ex_date": "2026-08-20"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 169700.0,
+     "ex_day_pct": -5.56,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 27.99,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 3.39,
+     "recover_days": 48,
+     "low_close": 140400.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "071050",
+   "name": "한국금융지주",
+   "market": "KOSPI",
+   "freq": "연",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "확정",
+   "dps": 8690,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211801115",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2025 결산배당 기준일 2026-02-27(8,690원).",
+   "ref_dividends": [
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 8690,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211801115",
+     "rcept_no": "20260211801115",
+     "disclosed": "20260211",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -1.11,
+    "avg_runup_pct": 70.67,
+    "avg_runup_days": 39.0,
+    "avg_recover_days": 46.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 270000.0,
+     "ex_close": 267000.0,
+     "ex_day_pct": -1.11,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 39,
+     "runup_pct": 70.67,
+     "runup_start": "2025-12-26",
+     "pre5_pct": 4.85,
+     "recover_days": 46,
+     "low_close": 158200.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10(1,155원), 3Q 11/9(1,165원). 분기 균등배당. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-09",
+     "dps": 1165,
+     "pay_date": "2026-11-20",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800567",
+     "rcept_no": "20261023800567",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 1155,
+     "pay_date": "2026-08-21",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800419",
+     "rcept_no": "20260724800419",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 1145,
+     "pay_date": "2026-05-22",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800413",
+     "rcept_no": "20260424800413",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.21,
+    "avg_runup_pct": 24.11,
+    "avg_runup_days": 30.0,
+    "avg_recover_days": 20.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 133300.0,
+     "ex_close": 134700.0,
+     "ex_day_pct": 1.05,
+     "theory_pct": -0.42,
+     "excess_pct": 1.47,
+     "runup_days": 29,
+     "runup_pct": 21.51,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.98,
+     "recover_days": 13,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 127600.0,
+     "ex_close": 128600.0,
+     "ex_day_pct": 0.78,
+     "theory_pct": -0.69,
+     "excess_pct": 1.48,
+     "runup_days": 27,
+     "runup_pct": 16.32,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 3.74,
+     "recover_days": 1,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-05"
+    },
+    {
+     "pre_close": 128800.0,
+     "ex_close": 126500.0,
+     "ex_day_pct": -1.79,
+     "theory_pct": -0.89,
+     "excess_pct": -0.9,
+     "runup_days": 32,
+     "runup_pct": 21.51,
+     "runup_start": "2026-03-23",
+     "pre5_pct": 1.42,
+     "recover_days": 24,
+     "low_close": 106000.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 126000.0,
+     "ex_close": 124900.0,
+     "ex_day_pct": -0.87,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 37.11,
+     "runup_start": "2026-01-08",
+     "pre5_pct": -1.25,
+     "recover_days": 42,
+     "low_close": 91900.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7, 3Q 11/12. 분기 실적 발표 후 이사회로 확정(±1주).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-12",
+     "dps": 1167,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800391",
+     "rcept_no": "20261029800391",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 1155,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
+     "rcept_no": "20260723800477",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 1605,
+     "pay_date": null,
+     "source": "https://www.smarttoday.co.kr/ko-kr/articles/102859"
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -0.48,
+    "avg_runup_pct": 25.17,
+    "avg_runup_days": 32.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 170700.0,
+     "ex_close": 171500.0,
+     "ex_day_pct": 0.47,
+     "theory_pct": -0.68,
+     "excess_pct": 1.15,
+     "runup_days": 28,
+     "runup_pct": 14.33,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.62,
+     "recover_days": 1,
+     "low_close": 149300.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 167700.0,
+     "ex_close": 165300.0,
+     "ex_day_pct": -1.43,
+     "theory_pct": -0.96,
+     "excess_pct": -0.47,
+     "runup_days": 36,
+     "runup_pct": 36.01,
+     "runup_start": "2026-01-02",
+     "pre5_pct": -0.12,
+     "recover_days": null,
+     "low_close": 123300.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "138930",
+   "name": "BNK금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 150,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-12",
+     "dps": 150,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533",
+     "rcept_no": "20260728800533",
+     "disclosed": "20260728",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-15",
+     "dps": 150,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.44,
+    "avg_runup_pct": 11.99,
+    "avg_runup_days": 8.75,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 14190.0,
+     "ex_close": 13980.0,
+     "ex_day_pct": -1.48,
+     "theory_pct": -7.5,
+     "excess_pct": 6.02,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-21",
+     "pre5_pct": -3.27,
+     "recover_days": null,
+     "low_close": 14190.0,
+     "ex_date": "2026-10-22"
+    },
+    {
+     "pre_close": 14950.0,
+     "ex_close": 14900.0,
+     "ex_day_pct": -0.33,
+     "theory_pct": -1.0,
+     "excess_pct": 0.67,
+     "runup_days": 8,
+     "runup_pct": 1.01,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -0.93,
+     "recover_days": 3,
+     "low_close": 14800.0,
+     "ex_date": "2026-08-11"
+    },
+    {
+     "pre_close": 17190.0,
+     "ex_close": 17500.0,
+     "ex_day_pct": 1.8,
+     "theory_pct": -0.87,
+     "excess_pct": 2.68,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-13",
+     "pre5_pct": -5.18,
+     "recover_days": 1,
+     "low_close": 17190.0,
+     "ex_date": "2026-05-14"
+    },
+    {
+     "pre_close": 21750.0,
+     "ex_close": 20500.0,
+     "ex_day_pct": -5.75,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 46.96,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -1.36,
+     "recover_days": null,
+     "low_close": 14800.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "139130",
+   "name": "iM금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "2026 결산배당 기준일 2/27.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -6.19,
+    "avg_runup_pct": 47.25,
+    "avg_runup_days": 25.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 20350.0,
+     "ex_close": 19090.0,
+     "ex_day_pct": -6.19,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 47.25,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.16,
+     "recover_days": null,
+     "low_close": 13820.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "175330",
+   "name": "JB금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7(314원), 3Q 11/11(317원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-11",
+     "dps": 317,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800427",
+     "rcept_no": "20261027800427",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 314,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800823",
+     "rcept_no": "20260723800823",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-08",
+     "dps": 311,
+     "pay_date": "2026-05-26",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800735",
+     "rcept_no": "20260423800735",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.05,
+    "avg_runup_pct": 22.13,
+    "avg_runup_days": 18.0,
+    "avg_recover_days": 12.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 27800.0,
+     "ex_close": 28250.0,
+     "ex_day_pct": 1.62,
+     "theory_pct": -1.13,
+     "excess_pct": 2.75,
+     "runup_days": 28,
+     "runup_pct": 21.66,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 5.9,
+     "recover_days": 1,
+     "low_close": 22850.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 26550.0,
+     "ex_close": 26350.0,
+     "ex_day_pct": -0.75,
+     "theory_pct": -1.17,
+     "excess_pct": 0.42,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-06",
+     "pre5_pct": -3.45,
+     "recover_days": 24,
+     "low_close": 26550.0,
+     "ex_date": "2026-05-07"
+    },
+    {
+     "pre_close": 33650.0,
+     "ex_close": 32300.0,
+     "ex_day_pct": -4.01,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 44.73,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.89,
+     "recover_days": null,
+     "low_close": 23250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10, 3Q 11/10(각 220원, 감액배당 비과세). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 220,
+     "pay_date": "2026-11-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800653",
+     "rcept_no": "20261023800653",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 220,
+     "pay_date": "2026-08-31",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800545",
+     "rcept_no": "20260724800545",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 220,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800595",
+     "rcept_no": "20260424800595",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -0.04,
+    "avg_runup_pct": 22.01,
+    "avg_runup_days": 31.0,
+    "avg_recover_days": 29.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 33500.0,
+     "ex_close": 34800.0,
+     "ex_day_pct": 3.88,
+     "theory_pct": -0.66,
+     "excess_pct": 4.54,
+     "runup_days": 29,
+     "runup_pct": 18.17,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 2.45,
+     "recover_days": 2,
+     "low_close": 28350.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 33200.0,
+     "ex_close": 32850.0,
+     "ex_day_pct": -1.05,
+     "theory_pct": -0.66,
+     "excess_pct": -0.39,
+     "runup_days": 32,
+     "runup_pct": 4.73,
+     "runup_start": "2026-03-23",
+     "pre5_pct": -0.9,
+     "recover_days": 57,
+     "low_close": 31700.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 39000.0,
+     "ex_close": 37850.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 43.12,
+     "runup_start": "2026-01-08",
+     "pre5_pct": 0.13,
+     "recover_days": null,
+     "low_close": 27250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "323410",
+   "name": "카카오뱅크",
+   "market": "KOSPI",
+   "freq": "연",
+   "period": "2025-결산",
+   "record_date": "2026-02-27",
+   "ex_date": "2026-02-26",
+   "last_buy_date": "2026-02-25",
+   "status": "확정",
+   "dps": 460,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2025 결산배당 기준일 2026-02-27(460원).",
+   "ref_dividends": [
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 460,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+     "rcept_no": "20260204800001",
+     "disclosed": "20260204",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.36,
+    "avg_runup_pct": 32.7,
+    "avg_runup_days": 25.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 28000.0,
+     "ex_close": 27900.0,
+     "ex_day_pct": -0.36,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 32.7,
+     "runup_start": "2026-01-19",
+     "pre5_pct": 2.19,
+     "recover_days": null,
+     "low_close": 21100.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "000810",
+   "name": "삼성화재",
+   "market": "KOSPI",
+   "freq": "연",
+   "period": "2026-1Q",
+   "record_date": "2026-03-27",
+   "ex_date": "2026-03-26",
+   "last_buy_date": "2026-03-25",
+   "status": "확정",
+   "dps": 19500,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213802059",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "배당절차 개선 채택: 2025 결산배당 기준일 2026-03-27(19,500원).",
+   "ref_dividends": [
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-03-27",
+     "dps": 19500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213802059",
+     "rcept_no": "20260213802059",
+     "disclosed": "20260213",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -3.31,
+    "avg_runup_pct": 9.45,
+    "avg_runup_days": 21.5,
+    "avg_recover_days": 8.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 490000.0,
+     "ex_close": 453000.0,
+     "ex_day_pct": -7.55,
+     "theory_pct": -3.98,
+     "excess_pct": -3.57,
+     "runup_days": 3,
+     "runup_pct": 7.57,
+     "runup_start": "2026-03-23",
+     "pre5_pct": -0.81,
+     "recover_days": 15,
+     "low_close": 455500.0,
+     "ex_date": "2026-03-26"
+    },
+    {
+     "pre_close": 491500.0,
+     "ex_close": 496000.0,
+     "ex_day_pct": 0.92,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 40,
+     "runup_pct": 11.33,
+     "runup_start": "2025-10-31",
+     "pre5_pct": 1.97,
+     "recover_days": 1,
+     "low_close": 441500.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "000810",
+   "name": "삼성화재",
+   "market": "KOSPI",
+   "freq": "연",
+   "period": "2026-1Q",
+   "record_date": "2026-03-27",
+   "ex_date": "2026-03-26",
+   "last_buy_date": "2026-03-25",
+   "status": "확정",
+   "dps": 19500,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213802059",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "배당절차 개선 채택: 2025 결산배당 기준일 2026-03-27(19,500원).",
+   "ref_dividends": [
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-03-27",
+     "dps": 19500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213802059",
+     "rcept_no": "20260213802059",
+     "disclosed": "20260213",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -3.31,
+    "avg_runup_pct": 9.45,
+    "avg_runup_days": 21.5,
+    "avg_recover_days": 8.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 490000.0,
+     "ex_close": 453000.0,
+     "ex_day_pct": -7.55,
+     "theory_pct": -3.98,
+     "excess_pct": -3.57,
+     "runup_days": 3,
+     "runup_pct": 7.57,
+     "runup_start": "2026-03-23",
+     "pre5_pct": -0.81,
+     "recover_days": 15,
+     "low_close": 455500.0,
+     "ex_date": "2026-03-26"
+    },
+    {
+     "pre_close": 491500.0,
+     "ex_close": 496000.0,
+     "ex_day_pct": 0.92,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 40,
+     "runup_pct": 11.33,
+     "runup_start": "2025-10-31",
+     "pre5_pct": 1.97,
+     "recover_days": 1,
+     "low_close": 441500.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-03-31",
+   "ex_date": "2026-03-30",
+   "last_buy_date": "2026-03-27",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "자본시장법상 분기배당 기준일(3·6·9월 말) + 결산 12/31. 2026-3Q는 영업이익 급증으로 4,601원 특별 수준.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-03-31",
+     "dps": 372,
+     "pay_date": "2026-05-29",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.69,
+    "avg_runup_pct": 31.82,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 1.67
+   },
+   "ex_history": [
+    {
+     "pre_close": 270000.0,
+     "ex_close": 275000.0,
+     "ex_day_pct": 1.85,
+     "theory_pct": -1.7,
+     "excess_pct": 3.56,
+     "runup_days": 40,
+     "runup_pct": 30.43,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 5.47,
+     "recover_days": 2,
+     "low_close": 207000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 339500.0,
+     "ex_close": 323000.0,
+     "ex_day_pct": -4.86,
+     "theory_pct": -0.11,
+     "excess_pct": -4.75,
+     "runup_days": 38,
+     "runup_pct": 53.97,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -4.1,
+     "recover_days": null,
+     "low_close": 220500.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 176300.0,
+     "ex_day_pct": -1.89,
+     "theory_pct": -0.21,
+     "excess_pct": -1.69,
+     "runup_days": 36,
+     "runup_pct": 19.48,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.88,
+     "recover_days": 2,
+     "low_close": 150400.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 117000.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": 2.14,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 23.42,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 8.74,
+     "recover_days": 1,
+     "low_close": 94800.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "005935",
+   "name": "삼성전자우",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-03-31",
+   "ex_date": "2026-03-30",
+   "last_buy_date": "2026-03-27",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "보통주와 동일 일정·동일 배당금(2026-3Q 4,601원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.84,
+    "avg_runup_pct": 28.1,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 21.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 205500.0,
+     "ex_close": 205000.0,
+     "ex_day_pct": -0.24,
+     "theory_pct": -2.24,
+     "excess_pct": 2.0,
+     "runup_days": 40,
+     "runup_pct": 36.09,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 4.79,
+     "recover_days": null,
+     "low_close": 151000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 220500.0,
+     "ex_close": 210500.0,
+     "ex_day_pct": -4.54,
+     "theory_pct": -0.17,
+     "excess_pct": -4.37,
+     "runup_days": 38,
+     "runup_pct": 39.29,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -0.68,
+     "recover_days": 60,
+     "low_close": 158300.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 126200.0,
+     "ex_close": 121100.0,
+     "ex_day_pct": -4.04,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 14.62,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.34,
+     "recover_days": 2,
+     "low_close": 110100.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 88500.0,
+     "ex_close": 89800.0,
+     "ex_day_pct": 1.47,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 22.41,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 7.01,
+     "recover_days": 1,
+     "low_close": 72300.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-03-31",
+   "ex_date": "2026-03-30",
+   "last_buy_date": "2026-03-27",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "분기배당. 금액 DART 자동 갱신 대기.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.67,
+    "avg_runup_pct": 19.58,
+    "avg_runup_days": 26.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 120300.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": -0.67,
+     "theory_pct": -1.98,
+     "excess_pct": 1.31,
+     "runup_days": 26,
+     "runup_pct": 19.58,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -4.22,
+     "recover_days": 1,
+     "low_close": 100600.0,
+     "ex_date": "2026-08-04"
+    }
+   ]
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-04-30",
+   "ex_date": "2026-04-29",
+   "last_buy_date": "2026-04-28",
+   "status": "확정",
+   "dps": 740,
+   "pay_date": "2026-05-29",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800321",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/20, 2Q 7/30(740원), 3Q 11/3(740원).  (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-03",
+     "dps": 740,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800250",
+     "rcept_no": "20261027800250",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              (2026년 3분기)"
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-30",
+     "dps": 740,
+     "pay_date": "2026-08-28",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800287",
+     "rcept_no": "20260723800287",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              (2026년 2분기)"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-04-30",
+     "dps": 740,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800321",
+     "rcept_no": "20260423800321",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              (2026년 1분기)"
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.54,
+    "avg_runup_pct": 19.76,
+    "avg_runup_days": 28.0,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 100900.0,
+     "ex_close": 98300.0,
+     "ex_day_pct": -2.58,
+     "theory_pct": -0.73,
+     "excess_pct": -1.84,
+     "runup_days": 22,
+     "runup_pct": 10.15,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -3.63,
+     "recover_days": 3,
+     "low_close": 91600.0,
+     "ex_date": "2026-07-29"
+    },
+    {
+     "pre_close": 99900.0,
+     "ex_close": 100000.0,
+     "ex_day_pct": 0.1,
+     "theory_pct": -0.74,
+     "excess_pct": 0.84,
+     "runup_days": 21,
+     "runup_pct": 13.91,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 0.1,
+     "recover_days": 1,
+     "low_close": 87700.0,
+     "ex_date": "2026-04-29"
+    },
+    {
+     "pre_close": 102500.0,
+     "ex_close": 100300.0,
+     "ex_day_pct": -2.15,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 35.22,
+     "runup_start": "2025-12-16",
+     "pre5_pct": 9.51,
+     "recover_days": null,
+     "low_close": 75800.0,
+     "ex_date": "2026-02-19"
+    }
+   ]
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-08",
+   "ex_date": "2026-05-07",
+   "last_buy_date": "2026-05-06",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7, 3Q 11/12. 분기 실적 발표 후 이사회로 확정(±1주).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-12",
+     "dps": 1167,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800391",
+     "rcept_no": "20261029800391",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 1155,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
+     "rcept_no": "20260723800477",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 1605,
+     "pay_date": null,
+     "source": "https://www.smarttoday.co.kr/ko-kr/articles/102859"
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -0.48,
+    "avg_runup_pct": 25.17,
+    "avg_runup_days": 32.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 170700.0,
+     "ex_close": 171500.0,
+     "ex_day_pct": 0.47,
+     "theory_pct": -0.68,
+     "excess_pct": 1.15,
+     "runup_days": 28,
+     "runup_pct": 14.33,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.62,
+     "recover_days": 1,
+     "low_close": 149300.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 167700.0,
+     "ex_close": 165300.0,
+     "ex_day_pct": -1.43,
+     "theory_pct": -0.96,
+     "excess_pct": -0.47,
+     "runup_days": 36,
+     "runup_pct": 36.01,
+     "runup_start": "2026-01-02",
+     "pre5_pct": -0.12,
+     "recover_days": null,
+     "low_close": 123300.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "139130",
+   "name": "iM금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-08",
+   "ex_date": "2026-05-07",
+   "last_buy_date": "2026-05-06",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "2026 결산배당 기준일 2/27.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -6.19,
+    "avg_runup_pct": 47.25,
+    "avg_runup_days": 25.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 20350.0,
+     "ex_close": 19090.0,
+     "ex_day_pct": -6.19,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 47.25,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.16,
+     "recover_days": null,
+     "low_close": 13820.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "175330",
+   "name": "JB금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-08",
+   "ex_date": "2026-05-07",
+   "last_buy_date": "2026-05-06",
+   "status": "확정",
+   "dps": 311,
+   "pay_date": "2026-05-26",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800735",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7(314원), 3Q 11/11(317원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-11",
+     "dps": 317,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800427",
+     "rcept_no": "20261027800427",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 314,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800823",
+     "rcept_no": "20260723800823",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-08",
+     "dps": 311,
+     "pay_date": "2026-05-26",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800735",
+     "rcept_no": "20260423800735",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.05,
+    "avg_runup_pct": 22.13,
+    "avg_runup_days": 18.0,
+    "avg_recover_days": 12.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 27800.0,
+     "ex_close": 28250.0,
+     "ex_day_pct": 1.62,
+     "theory_pct": -1.13,
+     "excess_pct": 2.75,
+     "runup_days": 28,
+     "runup_pct": 21.66,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 5.9,
+     "recover_days": 1,
+     "low_close": 22850.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 26550.0,
+     "ex_close": 26350.0,
+     "ex_day_pct": -0.75,
+     "theory_pct": -1.17,
+     "excess_pct": 0.42,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-06",
+     "pre5_pct": -3.45,
+     "recover_days": 24,
+     "low_close": 26550.0,
+     "ex_date": "2026-05-07"
+    },
+    {
+     "pre_close": 33650.0,
+     "ex_close": 32300.0,
+     "ex_day_pct": -4.01,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 44.73,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.89,
+     "recover_days": null,
+     "low_close": 23250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-11",
+   "ex_date": "2026-05-08",
+   "last_buy_date": "2026-05-07",
+   "status": "확정",
+   "dps": 1145,
+   "pay_date": "2026-05-22",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800413",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10(1,155원), 3Q 11/9(1,165원). 분기 균등배당. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-09",
+     "dps": 1165,
+     "pay_date": "2026-11-20",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800567",
+     "rcept_no": "20261023800567",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 1155,
+     "pay_date": "2026-08-21",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800419",
+     "rcept_no": "20260724800419",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 1145,
+     "pay_date": "2026-05-22",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800413",
+     "rcept_no": "20260424800413",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.21,
+    "avg_runup_pct": 24.11,
+    "avg_runup_days": 30.0,
+    "avg_recover_days": 20.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 133300.0,
+     "ex_close": 134700.0,
+     "ex_day_pct": 1.05,
+     "theory_pct": -0.42,
+     "excess_pct": 1.47,
+     "runup_days": 29,
+     "runup_pct": 21.51,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.98,
+     "recover_days": 13,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 127600.0,
+     "ex_close": 128600.0,
+     "ex_day_pct": 0.78,
+     "theory_pct": -0.69,
+     "excess_pct": 1.48,
+     "runup_days": 27,
+     "runup_pct": 16.32,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 3.74,
+     "recover_days": 1,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-05"
+    },
+    {
+     "pre_close": 128800.0,
+     "ex_close": 126500.0,
+     "ex_day_pct": -1.79,
+     "theory_pct": -0.89,
+     "excess_pct": -0.9,
+     "runup_days": 32,
+     "runup_pct": 21.51,
+     "runup_start": "2026-03-23",
+     "pre5_pct": 1.42,
+     "recover_days": 24,
+     "low_close": 106000.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 126000.0,
+     "ex_close": 124900.0,
+     "ex_day_pct": -0.87,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 37.11,
+     "runup_start": "2026-01-08",
+     "pre5_pct": -1.25,
+     "recover_days": 42,
+     "low_close": 91900.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-11",
+   "ex_date": "2026-05-08",
+   "last_buy_date": "2026-05-07",
+   "status": "확정",
+   "dps": 220,
+   "pay_date": "2026-05-29",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800595",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10, 3Q 11/10(각 220원, 감액배당 비과세). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 220,
+     "pay_date": "2026-11-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800653",
+     "rcept_no": "20261023800653",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 220,
+     "pay_date": "2026-08-31",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800545",
+     "rcept_no": "20260724800545",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 220,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800595",
+     "rcept_no": "20260424800595",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -0.04,
+    "avg_runup_pct": 22.01,
+    "avg_runup_days": 31.0,
+    "avg_recover_days": 29.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 33500.0,
+     "ex_close": 34800.0,
+     "ex_day_pct": 3.88,
+     "theory_pct": -0.66,
+     "excess_pct": 4.54,
+     "runup_days": 29,
+     "runup_pct": 18.17,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 2.45,
+     "recover_days": 2,
+     "low_close": 28350.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 33200.0,
+     "ex_close": 32850.0,
+     "ex_day_pct": -1.05,
+     "theory_pct": -0.66,
+     "excess_pct": -0.39,
+     "runup_days": 32,
+     "runup_pct": 4.73,
+     "runup_start": "2026-03-23",
+     "pre5_pct": -0.9,
+     "recover_days": 57,
+     "low_close": 31700.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 39000.0,
+     "ex_close": 37850.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 43.12,
+     "runup_start": "2026-01-08",
+     "pre5_pct": 0.13,
+     "recover_days": null,
+     "low_close": 27250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "138930",
+   "name": "BNK금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-15",
+   "ex_date": "2026-05-14",
+   "last_buy_date": "2026-05-13",
+   "status": "확정",
+   "dps": 150,
+   "pay_date": "2026-05-29",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 150,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-12",
+     "dps": 150,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533",
+     "rcept_no": "20260728800533",
+     "disclosed": "20260728",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-15",
+     "dps": 150,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.44,
+    "avg_runup_pct": 11.99,
+    "avg_runup_days": 8.75,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 14190.0,
+     "ex_close": 13980.0,
+     "ex_day_pct": -1.48,
+     "theory_pct": -7.5,
+     "excess_pct": 6.02,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-21",
+     "pre5_pct": -3.27,
+     "recover_days": null,
+     "low_close": 14190.0,
+     "ex_date": "2026-10-22"
+    },
+    {
+     "pre_close": 14950.0,
+     "ex_close": 14900.0,
+     "ex_day_pct": -0.33,
+     "theory_pct": -1.0,
+     "excess_pct": 0.67,
+     "runup_days": 8,
+     "runup_pct": 1.01,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -0.93,
+     "recover_days": 3,
+     "low_close": 14800.0,
+     "ex_date": "2026-08-11"
+    },
+    {
+     "pre_close": 17190.0,
+     "ex_close": 17500.0,
+     "ex_day_pct": 1.8,
+     "theory_pct": -0.87,
+     "excess_pct": 2.68,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-13",
+     "pre5_pct": -5.18,
+     "recover_days": 1,
+     "low_close": 17190.0,
+     "ex_date": "2026-05-14"
+    },
+    {
+     "pre_close": 21750.0,
+     "ex_close": 20500.0,
+     "ex_day_pct": -5.75,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 46.96,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -1.36,
+     "recover_days": null,
+     "low_close": 14800.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "033780",
+   "name": "KT&G",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-22",
+   "ex_date": "2026-05-21",
+   "last_buy_date": "2026-05-20",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026년 분기배당 도입: 2Q 기준일 8/21(2,000원). 결산 2/27. 1·3Q는 추정.",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-21",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800319",
+     "rcept_no": "20260806800319",
+     "disclosed": "20260806",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -3.8,
+    "avg_runup_pct": 16.51,
+    "avg_runup_days": 35.0,
+    "avg_recover_days": 27.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 175500.0,
+     "ex_close": 171900.0,
+     "ex_day_pct": -2.05,
+     "theory_pct": -1.14,
+     "excess_pct": -0.91,
+     "runup_days": 34,
+     "runup_pct": 5.03,
+     "runup_start": "2026-07-01",
+     "pre5_pct": -2.45,
+     "recover_days": 6,
+     "low_close": 167100.0,
+     "ex_date": "2026-08-20"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 169700.0,
+     "ex_day_pct": -5.56,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 27.99,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 3.39,
+     "recover_days": 48,
+     "low_close": 140400.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-27",
+   "ex_date": "2026-05-26",
+   "last_buy_date": "2026-05-22",
+   "status": "확정",
+   "dps": 2000,
+   "pay_date": "2026-06-12",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-24",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
+     "rcept_no": "20260807800561",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 2000,
+     "pay_date": "2026-06-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
+     "rcept_no": "20260512800729",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 2500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
+     "rcept_no": "20260203801053",
+     "disclosed": "20260203",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.15,
+    "avg_runup_pct": 20.67,
+    "avg_runup_days": 22.5,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 321500.0,
+     "ex_close": 310000.0,
+     "ex_day_pct": -3.58,
+     "theory_pct": -0.62,
+     "excess_pct": -2.95,
+     "runup_days": 16,
+     "runup_pct": 11.44,
+     "runup_start": "2026-07-29",
+     "pre5_pct": -1.08,
+     "recover_days": 1,
+     "low_close": 288500.0,
+     "ex_date": "2026-08-21"
+    },
+    {
+     "pre_close": 305000.0,
+     "ex_close": 333000.0,
+     "ex_day_pct": 9.18,
+     "theory_pct": -0.23,
+     "excess_pct": 9.41,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -14.45,
+     "recover_days": 1,
+     "low_close": 305000.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 447500.0,
+     "ex_close": 442000.0,
+     "ex_day_pct": -1.23,
+     "theory_pct": -0.45,
+     "excess_pct": -0.78,
+     "runup_days": 37,
+     "runup_pct": 34.59,
+     "runup_start": "2026-03-31",
+     "pre5_pct": -4.28,
+     "recover_days": null,
+     "low_close": 332500.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 406500.0,
+     "ex_close": 407500.0,
+     "ex_day_pct": 0.25,
+     "theory_pct": -0.62,
+     "excess_pct": 0.86,
+     "runup_days": 36,
+     "runup_pct": 36.64,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 8.26,
+     "recover_days": 1,
+     "low_close": 297500.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "030200",
+   "name": "KT",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-27",
+   "ex_date": "2026-05-26",
+   "last_buy_date": "2026-05-22",
+   "status": "확정",
+   "dps": 600,
+   "pay_date": "2026-06-11",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/25, 2Q 7/29, 3Q 10/28(각 600원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-10-28",
+     "dps": 600,
+     "pay_date": "2026-11-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800366",
+     "rcept_no": "20261013800366",
+     "disclosed": "20261013",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-29",
+     "dps": 600,
+     "pay_date": "2026-08-13",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714800569",
+     "rcept_no": "20260714800569",
+     "disclosed": "20260714",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 600,
+     "pay_date": "2026-06-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359",
+     "rcept_no": "20260512800359",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -2.23,
+    "avg_runup_pct": 9.39,
+    "avg_runup_days": 11.5,
+    "avg_recover_days": 11.33
+   },
+   "ex_history": [
+    {
+     "pre_close": 45800.0,
+     "ex_close": 44800.0,
+     "ex_day_pct": -2.18,
+     "theory_pct": -1.31,
+     "excess_pct": -0.87,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-26",
+     "pre5_pct": -9.49,
+     "recover_days": 2,
+     "low_close": 45800.0,
+     "ex_date": "2026-10-27"
+    },
+    {
+     "pre_close": 54400.0,
+     "ex_close": 53900.0,
+     "ex_day_pct": -0.92,
+     "theory_pct": -1.1,
+     "excess_pct": 0.18,
+     "runup_days": 9,
+     "runup_pct": 5.43,
+     "runup_start": "2026-07-14",
+     "pre5_pct": 1.68,
+     "recover_days": 22,
+     "low_close": 51600.0,
+     "ex_date": "2026-07-28"
+    },
+    {
+     "pre_close": 55800.0,
+     "ex_close": 54200.0,
+     "ex_day_pct": -2.87,
+     "theory_pct": -1.08,
+     "excess_pct": -1.79,
+     "runup_days": 2,
+     "runup_pct": 0.18,
+     "runup_start": "2026-05-21",
+     "pre5_pct": -4.94,
+     "recover_days": 10,
+     "low_close": 55700.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 67700.0,
+     "ex_close": 65700.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 34,
+     "runup_pct": 31.97,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 7.97,
+     "recover_days": null,
+     "low_close": 51300.0,
+     "ex_date": "2026-02-24"
+    }
+   ]
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-31",
+   "ex_date": "2026-05-28",
+   "last_buy_date": "2026-05-27",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31(375원), 3Q 11/30(20,000원). 결산 기준일 2월 말.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 20000,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045",
+     "rcept_no": "20261028800045",
+     "disclosed": "20261028",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589",
+     "rcept_no": "20260807800589",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-3Q",
+     "record_date": "2025-11-30",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dealsite.co.kr/articles/150403"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 2.65,
+    "avg_runup_pct": 41.75,
+    "avg_runup_days": 26.25,
+    "avg_recover_days": 2.25
+   },
+   "ex_history": [
+    {
+     "pre_close": 1730000.0,
+     "ex_close": 1653000.0,
+     "ex_day_pct": -4.45,
+     "theory_pct": -0.02,
+     "excess_pct": -4.43,
+     "runup_days": 20,
+     "runup_pct": 30.86,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.31,
+     "recover_days": 6,
+     "low_close": 1322000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 1018000.0,
+     "ex_close": 1099000.0,
+     "ex_day_pct": 7.96,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 74.32,
+     "runup_start": "2025-12-23",
+     "pre5_pct": 15.68,
+     "recover_days": 1,
+     "low_close": 584000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 524000.0,
+     "ex_close": 544000.0,
+     "ex_day_pct": 3.82,
+     "theory_pct": -0.07,
+     "excess_pct": 3.89,
+     "runup_days": 39,
+     "runup_pct": 55.72,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -6.76,
+     "recover_days": 1,
+     "low_close": 336500.0,
+     "ex_date": "2025-11-27"
+    },
+    {
+     "pre_close": 260000.0,
+     "ex_close": 268500.0,
+     "ex_day_pct": 3.27,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 5,
+     "runup_pct": 6.12,
+     "runup_start": "2025-08-21",
+     "pre5_pct": 1.76,
+     "recover_days": 1,
+     "low_close": 245000.0,
+     "ex_date": "2025-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-31",
+   "ex_date": "2026-05-28",
+   "last_buy_date": "2026-05-27",
+   "status": "확정",
+   "dps": 2500,
+   "pay_date": "2026-06-30",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800359",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "배당절차 개선 채택: 분기 실적 확정 후 2·5·8·11월 말을 기준일로 설정. 분기당 2,500원(연 최소 1만원 정책, 2025~2027 TSR 35%).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2500,
+     "pay_date": "2026-12-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800269",
+     "rcept_no": "20261029800269",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 2500,
+     "pay_date": "2026-09-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
+     "rcept_no": "20260723800323",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-31",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800359",
+     "rcept_no": "20260423800359",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-29",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://www.knowingasset.com/app/calendar/7068"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.56,
+    "avg_runup_pct": 47.04,
+    "avg_runup_days": 34.25,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 398000.0,
+     "ex_close": 399500.0,
+     "ex_day_pct": 0.38,
+     "theory_pct": -0.63,
+     "excess_pct": 1.01,
+     "runup_days": 20,
+     "runup_pct": 13.39,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -4.67,
+     "recover_days": 1,
+     "low_close": 351000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 681000.0,
+     "ex_close": 677000.0,
+     "ex_day_pct": -0.59,
+     "theory_pct": -0.37,
+     "excess_pct": -0.22,
+     "runup_days": 39,
+     "runup_pct": 52.86,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 12.75,
+     "recover_days": 1,
+     "low_close": 445500.0,
+     "ex_date": "2026-05-28"
+    },
+    {
+     "pre_close": 572000.0,
+     "ex_close": 609000.0,
+     "ex_day_pct": 6.47,
+     "theory_pct": -0.44,
+     "excess_pct": 6.91,
+     "runup_days": 39,
+     "runup_pct": 100.0,
+     "runup_start": "2025-12-26",
+     "pre5_pct": 14.63,
+     "recover_days": 1,
+     "low_close": 286000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 261500.0,
+     "ex_close": 261500.0,
+     "ex_day_pct": 0.0,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 39,
+     "runup_pct": 21.91,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -0.95,
+     "recover_days": 1,
+     "low_close": 214500.0,
+     "ex_date": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "code": "017670",
+   "name": "SK텔레콤",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-1Q",
+   "record_date": "2026-05-31",
+   "ex_date": "2026-05-28",
+   "last_buy_date": "2026-05-27",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31, 3Q 11/30(각 830원) — 2·5·8·11월 말 패턴 확인.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 830,
+     "pay_date": "2026-12-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800802",
+     "rcept_no": "20261029800802",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 830,
+     "pay_date": "2026-09-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800522",
+     "rcept_no": "20260723800522",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.5,
+    "avg_runup_pct": 26.73,
+    "avg_runup_days": 20.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 99100.0,
+     "ex_close": 98600.0,
+     "ex_day_pct": -0.5,
+     "theory_pct": -0.84,
+     "excess_pct": 0.33,
+     "runup_days": 20,
+     "runup_pct": 26.73,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.59,
+     "recover_days": null,
+     "low_close": 78200.0,
+     "ex_date": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-06-30",
+   "ex_date": "2026-06-29",
+   "last_buy_date": "2026-06-26",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "자본시장법상 분기배당 기준일(3·6·9월 말) + 결산 12/31. 2026-3Q는 영업이익 급증으로 4,601원 특별 수준.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-03-31",
+     "dps": 372,
+     "pay_date": "2026-05-29",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.69,
+    "avg_runup_pct": 31.82,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 1.67
+   },
+   "ex_history": [
+    {
+     "pre_close": 270000.0,
+     "ex_close": 275000.0,
+     "ex_day_pct": 1.85,
+     "theory_pct": -1.7,
+     "excess_pct": 3.56,
+     "runup_days": 40,
+     "runup_pct": 30.43,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 5.47,
+     "recover_days": 2,
+     "low_close": 207000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 339500.0,
+     "ex_close": 323000.0,
+     "ex_day_pct": -4.86,
+     "theory_pct": -0.11,
+     "excess_pct": -4.75,
+     "runup_days": 38,
+     "runup_pct": 53.97,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -4.1,
+     "recover_days": null,
+     "low_close": 220500.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 176300.0,
+     "ex_day_pct": -1.89,
+     "theory_pct": -0.21,
+     "excess_pct": -1.69,
+     "runup_days": 36,
+     "runup_pct": 19.48,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.88,
+     "recover_days": 2,
+     "low_close": 150400.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 117000.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": 2.14,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 23.42,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 8.74,
+     "recover_days": 1,
+     "low_close": 94800.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "005935",
+   "name": "삼성전자우",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-06-30",
+   "ex_date": "2026-06-29",
+   "last_buy_date": "2026-06-26",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "보통주와 동일 일정·동일 배당금(2026-3Q 4,601원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.84,
+    "avg_runup_pct": 28.1,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 21.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 205500.0,
+     "ex_close": 205000.0,
+     "ex_day_pct": -0.24,
+     "theory_pct": -2.24,
+     "excess_pct": 2.0,
+     "runup_days": 40,
+     "runup_pct": 36.09,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 4.79,
+     "recover_days": null,
+     "low_close": 151000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 220500.0,
+     "ex_close": 210500.0,
+     "ex_day_pct": -4.54,
+     "theory_pct": -0.17,
+     "excess_pct": -4.37,
+     "runup_days": 38,
+     "runup_pct": 39.29,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -0.68,
+     "recover_days": 60,
+     "low_close": 158300.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 126200.0,
+     "ex_close": 121100.0,
+     "ex_day_pct": -4.04,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 14.62,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.34,
+     "recover_days": 2,
+     "low_close": 110100.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 88500.0,
+     "ex_close": 89800.0,
+     "ex_day_pct": 1.47,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 22.41,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 7.01,
+     "recover_days": 1,
+     "low_close": 72300.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-06-30",
+   "ex_date": "2026-06-29",
+   "last_buy_date": "2026-06-26",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "분기배당. 금액 DART 자동 갱신 대기.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.67,
+    "avg_runup_pct": 19.58,
+    "avg_runup_days": 26.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 120300.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": -0.67,
+     "theory_pct": -1.98,
+     "excess_pct": 1.31,
+     "runup_days": 26,
+     "runup_pct": 19.58,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -4.22,
+     "recover_days": 1,
+     "low_close": 100600.0,
+     "ex_date": "2026-08-04"
+    }
+   ]
+  },
+  {
+   "code": "030200",
+   "name": "KT",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-07-29",
+   "ex_date": "2026-07-28",
+   "last_buy_date": "2026-07-27",
+   "status": "확정",
+   "dps": 600,
+   "pay_date": "2026-08-13",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714800569",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/25, 2Q 7/29, 3Q 10/28(각 600원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-10-28",
+     "dps": 600,
+     "pay_date": "2026-11-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800366",
+     "rcept_no": "20261013800366",
+     "disclosed": "20261013",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-29",
+     "dps": 600,
+     "pay_date": "2026-08-13",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714800569",
+     "rcept_no": "20260714800569",
+     "disclosed": "20260714",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 600,
+     "pay_date": "2026-06-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359",
+     "rcept_no": "20260512800359",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -2.23,
+    "avg_runup_pct": 9.39,
+    "avg_runup_days": 11.5,
+    "avg_recover_days": 11.33
+   },
+   "ex_history": [
+    {
+     "pre_close": 45800.0,
+     "ex_close": 44800.0,
+     "ex_day_pct": -2.18,
+     "theory_pct": -1.31,
+     "excess_pct": -0.87,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-26",
+     "pre5_pct": -9.49,
+     "recover_days": 2,
+     "low_close": 45800.0,
+     "ex_date": "2026-10-27"
+    },
+    {
+     "pre_close": 54400.0,
+     "ex_close": 53900.0,
+     "ex_day_pct": -0.92,
+     "theory_pct": -1.1,
+     "excess_pct": 0.18,
+     "runup_days": 9,
+     "runup_pct": 5.43,
+     "runup_start": "2026-07-14",
+     "pre5_pct": 1.68,
+     "recover_days": 22,
+     "low_close": 51600.0,
+     "ex_date": "2026-07-28"
+    },
+    {
+     "pre_close": 55800.0,
+     "ex_close": 54200.0,
+     "ex_day_pct": -2.87,
+     "theory_pct": -1.08,
+     "excess_pct": -1.79,
+     "runup_days": 2,
+     "runup_pct": 0.18,
+     "runup_start": "2026-05-21",
+     "pre5_pct": -4.94,
+     "recover_days": 10,
+     "low_close": 55700.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 67700.0,
+     "ex_close": 65700.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 34,
+     "runup_pct": 31.97,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 7.97,
+     "recover_days": null,
+     "low_close": 51300.0,
+     "ex_date": "2026-02-24"
+    }
+   ]
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-07-30",
+   "ex_date": "2026-07-29",
+   "last_buy_date": "2026-07-28",
+   "status": "확정",
+   "dps": 740,
+   "pay_date": "2026-08-28",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800287",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/20, 2Q 7/30(740원), 3Q 11/3(740원).  (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-03",
+     "dps": 740,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800250",
+     "rcept_no": "20261027800250",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              (2026년 3분기)"
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-30",
+     "dps": 740,
+     "pay_date": "2026-08-28",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800287",
+     "rcept_no": "20260723800287",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              (2026년 2분기)"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-04-30",
+     "dps": 740,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800321",
+     "rcept_no": "20260423800321",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              (2026년 1분기)"
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.54,
+    "avg_runup_pct": 19.76,
+    "avg_runup_days": 28.0,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 100900.0,
+     "ex_close": 98300.0,
+     "ex_day_pct": -2.58,
+     "theory_pct": -0.73,
+     "excess_pct": -1.84,
+     "runup_days": 22,
+     "runup_pct": 10.15,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -3.63,
+     "recover_days": 3,
+     "low_close": 91600.0,
+     "ex_date": "2026-07-29"
+    },
+    {
+     "pre_close": 99900.0,
+     "ex_close": 100000.0,
+     "ex_day_pct": 0.1,
+     "theory_pct": -0.74,
+     "excess_pct": 0.84,
+     "runup_days": 21,
+     "runup_pct": 13.91,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 0.1,
+     "recover_days": 1,
+     "low_close": 87700.0,
+     "ex_date": "2026-04-29"
+    },
+    {
+     "pre_close": 102500.0,
+     "ex_close": 100300.0,
+     "ex_day_pct": -2.15,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 35.22,
+     "runup_start": "2025-12-16",
+     "pre5_pct": 9.51,
+     "recover_days": null,
+     "low_close": 75800.0,
+     "ex_date": "2026-02-19"
+    }
+   ]
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-07",
+   "ex_date": "2026-08-06",
+   "last_buy_date": "2026-08-05",
+   "status": "확정",
+   "dps": 1155,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7, 3Q 11/12. 분기 실적 발표 후 이사회로 확정(±1주).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-12",
+     "dps": 1167,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800391",
+     "rcept_no": "20261029800391",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 1155,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
+     "rcept_no": "20260723800477",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 1605,
+     "pay_date": null,
+     "source": "https://www.smarttoday.co.kr/ko-kr/articles/102859"
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -0.48,
+    "avg_runup_pct": 25.17,
+    "avg_runup_days": 32.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 170700.0,
+     "ex_close": 171500.0,
+     "ex_day_pct": 0.47,
+     "theory_pct": -0.68,
+     "excess_pct": 1.15,
+     "runup_days": 28,
+     "runup_pct": 14.33,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.62,
+     "recover_days": 1,
+     "low_close": 149300.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 167700.0,
+     "ex_close": 165300.0,
+     "ex_day_pct": -1.43,
+     "theory_pct": -0.96,
+     "excess_pct": -0.47,
+     "runup_days": 36,
+     "runup_pct": 36.01,
+     "runup_start": "2026-01-02",
+     "pre5_pct": -0.12,
+     "recover_days": null,
+     "low_close": 123300.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "139130",
+   "name": "iM금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-07",
+   "ex_date": "2026-08-06",
+   "last_buy_date": "2026-08-05",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "2026 결산배당 기준일 2/27.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -6.19,
+    "avg_runup_pct": 47.25,
+    "avg_runup_days": 25.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 20350.0,
+     "ex_close": 19090.0,
+     "ex_day_pct": -6.19,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 47.25,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.16,
+     "recover_days": null,
+     "low_close": 13820.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "175330",
+   "name": "JB금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-07",
+   "ex_date": "2026-08-06",
+   "last_buy_date": "2026-08-05",
+   "status": "확정",
+   "dps": 314,
+   "pay_date": "2026-08-27",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800823",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7(314원), 3Q 11/11(317원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-11",
+     "dps": 317,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800427",
+     "rcept_no": "20261027800427",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 314,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800823",
+     "rcept_no": "20260723800823",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-08",
+     "dps": 311,
+     "pay_date": "2026-05-26",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800735",
+     "rcept_no": "20260423800735",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.05,
+    "avg_runup_pct": 22.13,
+    "avg_runup_days": 18.0,
+    "avg_recover_days": 12.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 27800.0,
+     "ex_close": 28250.0,
+     "ex_day_pct": 1.62,
+     "theory_pct": -1.13,
+     "excess_pct": 2.75,
+     "runup_days": 28,
+     "runup_pct": 21.66,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 5.9,
+     "recover_days": 1,
+     "low_close": 22850.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 26550.0,
+     "ex_close": 26350.0,
+     "ex_day_pct": -0.75,
+     "theory_pct": -1.17,
+     "excess_pct": 0.42,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-06",
+     "pre5_pct": -3.45,
+     "recover_days": 24,
+     "low_close": 26550.0,
+     "ex_date": "2026-05-07"
+    },
+    {
+     "pre_close": 33650.0,
+     "ex_close": 32300.0,
+     "ex_day_pct": -4.01,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 44.73,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.89,
+     "recover_days": null,
+     "low_close": 23250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-10",
+   "ex_date": "2026-08-07",
+   "last_buy_date": "2026-08-06",
+   "status": "확정",
+   "dps": 1155,
+   "pay_date": "2026-08-21",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800419",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10(1,155원), 3Q 11/9(1,165원). 분기 균등배당. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-09",
+     "dps": 1165,
+     "pay_date": "2026-11-20",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800567",
+     "rcept_no": "20261023800567",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 1155,
+     "pay_date": "2026-08-21",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800419",
+     "rcept_no": "20260724800419",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 1145,
+     "pay_date": "2026-05-22",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800413",
+     "rcept_no": "20260424800413",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.21,
+    "avg_runup_pct": 24.11,
+    "avg_runup_days": 30.0,
+    "avg_recover_days": 20.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 133300.0,
+     "ex_close": 134700.0,
+     "ex_day_pct": 1.05,
+     "theory_pct": -0.42,
+     "excess_pct": 1.47,
+     "runup_days": 29,
+     "runup_pct": 21.51,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.98,
+     "recover_days": 13,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 127600.0,
+     "ex_close": 128600.0,
+     "ex_day_pct": 0.78,
+     "theory_pct": -0.69,
+     "excess_pct": 1.48,
+     "runup_days": 27,
+     "runup_pct": 16.32,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 3.74,
+     "recover_days": 1,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-05"
+    },
+    {
+     "pre_close": 128800.0,
+     "ex_close": 126500.0,
+     "ex_day_pct": -1.79,
+     "theory_pct": -0.89,
+     "excess_pct": -0.9,
+     "runup_days": 32,
+     "runup_pct": 21.51,
+     "runup_start": "2026-03-23",
+     "pre5_pct": 1.42,
+     "recover_days": 24,
+     "low_close": 106000.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 126000.0,
+     "ex_close": 124900.0,
+     "ex_day_pct": -0.87,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 37.11,
+     "runup_start": "2026-01-08",
+     "pre5_pct": -1.25,
+     "recover_days": 42,
+     "low_close": 91900.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-10",
+   "ex_date": "2026-08-07",
+   "last_buy_date": "2026-08-06",
+   "status": "확정",
+   "dps": 220,
+   "pay_date": "2026-08-31",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800545",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10, 3Q 11/10(각 220원, 감액배당 비과세). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 220,
+     "pay_date": "2026-11-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800653",
+     "rcept_no": "20261023800653",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 220,
+     "pay_date": "2026-08-31",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800545",
+     "rcept_no": "20260724800545",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 220,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800595",
+     "rcept_no": "20260424800595",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -0.04,
+    "avg_runup_pct": 22.01,
+    "avg_runup_days": 31.0,
+    "avg_recover_days": 29.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 33500.0,
+     "ex_close": 34800.0,
+     "ex_day_pct": 3.88,
+     "theory_pct": -0.66,
+     "excess_pct": 4.54,
+     "runup_days": 29,
+     "runup_pct": 18.17,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 2.45,
+     "recover_days": 2,
+     "low_close": 28350.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 33200.0,
+     "ex_close": 32850.0,
+     "ex_day_pct": -1.05,
+     "theory_pct": -0.66,
+     "excess_pct": -0.39,
+     "runup_days": 32,
+     "runup_pct": 4.73,
+     "runup_start": "2026-03-23",
+     "pre5_pct": -0.9,
+     "recover_days": 57,
+     "low_close": 31700.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 39000.0,
+     "ex_close": 37850.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 43.12,
+     "runup_start": "2026-01-08",
+     "pre5_pct": 0.13,
+     "recover_days": null,
+     "low_close": 27250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "138930",
+   "name": "BNK금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-12",
+   "ex_date": "2026-08-11",
+   "last_buy_date": "2026-08-10",
+   "status": "확정",
+   "dps": 150,
+   "pay_date": "2026-08-27",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 150,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-12",
+     "dps": 150,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533",
+     "rcept_no": "20260728800533",
+     "disclosed": "20260728",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-15",
+     "dps": 150,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.44,
+    "avg_runup_pct": 11.99,
+    "avg_runup_days": 8.75,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 14190.0,
+     "ex_close": 13980.0,
+     "ex_day_pct": -1.48,
+     "theory_pct": -7.5,
+     "excess_pct": 6.02,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-21",
+     "pre5_pct": -3.27,
+     "recover_days": null,
+     "low_close": 14190.0,
+     "ex_date": "2026-10-22"
+    },
+    {
+     "pre_close": 14950.0,
+     "ex_close": 14900.0,
+     "ex_day_pct": -0.33,
+     "theory_pct": -1.0,
+     "excess_pct": 0.67,
+     "runup_days": 8,
+     "runup_pct": 1.01,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -0.93,
+     "recover_days": 3,
+     "low_close": 14800.0,
+     "ex_date": "2026-08-11"
+    },
+    {
+     "pre_close": 17190.0,
+     "ex_close": 17500.0,
+     "ex_day_pct": 1.8,
+     "theory_pct": -0.87,
+     "excess_pct": 2.68,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-13",
+     "pre5_pct": -5.18,
+     "recover_days": 1,
+     "low_close": 17190.0,
+     "ex_date": "2026-05-14"
+    },
+    {
+     "pre_close": 21750.0,
+     "ex_close": 20500.0,
+     "ex_day_pct": -5.75,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 46.96,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -1.36,
+     "recover_days": null,
+     "low_close": 14800.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "033780",
+   "name": "KT&G",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-21",
+   "ex_date": "2026-08-20",
+   "last_buy_date": "2026-08-19",
+   "status": "확정",
+   "dps": 2000,
+   "pay_date": "2026-09-07",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800319",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026년 분기배당 도입: 2Q 기준일 8/21(2,000원). 결산 2/27. 1·3Q는 추정.",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-21",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800319",
+     "rcept_no": "20260806800319",
+     "disclosed": "20260806",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -3.8,
+    "avg_runup_pct": 16.51,
+    "avg_runup_days": 35.0,
+    "avg_recover_days": 27.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 175500.0,
+     "ex_close": 171900.0,
+     "ex_day_pct": -2.05,
+     "theory_pct": -1.14,
+     "excess_pct": -0.91,
+     "runup_days": 34,
+     "runup_pct": 5.03,
+     "runup_start": "2026-07-01",
+     "pre5_pct": -2.45,
+     "recover_days": 6,
+     "low_close": 167100.0,
+     "ex_date": "2026-08-20"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 169700.0,
+     "ex_day_pct": -5.56,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 27.99,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 3.39,
+     "recover_days": 48,
+     "low_close": 140400.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-24",
+   "ex_date": "2026-08-21",
+   "last_buy_date": "2026-08-20",
+   "status": "확정",
+   "dps": 2000,
+   "pay_date": "2026-09-07",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-24",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
+     "rcept_no": "20260807800561",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 2000,
+     "pay_date": "2026-06-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
+     "rcept_no": "20260512800729",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 2500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
+     "rcept_no": "20260203801053",
+     "disclosed": "20260203",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.15,
+    "avg_runup_pct": 20.67,
+    "avg_runup_days": 22.5,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 321500.0,
+     "ex_close": 310000.0,
+     "ex_day_pct": -3.58,
+     "theory_pct": -0.62,
+     "excess_pct": -2.95,
+     "runup_days": 16,
+     "runup_pct": 11.44,
+     "runup_start": "2026-07-29",
+     "pre5_pct": -1.08,
+     "recover_days": 1,
+     "low_close": 288500.0,
+     "ex_date": "2026-08-21"
+    },
+    {
+     "pre_close": 305000.0,
+     "ex_close": 333000.0,
+     "ex_day_pct": 9.18,
+     "theory_pct": -0.23,
+     "excess_pct": 9.41,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -14.45,
+     "recover_days": 1,
+     "low_close": 305000.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 447500.0,
+     "ex_close": 442000.0,
+     "ex_day_pct": -1.23,
+     "theory_pct": -0.45,
+     "excess_pct": -0.78,
+     "runup_days": 37,
+     "runup_pct": 34.59,
+     "runup_start": "2026-03-31",
+     "pre5_pct": -4.28,
+     "recover_days": null,
+     "low_close": 332500.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 406500.0,
+     "ex_close": 407500.0,
+     "ex_day_pct": 0.25,
+     "theory_pct": -0.62,
+     "excess_pct": 0.86,
+     "runup_days": 36,
+     "runup_pct": 36.64,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 8.26,
+     "recover_days": 1,
+     "low_close": 297500.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-31",
+   "ex_date": "2026-08-28",
+   "last_buy_date": "2026-08-27",
+   "status": "확정",
+   "dps": 375,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31(375원), 3Q 11/30(20,000원). 결산 기준일 2월 말.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 20000,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045",
+     "rcept_no": "20261028800045",
+     "disclosed": "20261028",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589",
+     "rcept_no": "20260807800589",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-3Q",
+     "record_date": "2025-11-30",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dealsite.co.kr/articles/150403"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 2.65,
+    "avg_runup_pct": 41.75,
+    "avg_runup_days": 26.25,
+    "avg_recover_days": 2.25
+   },
+   "ex_history": [
+    {
+     "pre_close": 1730000.0,
+     "ex_close": 1653000.0,
+     "ex_day_pct": -4.45,
+     "theory_pct": -0.02,
+     "excess_pct": -4.43,
+     "runup_days": 20,
+     "runup_pct": 30.86,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.31,
+     "recover_days": 6,
+     "low_close": 1322000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 1018000.0,
+     "ex_close": 1099000.0,
+     "ex_day_pct": 7.96,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 74.32,
+     "runup_start": "2025-12-23",
+     "pre5_pct": 15.68,
+     "recover_days": 1,
+     "low_close": 584000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 524000.0,
+     "ex_close": 544000.0,
+     "ex_day_pct": 3.82,
+     "theory_pct": -0.07,
+     "excess_pct": 3.89,
+     "runup_days": 39,
+     "runup_pct": 55.72,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -6.76,
+     "recover_days": 1,
+     "low_close": 336500.0,
+     "ex_date": "2025-11-27"
+    },
+    {
+     "pre_close": 260000.0,
+     "ex_close": 268500.0,
+     "ex_day_pct": 3.27,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 5,
+     "runup_pct": 6.12,
+     "runup_start": "2025-08-21",
+     "pre5_pct": 1.76,
+     "recover_days": 1,
+     "low_close": 245000.0,
+     "ex_date": "2025-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-31",
+   "ex_date": "2026-08-28",
+   "last_buy_date": "2026-08-27",
+   "status": "확정",
+   "dps": 2500,
+   "pay_date": "2026-09-30",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "배당절차 개선 채택: 분기 실적 확정 후 2·5·8·11월 말을 기준일로 설정. 분기당 2,500원(연 최소 1만원 정책, 2025~2027 TSR 35%).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2500,
+     "pay_date": "2026-12-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800269",
+     "rcept_no": "20261029800269",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 2500,
+     "pay_date": "2026-09-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
+     "rcept_no": "20260723800323",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-31",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800359",
+     "rcept_no": "20260423800359",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-29",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://www.knowingasset.com/app/calendar/7068"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.56,
+    "avg_runup_pct": 47.04,
+    "avg_runup_days": 34.25,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 398000.0,
+     "ex_close": 399500.0,
+     "ex_day_pct": 0.38,
+     "theory_pct": -0.63,
+     "excess_pct": 1.01,
+     "runup_days": 20,
+     "runup_pct": 13.39,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -4.67,
+     "recover_days": 1,
+     "low_close": 351000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 681000.0,
+     "ex_close": 677000.0,
+     "ex_day_pct": -0.59,
+     "theory_pct": -0.37,
+     "excess_pct": -0.22,
+     "runup_days": 39,
+     "runup_pct": 52.86,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 12.75,
+     "recover_days": 1,
+     "low_close": 445500.0,
+     "ex_date": "2026-05-28"
+    },
+    {
+     "pre_close": 572000.0,
+     "ex_close": 609000.0,
+     "ex_day_pct": 6.47,
+     "theory_pct": -0.44,
+     "excess_pct": 6.91,
+     "runup_days": 39,
+     "runup_pct": 100.0,
+     "runup_start": "2025-12-26",
+     "pre5_pct": 14.63,
+     "recover_days": 1,
+     "low_close": 286000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 261500.0,
+     "ex_close": 261500.0,
+     "ex_day_pct": 0.0,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 39,
+     "runup_pct": 21.91,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -0.95,
+     "recover_days": 1,
+     "low_close": 214500.0,
+     "ex_date": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "code": "017670",
+   "name": "SK텔레콤",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-2Q",
+   "record_date": "2026-08-31",
+   "ex_date": "2026-08-28",
+   "last_buy_date": "2026-08-27",
+   "status": "확정",
+   "dps": 830,
+   "pay_date": "2026-09-17",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800522",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31, 3Q 11/30(각 830원) — 2·5·8·11월 말 패턴 확인.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 830,
+     "pay_date": "2026-12-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800802",
+     "rcept_no": "20261029800802",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 830,
+     "pay_date": "2026-09-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800522",
+     "rcept_no": "20260723800522",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.5,
+    "avg_runup_pct": 26.73,
+    "avg_runup_days": 20.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 99100.0,
+     "ex_close": 98600.0,
+     "ex_day_pct": -0.5,
+     "theory_pct": -0.84,
+     "excess_pct": 0.33,
+     "runup_days": 20,
+     "runup_pct": 26.73,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.59,
+     "recover_days": null,
+     "low_close": 78200.0,
+     "ex_date": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-09-30",
+   "ex_date": "2026-09-29",
+   "last_buy_date": "2026-09-28",
+   "status": "확정",
+   "dps": 4601,
+   "pay_date": "2026-11-27",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "자본시장법상 분기배당 기준일(3·6·9월 말) + 결산 12/31. 2026-3Q는 영업이익 급증으로 4,601원 특별 수준.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-03-31",
+     "dps": 372,
+     "pay_date": "2026-05-29",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.69,
+    "avg_runup_pct": 31.82,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 1.67
+   },
+   "ex_history": [
+    {
+     "pre_close": 270000.0,
+     "ex_close": 275000.0,
+     "ex_day_pct": 1.85,
+     "theory_pct": -1.7,
+     "excess_pct": 3.56,
+     "runup_days": 40,
+     "runup_pct": 30.43,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 5.47,
+     "recover_days": 2,
+     "low_close": 207000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 339500.0,
+     "ex_close": 323000.0,
+     "ex_day_pct": -4.86,
+     "theory_pct": -0.11,
+     "excess_pct": -4.75,
+     "runup_days": 38,
+     "runup_pct": 53.97,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -4.1,
+     "recover_days": null,
+     "low_close": 220500.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 176300.0,
+     "ex_day_pct": -1.89,
+     "theory_pct": -0.21,
+     "excess_pct": -1.69,
+     "runup_days": 36,
+     "runup_pct": 19.48,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.88,
+     "recover_days": 2,
+     "low_close": 150400.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 117000.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": 2.14,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 23.42,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 8.74,
+     "recover_days": 1,
+     "low_close": 94800.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "005935",
+   "name": "삼성전자우",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-09-30",
+   "ex_date": "2026-09-29",
+   "last_buy_date": "2026-09-28",
+   "status": "확정",
+   "dps": 4601,
+   "pay_date": "2026-11-27",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "보통주와 동일 일정·동일 배당금(2026-3Q 4,601원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.84,
+    "avg_runup_pct": 28.1,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 21.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 205500.0,
+     "ex_close": 205000.0,
+     "ex_day_pct": -0.24,
+     "theory_pct": -2.24,
+     "excess_pct": 2.0,
+     "runup_days": 40,
+     "runup_pct": 36.09,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 4.79,
+     "recover_days": null,
+     "low_close": 151000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 220500.0,
+     "ex_close": 210500.0,
+     "ex_day_pct": -4.54,
+     "theory_pct": -0.17,
+     "excess_pct": -4.37,
+     "runup_days": 38,
+     "runup_pct": 39.29,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -0.68,
+     "recover_days": 60,
+     "low_close": 158300.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 126200.0,
+     "ex_close": 121100.0,
+     "ex_day_pct": -4.04,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 14.62,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.34,
+     "recover_days": 2,
+     "low_close": 110100.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 88500.0,
+     "ex_close": 89800.0,
+     "ex_day_pct": 1.47,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 22.41,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 7.01,
+     "recover_days": 1,
+     "low_close": 72300.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-09-30",
+   "ex_date": "2026-09-29",
+   "last_buy_date": "2026-09-28",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "분기배당. 금액 DART 자동 갱신 대기.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.67,
+    "avg_runup_pct": 19.58,
+    "avg_runup_days": 26.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 120300.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": -0.67,
+     "theory_pct": -1.98,
+     "excess_pct": 1.31,
+     "runup_days": 26,
+     "runup_pct": 19.58,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -4.22,
+     "recover_days": 1,
+     "low_close": 100600.0,
+     "ex_date": "2026-08-04"
+    }
+   ]
+  },
+  {
+   "code": "030200",
+   "name": "KT",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-10-28",
+   "ex_date": "2026-10-27",
+   "last_buy_date": "2026-10-26",
+   "status": "확정",
+   "dps": 600,
+   "pay_date": "2026-11-12",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800366",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/25, 2Q 7/29, 3Q 10/28(각 600원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-10-28",
+     "dps": 600,
+     "pay_date": "2026-11-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261013800366",
+     "rcept_no": "20261013800366",
+     "disclosed": "20261013",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-29",
+     "dps": 600,
+     "pay_date": "2026-08-13",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714800569",
+     "rcept_no": "20260714800569",
+     "disclosed": "20260714",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 600,
+     "pay_date": "2026-06-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800359",
+     "rcept_no": "20260512800359",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -2.23,
+    "avg_runup_pct": 9.39,
+    "avg_runup_days": 11.5,
+    "avg_recover_days": 11.33
+   },
+   "ex_history": [
+    {
+     "pre_close": 45800.0,
+     "ex_close": 44800.0,
+     "ex_day_pct": -2.18,
+     "theory_pct": -1.31,
+     "excess_pct": -0.87,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-26",
+     "pre5_pct": -9.49,
+     "recover_days": 2,
+     "low_close": 45800.0,
+     "ex_date": "2026-10-27"
+    },
+    {
+     "pre_close": 54400.0,
+     "ex_close": 53900.0,
+     "ex_day_pct": -0.92,
+     "theory_pct": -1.1,
+     "excess_pct": 0.18,
+     "runup_days": 9,
+     "runup_pct": 5.43,
+     "runup_start": "2026-07-14",
+     "pre5_pct": 1.68,
+     "recover_days": 22,
+     "low_close": 51600.0,
+     "ex_date": "2026-07-28"
+    },
+    {
+     "pre_close": 55800.0,
+     "ex_close": 54200.0,
+     "ex_day_pct": -2.87,
+     "theory_pct": -1.08,
+     "excess_pct": -1.79,
+     "runup_days": 2,
+     "runup_pct": 0.18,
+     "runup_start": "2026-05-21",
+     "pre5_pct": -4.94,
+     "recover_days": 10,
+     "low_close": 55700.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 67700.0,
+     "ex_close": 65700.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 34,
+     "runup_pct": 31.97,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 7.97,
+     "recover_days": null,
+     "low_close": 51300.0,
+     "ex_date": "2026-02-24"
+    }
+   ]
+  },
+  {
+   "code": "055550",
+   "name": "신한지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-03",
+   "ex_date": "2026-11-02",
+   "last_buy_date": "2026-10-30",
+   "status": "확정",
+   "dps": 740,
+   "pay_date": "2026-11-27",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800250",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/20, 2Q 7/30(740원), 3Q 11/3(740원).  (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-03",
+     "dps": 740,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800250",
+     "rcept_no": "20261027800250",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              (2026년 3분기)"
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-07-30",
+     "dps": 740,
+     "pay_date": "2026-08-28",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800287",
+     "rcept_no": "20260723800287",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              (2026년 2분기)"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-04-30",
+     "dps": 740,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800321",
+     "rcept_no": "20260423800321",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              (2026년 1분기)"
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.54,
+    "avg_runup_pct": 19.76,
+    "avg_runup_days": 28.0,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 100900.0,
+     "ex_close": 98300.0,
+     "ex_day_pct": -2.58,
+     "theory_pct": -0.73,
+     "excess_pct": -1.84,
+     "runup_days": 22,
+     "runup_pct": 10.15,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -3.63,
+     "recover_days": 3,
+     "low_close": 91600.0,
+     "ex_date": "2026-07-29"
+    },
+    {
+     "pre_close": 99900.0,
+     "ex_close": 100000.0,
+     "ex_day_pct": 0.1,
+     "theory_pct": -0.74,
+     "excess_pct": 0.84,
+     "runup_days": 21,
+     "runup_pct": 13.91,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 0.1,
+     "recover_days": 1,
+     "low_close": 87700.0,
+     "ex_date": "2026-04-29"
+    },
+    {
+     "pre_close": 102500.0,
+     "ex_close": 100300.0,
+     "ex_day_pct": -2.15,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 35.22,
+     "runup_start": "2025-12-16",
+     "pre5_pct": 9.51,
+     "recover_days": null,
+     "low_close": 75800.0,
+     "ex_date": "2026-02-19"
+    }
+   ]
+  },
+  {
+   "code": "139130",
+   "name": "iM금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-06",
+   "ex_date": "2026-11-05",
+   "last_buy_date": "2026-11-04",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "2026 결산배당 기준일 2/27.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -6.19,
+    "avg_runup_pct": 47.25,
+    "avg_runup_days": 25.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 20350.0,
+     "ex_close": 19090.0,
+     "ex_day_pct": -6.19,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 47.25,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.16,
+     "recover_days": null,
+     "low_close": 13820.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "086790",
+   "name": "하나금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-09",
+   "ex_date": "2026-11-06",
+   "last_buy_date": "2026-11-05",
+   "status": "확정",
+   "dps": 1165,
+   "pay_date": "2026-11-20",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800567",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10(1,155원), 3Q 11/9(1,165원). 분기 균등배당. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-09",
+     "dps": 1165,
+     "pay_date": "2026-11-20",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800567",
+     "rcept_no": "20261023800567",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 1155,
+     "pay_date": "2026-08-21",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800419",
+     "rcept_no": "20260724800419",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 1145,
+     "pay_date": "2026-05-22",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800413",
+     "rcept_no": "20260424800413",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.21,
+    "avg_runup_pct": 24.11,
+    "avg_runup_days": 30.0,
+    "avg_recover_days": 20.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 133300.0,
+     "ex_close": 134700.0,
+     "ex_day_pct": 1.05,
+     "theory_pct": -0.42,
+     "excess_pct": 1.47,
+     "runup_days": 29,
+     "runup_pct": 21.51,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.98,
+     "recover_days": 13,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 127600.0,
+     "ex_close": 128600.0,
+     "ex_day_pct": 0.78,
+     "theory_pct": -0.69,
+     "excess_pct": 1.48,
+     "runup_days": 27,
+     "runup_pct": 16.32,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 3.74,
+     "recover_days": 1,
+     "low_close": 109700.0,
+     "ex_date": "2026-08-05"
+    },
+    {
+     "pre_close": 128800.0,
+     "ex_close": 126500.0,
+     "ex_day_pct": -1.79,
+     "theory_pct": -0.89,
+     "excess_pct": -0.9,
+     "runup_days": 32,
+     "runup_pct": 21.51,
+     "runup_start": "2026-03-23",
+     "pre5_pct": 1.42,
+     "recover_days": 24,
+     "low_close": 106000.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 126000.0,
+     "ex_close": 124900.0,
+     "ex_day_pct": -0.87,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 37.11,
+     "runup_start": "2026-01-08",
+     "pre5_pct": -1.25,
+     "recover_days": 42,
+     "low_close": 91900.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "138930",
+   "name": "BNK금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-10",
+   "ex_date": "2026-11-09",
+   "last_buy_date": "2026-11-06",
+   "status": "확정",
+   "dps": 150,
+   "pay_date": "2026-11-25",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 150,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-12",
+     "dps": 150,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728800533",
+     "rcept_no": "20260728800533",
+     "disclosed": "20260728",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-15",
+     "dps": 150,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.44,
+    "avg_runup_pct": 11.99,
+    "avg_runup_days": 8.75,
+    "avg_recover_days": 2.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 14190.0,
+     "ex_close": 13980.0,
+     "ex_day_pct": -1.48,
+     "theory_pct": -7.5,
+     "excess_pct": 6.02,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-10-21",
+     "pre5_pct": -3.27,
+     "recover_days": null,
+     "low_close": 14190.0,
+     "ex_date": "2026-10-22"
+    },
+    {
+     "pre_close": 14950.0,
+     "ex_close": 14900.0,
+     "ex_day_pct": -0.33,
+     "theory_pct": -1.0,
+     "excess_pct": 0.67,
+     "runup_days": 8,
+     "runup_pct": 1.01,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -0.93,
+     "recover_days": 3,
+     "low_close": 14800.0,
+     "ex_date": "2026-08-11"
+    },
+    {
+     "pre_close": 17190.0,
+     "ex_close": 17500.0,
+     "ex_day_pct": 1.8,
+     "theory_pct": -0.87,
+     "excess_pct": 2.68,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-13",
+     "pre5_pct": -5.18,
+     "recover_days": 1,
+     "low_close": 17190.0,
+     "ex_date": "2026-05-14"
+    },
+    {
+     "pre_close": 21750.0,
+     "ex_close": 20500.0,
+     "ex_day_pct": -5.75,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 46.96,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -1.36,
+     "recover_days": null,
+     "low_close": 14800.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "316140",
+   "name": "우리금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-10",
+   "ex_date": "2026-11-09",
+   "last_buy_date": "2026-11-06",
+   "status": "확정",
+   "dps": 220,
+   "pay_date": "2026-11-30",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800653",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/10, 3Q 11/10(각 220원, 감액배당 비과세). (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-10",
+     "dps": 220,
+     "pay_date": "2026-11-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023800653",
+     "rcept_no": "20261023800653",
+     "disclosed": "20261023",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-10",
+     "dps": 220,
+     "pay_date": "2026-08-31",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800545",
+     "rcept_no": "20260724800545",
+     "disclosed": "20260724",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-11",
+     "dps": 220,
+     "pay_date": "2026-05-29",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424800595",
+     "rcept_no": "20260424800595",
+     "disclosed": "20260424",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -0.04,
+    "avg_runup_pct": 22.01,
+    "avg_runup_days": 31.0,
+    "avg_recover_days": 29.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 33500.0,
+     "ex_close": 34800.0,
+     "ex_day_pct": 3.88,
+     "theory_pct": -0.66,
+     "excess_pct": 4.54,
+     "runup_days": 29,
+     "runup_pct": 18.17,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 2.45,
+     "recover_days": 2,
+     "low_close": 28350.0,
+     "ex_date": "2026-08-07"
+    },
+    {
+     "pre_close": 33200.0,
+     "ex_close": 32850.0,
+     "ex_day_pct": -1.05,
+     "theory_pct": -0.66,
+     "excess_pct": -0.39,
+     "runup_days": 32,
+     "runup_pct": 4.73,
+     "runup_start": "2026-03-23",
+     "pre5_pct": -0.9,
+     "recover_days": 57,
+     "low_close": 31700.0,
+     "ex_date": "2026-05-08"
+    },
+    {
+     "pre_close": 39000.0,
+     "ex_close": 37850.0,
+     "ex_day_pct": -2.95,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 32,
+     "runup_pct": 43.12,
+     "runup_start": "2026-01-08",
+     "pre5_pct": 0.13,
+     "recover_days": null,
+     "low_close": 27250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "175330",
+   "name": "JB금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-11",
+   "ex_date": "2026-11-10",
+   "last_buy_date": "2026-11-09",
+   "status": "확정",
+   "dps": 317,
+   "pay_date": "2026-11-25",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800427",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7(314원), 3Q 11/11(317원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-11",
+     "dps": 317,
+     "pay_date": "2026-11-25",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261027800427",
+     "rcept_no": "20261027800427",
+     "disclosed": "20261027",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 314,
+     "pay_date": "2026-08-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800823",
+     "rcept_no": "20260723800823",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-08",
+     "dps": 311,
+     "pay_date": "2026-05-26",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800735",
+     "rcept_no": "20260423800735",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 3,
+    "avg_ex_day_pct": -1.05,
+    "avg_runup_pct": 22.13,
+    "avg_runup_days": 18.0,
+    "avg_recover_days": 12.5
+   },
+   "ex_history": [
+    {
+     "pre_close": 27800.0,
+     "ex_close": 28250.0,
+     "ex_day_pct": 1.62,
+     "theory_pct": -1.13,
+     "excess_pct": 2.75,
+     "runup_days": 28,
+     "runup_pct": 21.66,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 5.9,
+     "recover_days": 1,
+     "low_close": 22850.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 26550.0,
+     "ex_close": 26350.0,
+     "ex_day_pct": -0.75,
+     "theory_pct": -1.17,
+     "excess_pct": 0.42,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-05-06",
+     "pre5_pct": -3.45,
+     "recover_days": 24,
+     "low_close": 26550.0,
+     "ex_date": "2026-05-07"
+    },
+    {
+     "pre_close": 33650.0,
+     "ex_close": 32300.0,
+     "ex_day_pct": -4.01,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 44.73,
+     "runup_start": "2026-01-19",
+     "pre5_pct": -2.89,
+     "recover_days": null,
+     "low_close": 23250.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "105560",
+   "name": "KB금융",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-12",
+   "ex_date": "2026-11-11",
+   "last_buy_date": "2026-11-10",
+   "status": "확정",
+   "dps": 1167,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800391",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시 기준일: 결산 2/27, 2Q 8/7, 3Q 11/12. 분기 실적 발표 후 이사회로 확정(±1주).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-12",
+     "dps": 1167,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800391",
+     "rcept_no": "20261029800391",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-07",
+     "dps": 1155,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800477",
+     "rcept_no": "20260723800477",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 1605,
+     "pay_date": null,
+     "source": "https://www.smarttoday.co.kr/ko-kr/articles/102859"
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -0.48,
+    "avg_runup_pct": 25.17,
+    "avg_runup_days": 32.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 170700.0,
+     "ex_close": 171500.0,
+     "ex_day_pct": 0.47,
+     "theory_pct": -0.68,
+     "excess_pct": 1.15,
+     "runup_days": 28,
+     "runup_pct": 14.33,
+     "runup_start": "2026-06-26",
+     "pre5_pct": 6.62,
+     "recover_days": 1,
+     "low_close": 149300.0,
+     "ex_date": "2026-08-06"
+    },
+    {
+     "pre_close": 167700.0,
+     "ex_close": 165300.0,
+     "ex_day_pct": -1.43,
+     "theory_pct": -0.96,
+     "excess_pct": -0.47,
+     "runup_days": 36,
+     "runup_pct": 36.01,
+     "runup_start": "2026-01-02",
+     "pre5_pct": -0.12,
+     "recover_days": null,
+     "low_close": 123300.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "033780",
+   "name": "KT&G",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-21",
+   "ex_date": "2026-11-19",
+   "last_buy_date": "2026-11-18",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026년 분기배당 도입: 2Q 기준일 8/21(2,000원). 결산 2/27. 1·3Q는 추정.",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-21",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806800319",
+     "rcept_no": "20260806800319",
+     "disclosed": "20260806",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 2,
+    "avg_ex_day_pct": -3.8,
+    "avg_runup_pct": 16.51,
+    "avg_runup_days": 35.0,
+    "avg_recover_days": 27.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 175500.0,
+     "ex_close": 171900.0,
+     "ex_day_pct": -2.05,
+     "theory_pct": -1.14,
+     "excess_pct": -0.91,
+     "runup_days": 34,
+     "runup_pct": 5.03,
+     "runup_start": "2026-07-01",
+     "pre5_pct": -2.45,
+     "recover_days": 6,
+     "low_close": 167100.0,
+     "ex_date": "2026-08-20"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 169700.0,
+     "ex_day_pct": -5.56,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 27.99,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 3.39,
+     "recover_days": 48,
+     "low_close": 140400.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-24",
+   "ex_date": "2026-11-23",
+   "last_buy_date": "2026-11-20",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-24",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
+     "rcept_no": "20260807800561",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 2000,
+     "pay_date": "2026-06-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
+     "rcept_no": "20260512800729",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 2500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
+     "rcept_no": "20260203801053",
+     "disclosed": "20260203",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.15,
+    "avg_runup_pct": 20.67,
+    "avg_runup_days": 22.5,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 321500.0,
+     "ex_close": 310000.0,
+     "ex_day_pct": -3.58,
+     "theory_pct": -0.62,
+     "excess_pct": -2.95,
+     "runup_days": 16,
+     "runup_pct": 11.44,
+     "runup_start": "2026-07-29",
+     "pre5_pct": -1.08,
+     "recover_days": 1,
+     "low_close": 288500.0,
+     "ex_date": "2026-08-21"
+    },
+    {
+     "pre_close": 305000.0,
+     "ex_close": 333000.0,
+     "ex_day_pct": 9.18,
+     "theory_pct": -0.23,
+     "excess_pct": 9.41,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -14.45,
+     "recover_days": 1,
+     "low_close": 305000.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 447500.0,
+     "ex_close": 442000.0,
+     "ex_day_pct": -1.23,
+     "theory_pct": -0.45,
+     "excess_pct": -0.78,
+     "runup_days": 37,
+     "runup_pct": 34.59,
+     "runup_start": "2026-03-31",
+     "pre5_pct": -4.28,
+     "recover_days": null,
+     "low_close": 332500.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 406500.0,
+     "ex_close": 407500.0,
+     "ex_day_pct": 0.25,
+     "theory_pct": -0.62,
+     "excess_pct": 0.86,
+     "runup_days": 36,
+     "runup_pct": 36.64,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 8.26,
+     "recover_days": 1,
+     "low_close": 297500.0,
+     "ex_date": "2026-02-26"
+    }
+   ]
+  },
+  {
+   "code": "000660",
+   "name": "SK하이닉스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-30",
+   "ex_date": "2026-11-27",
+   "last_buy_date": "2026-11-26",
+   "status": "확정",
+   "dps": 20000,
+   "pay_date": null,
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31(375원), 3Q 11/30(20,000원). 결산 기준일 2월 말.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 20000,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028800045",
+     "rcept_no": "20261028800045",
+     "disclosed": "20261028",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800589",
+     "rcept_no": "20260807800589",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-3Q",
+     "record_date": "2025-11-30",
+     "dps": 375,
+     "pay_date": null,
+     "source": "https://dealsite.co.kr/articles/150403"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 2.65,
+    "avg_runup_pct": 41.75,
+    "avg_runup_days": 26.25,
+    "avg_recover_days": 2.25
+   },
+   "ex_history": [
+    {
+     "pre_close": 1730000.0,
+     "ex_close": 1653000.0,
+     "ex_day_pct": -4.45,
+     "theory_pct": -0.02,
+     "excess_pct": -4.43,
+     "runup_days": 20,
+     "runup_pct": 30.86,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.31,
+     "recover_days": 6,
+     "low_close": 1322000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 1018000.0,
+     "ex_close": 1099000.0,
+     "ex_day_pct": 7.96,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 41,
+     "runup_pct": 74.32,
+     "runup_start": "2025-12-23",
+     "pre5_pct": 15.68,
+     "recover_days": 1,
+     "low_close": 584000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 524000.0,
+     "ex_close": 544000.0,
+     "ex_day_pct": 3.82,
+     "theory_pct": -0.07,
+     "excess_pct": 3.89,
+     "runup_days": 39,
+     "runup_pct": 55.72,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -6.76,
+     "recover_days": 1,
+     "low_close": 336500.0,
+     "ex_date": "2025-11-27"
+    },
+    {
+     "pre_close": 260000.0,
+     "ex_close": 268500.0,
+     "ex_day_pct": 3.27,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 5,
+     "runup_pct": 6.12,
+     "runup_start": "2025-08-21",
+     "pre5_pct": 1.76,
+     "recover_days": 1,
+     "low_close": 245000.0,
+     "ex_date": "2025-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005380",
+   "name": "현대차",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-30",
+   "ex_date": "2026-11-27",
+   "last_buy_date": "2026-11-26",
+   "status": "확정",
+   "dps": 2500,
+   "pay_date": "2026-12-30",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800269",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "배당절차 개선 채택: 분기 실적 확정 후 2·5·8·11월 말을 기준일로 설정. 분기당 2,500원(연 최소 1만원 정책, 2025~2027 TSR 35%).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2500,
+     "pay_date": "2026-12-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800269",
+     "rcept_no": "20261029800269",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 2500,
+     "pay_date": "2026-09-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800323",
+     "rcept_no": "20260723800323",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-31",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260423800359",
+     "rcept_no": "20260423800359",
+     "disclosed": "20260423",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-29",
+     "dps": 2500,
+     "pay_date": "2026-06-30",
+     "source": "https://www.knowingasset.com/app/calendar/7068"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.56,
+    "avg_runup_pct": 47.04,
+    "avg_runup_days": 34.25,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 398000.0,
+     "ex_close": 399500.0,
+     "ex_day_pct": 0.38,
+     "theory_pct": -0.63,
+     "excess_pct": 1.01,
+     "runup_days": 20,
+     "runup_pct": 13.39,
+     "runup_start": "2026-07-30",
+     "pre5_pct": -4.67,
+     "recover_days": 1,
+     "low_close": 351000.0,
+     "ex_date": "2026-08-28"
+    },
+    {
+     "pre_close": 681000.0,
+     "ex_close": 677000.0,
+     "ex_day_pct": -0.59,
+     "theory_pct": -0.37,
+     "excess_pct": -0.22,
+     "runup_days": 39,
+     "runup_pct": 52.86,
+     "runup_start": "2026-03-31",
+     "pre5_pct": 12.75,
+     "recover_days": 1,
+     "low_close": 445500.0,
+     "ex_date": "2026-05-28"
+    },
+    {
+     "pre_close": 572000.0,
+     "ex_close": 609000.0,
+     "ex_day_pct": 6.47,
+     "theory_pct": -0.44,
+     "excess_pct": 6.91,
+     "runup_days": 39,
+     "runup_pct": 100.0,
+     "runup_start": "2025-12-26",
+     "pre5_pct": 14.63,
+     "recover_days": 1,
+     "low_close": 286000.0,
+     "ex_date": "2026-02-26"
+    },
+    {
+     "pre_close": 261500.0,
+     "ex_close": 261500.0,
+     "ex_day_pct": 0.0,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 39,
+     "runup_pct": 21.91,
+     "runup_start": "2025-09-26",
+     "pre5_pct": -0.95,
+     "recover_days": 1,
+     "low_close": 214500.0,
+     "ex_date": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "code": "017670",
+   "name": "SK텔레콤",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-30",
+   "ex_date": "2026-11-27",
+   "last_buy_date": "2026-11-26",
+   "status": "확정",
+   "dps": 830,
+   "pay_date": "2026-12-17",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800802",
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "2026 공시: 2Q 기준일 8/31, 3Q 11/30(각 830원) — 2·5·8·11월 말 패턴 확인.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 830,
+     "pay_date": "2026-12-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800802",
+     "rcept_no": "20261029800802",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-31",
+     "dps": 830,
+     "pay_date": "2026-09-17",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800522",
+     "rcept_no": "20260723800522",
+     "disclosed": "20260723",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.5,
+    "avg_runup_pct": 26.73,
+    "avg_runup_days": 20.0,
+    "avg_recover_days": 0.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 99100.0,
+     "ex_close": 98600.0,
+     "ex_day_pct": -0.5,
+     "theory_pct": -0.84,
+     "excess_pct": 0.33,
+     "runup_days": 20,
+     "runup_pct": 26.73,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 2.59,
+     "recover_days": null,
+     "low_close": 78200.0,
+     "ex_date": "2026-08-28"
+    }
+   ]
+  },
+  {
+   "code": "005930",
+   "name": "삼성전자",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-결산",
+   "record_date": "2026-12-31",
+   "ex_date": "2026-12-29",
+   "last_buy_date": "2026-12-28",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "자본시장법상 분기배당 기준일(3·6·9월 말) + 결산 12/31. 2026-3Q는 영업이익 급증으로 4,601원 특별 수준.",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-03-31",
+     "dps": 372,
+     "pay_date": "2026-05-29",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -0.69,
+    "avg_runup_pct": 31.82,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 1.67
+   },
+   "ex_history": [
+    {
+     "pre_close": 270000.0,
+     "ex_close": 275000.0,
+     "ex_day_pct": 1.85,
+     "theory_pct": -1.7,
+     "excess_pct": 3.56,
+     "runup_days": 40,
+     "runup_pct": 30.43,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 5.47,
+     "recover_days": 2,
+     "low_close": 207000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 339500.0,
+     "ex_close": 323000.0,
+     "ex_day_pct": -4.86,
+     "theory_pct": -0.11,
+     "excess_pct": -4.75,
+     "runup_days": 38,
+     "runup_pct": 53.97,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -4.1,
+     "recover_days": null,
+     "low_close": 220500.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 179700.0,
+     "ex_close": 176300.0,
+     "ex_day_pct": -1.89,
+     "theory_pct": -0.21,
+     "excess_pct": -1.69,
+     "runup_days": 36,
+     "runup_pct": 19.48,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.88,
+     "recover_days": 2,
+     "low_close": 150400.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 117000.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": 2.14,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 23.42,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 8.74,
+     "recover_days": 1,
+     "low_close": 94800.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "005935",
+   "name": "삼성전자우",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-결산",
+   "record_date": "2026-12-31",
+   "ex_date": "2026-12-29",
+   "last_buy_date": "2026-12-28",
+   "status": "예상",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "A",
+   "note": "보통주와 동일 일정·동일 배당금(2026-3Q 4,601원).",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-09-30",
+     "dps": 4601,
+     "pay_date": "2026-11-27",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261029800101",
+     "rcept_no": "20261029800101",
+     "disclosed": "20261029",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-06-30",
+     "dps": 374,
+     "pay_date": "2026-08-28",
+     "source": "https://tools.devcomma.com/calculators/samsung-electronics-dividend"
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": -1.84,
+    "avg_runup_pct": 28.1,
+    "avg_runup_days": 34.75,
+    "avg_recover_days": 21.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 205500.0,
+     "ex_close": 205000.0,
+     "ex_day_pct": -0.24,
+     "theory_pct": -2.24,
+     "excess_pct": 2.0,
+     "runup_days": 40,
+     "runup_pct": 36.09,
+     "runup_start": "2026-07-30",
+     "pre5_pct": 4.79,
+     "recover_days": null,
+     "low_close": 151000.0,
+     "ex_date": "2026-09-29"
+    },
+    {
+     "pre_close": 220500.0,
+     "ex_close": 210500.0,
+     "ex_day_pct": -4.54,
+     "theory_pct": -0.17,
+     "excess_pct": -4.37,
+     "runup_days": 38,
+     "runup_pct": 39.29,
+     "runup_start": "2026-04-30",
+     "pre5_pct": -0.68,
+     "recover_days": 60,
+     "low_close": 158300.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 126200.0,
+     "ex_close": 121100.0,
+     "ex_day_pct": -4.04,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 36,
+     "runup_pct": 14.62,
+     "runup_start": "2026-02-02",
+     "pre5_pct": -9.34,
+     "recover_days": 2,
+     "low_close": 110100.0,
+     "ex_date": "2026-03-30"
+    },
+    {
+     "pre_close": 88500.0,
+     "ex_close": 89800.0,
+     "ex_day_pct": 1.47,
+     "theory_pct": null,
+     "excess_pct": null,
+     "runup_days": 25,
+     "runup_pct": 22.41,
+     "runup_start": "2025-11-21",
+     "pre5_pct": 7.01,
+     "recover_days": 1,
+     "low_close": 72300.0,
+     "ex_date": "2025-12-29"
+    }
+   ]
+  },
+  {
+   "code": "138040",
+   "name": "메리츠금융지주",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-결산",
+   "record_date": "2026-12-31",
+   "ex_date": "2026-12-29",
+   "last_buy_date": "2026-12-28",
+   "status": "예상(불확실)",
+   "dps": null,
+   "pay_date": null,
+   "source": null,
+   "holiday_official": true,
+   "confidence": "C",
+   "note": "분기배당. 금액 DART 자동 갱신 대기.",
+   "ref_dividends": [],
+   "ex_stats": {
+    "n": 1,
+    "avg_ex_day_pct": -0.67,
+    "avg_runup_pct": 19.58,
+    "avg_runup_days": 26.0,
+    "avg_recover_days": 1.0
+   },
+   "ex_history": [
+    {
+     "pre_close": 120300.0,
+     "ex_close": 119500.0,
+     "ex_day_pct": -0.67,
+     "theory_pct": -1.98,
+     "excess_pct": 1.31,
+     "runup_days": 26,
+     "runup_pct": 19.58,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -4.22,
+     "recover_days": 1,
+     "low_close": 100600.0,
+     "ex_date": "2026-08-04"
+    }
+   ]
+  },
   {
    "code": "055550",
    "name": "신한지주",
