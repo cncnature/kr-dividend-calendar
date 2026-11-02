@@ -93,6 +93,9 @@ def period_from(record: str, kind: str | None) -> str:
     y, m = int(record[:4]), int(record[5:7])
     if kind and "결산" in kind:
         return f"{y - 1 if m <= 6 else y}-결산"
+    # 배당절차 개선 이후 1~3월 기준일은 사실상 전년 결산배당(3/31 말일은 분기배당 1Q)
+    if m <= 3 and not (m == 3 and record.endswith("-31")):
+        return f"{y - 1}-결산"
     q = {1: "결산", 2: "결산", 3: "1Q", 4: "1Q", 5: "1Q", 6: "2Q", 7: "2Q", 8: "2Q", 9: "3Q", 10: "3Q", 11: "3Q", 12: "결산"}[m]
     return f"{y - 1 if q == '결산' and m <= 2 else y}-{q}"
 
