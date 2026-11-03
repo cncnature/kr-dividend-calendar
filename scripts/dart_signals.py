@@ -53,7 +53,10 @@ def list_all(bgn: str, end: str, pblntf_ty: str | None = None, detail: str | Non
                 q["pblntf_detail_ty"] = detail
             data = json.loads(_get(LIST_URL + urllib.parse.urlencode(q)))
             if data.get("status") != "000":
+                print(f"list_all {corp_cls} {detail} p{page}: status={data.get('status')} {data.get('message')}")
                 break
+            if page == 1:
+                print(f"list_all {corp_cls} {detail}: total={data.get('total_count')} pages={data.get('total_page')}")
             out.extend(data.get("list", []))
             if page >= int(data.get("total_page", 1)):
                 break
