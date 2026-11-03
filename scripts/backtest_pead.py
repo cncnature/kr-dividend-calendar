@@ -80,7 +80,7 @@ def parse_contract(txt: str) -> dict:
 
 
 def parse_many(items, cache):
-    todo = [(rn, k) for rn, k in items if rn not in cache]
+    todo = [(rn, k) for rn, k in items if rn not in cache or (k == "earn" and "영업이익" not in cache[rn])]  # 파서 개선 시 실패건 재파싱
     log(f"원문 파싱 {len(items)}건 중 신규 {len(todo)}건")
 
     def work(rn, k):
