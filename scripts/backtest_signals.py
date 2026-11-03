@@ -27,7 +27,48 @@ from update_prices import fetch_daily  # noqa: E402
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DAYS = int(os.environ.get("BT_DAYS", "730"))
 MAX_DOCS = int(os.environ.get("BT_MAX_DOCS", "2500"))
+WORKERS = int(os.environ.get("BT_WORKERS", "6"))
+BUDGET = int(os.environ.get("BT_TIME_BUDGET", str(140 * 60)))  # 원문 파싱에 쓸 최대 초
 HOLD = (5, 20)
+CACHE = os.path.join(ROOT, "data", "signals_cache.json")  # rcept_no → 파싱 결과 (재실행 시 재사용)
+T0 = time.time()
+
+
+def log(*a):
+    print(f"[{(time.time() - T0) / 60:5.1f}m]", *a, flush=True)
+
+
+def parse_many(items: list[tuple[str, str]], cache: dict) -> dict:
+    """items: [(rcept_no, kind)] kind ∈ buyback|insider. 캐시에 없는 건만 병렬 다운로드·파싱."""
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    todo = [(rn, k) for rn, k in items if rn not in cache]
+    log(f"원문 파싱 대상 {len(items)}건 중 캐시 {len(items) - len(todo)}건, 신규 {len(todo)}건")
+
+    def work(rn, k):
+        txt = S.doc_text(rn)
+        return rn, (S.parse_buyback(txt) if k == "buyback" else S.parse_insider(txt))
+
+    done = 0
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        futs = {ex.submit(work, rn, k): rn for rn, k in todo}
+        for f in as_completed(futs):
+            rn = futs[f]
+            try:
+                _, p = f.result()
+                cache[rn] = p
+            except Exception as exc:  # noqa: BLE001
+                cache[rn] = {"err": str(exc)[:60]}
+            done += 1
+            if done % 200 == 0:
+                log(f"  파싱 {done}/{len(todo)}")
+                json.dump(cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False)
+            if time.time() - T0 > BUDGET:
+                log("시간 예산 초과 → 남은 건은 다음 실행에서 파싱")
+                for g in futs:
+                    g.cancel()
+                break
+    json.dump(cache, open(CACHE, "w", encoding="utf-8"), ensure_ascii=False)
+    return cache
 
 
 def ret_after(series, t0: dt.date, hold: int):
@@ -50,7 +91,7 @@ def main():
     end = dt.date.today()
     bgn = end - dt.timedelta(days=DAYS)
     b, e = bgn.strftime("%Y%m%d"), end.strftime("%Y%m%d")
-    print(f"기간 {b}~{e}")
+    log(f"기간 {b}~{e}")
 
     events = []  # {signal, sub, code, name, date, extra}
     # 1) 주요사항보고서(B001): 자사주·유증·CB·BW·EB
@@ -63,48 +104,51 @@ def main():
         c = S.classify(x["report_nm"])
         if c and c[0] == "RISK" and x.get("stock_code"):
             events.append({"signal": "RISK", "sub": c[1], "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"]})
-    print("B001/I001 이벤트:", len(events))
+    log("B001/I001 이벤트:", len(events), {s: sum(1 for x in events if x["signal"] == s) for s in ("BUYBACK", "CANCEL", "RISK")})
+    cache = json.load(open(CACHE, encoding="utf-8")) if os.path.exists(CACHE) else {}
     # 3) 자사주 원문 파싱(소각 목적·규모)
-    n_doc = 0
+    parse_many([(ev["rcept_no"], "buyback") for ev in events if ev["signal"] == "BUYBACK"], cache)
     for ev in events:
         if ev["signal"] == "BUYBACK":
-            try:
-                ev["extra"] = S.parse_buyback(S.doc_text(ev["rcept_no"]))
-                n_doc += 1
-                time.sleep(0.1)
-            except Exception as exc:  # noqa: BLE001
-                ev["extra"] = {"err": str(exc)[:60]}
+            ev["extra"] = cache.get(ev["rcept_no"], {})
     # 4) 내부자 보고서(D002): 최근부터 MAX_DOCS건 원문 파싱 (API 한도 때문에 상한)
-    ins = S.list_all(b, e, detail="D002")
+    ins = [x for x in S.list_all(b, e, detail="D002") if x.get("stock_code")]
     ins.sort(key=lambda x: x["rcept_dt"], reverse=True)
-    ins_cov_from = None
-    for x in ins[:MAX_DOCS]:
-        if not x.get("stock_code"):
+    log("D002 보고서:", len(ins))
+    ins = ins[:MAX_DOCS]
+    parse_many([(x["rcept_no"], "insider") for x in ins], cache)
+    ins_cov_from, n_ok, n_err = None, 0, 0
+    for x in ins:
+        p = cache.get(x["rcept_no"])
+        if not p or "err" in p:
+            n_err += 1
             continue
-        try:
-            p = S.parse_insider(S.doc_text(x["rcept_no"]))
-            n_doc += 1
-            time.sleep(0.1)
-        except Exception:  # noqa: BLE001
-            continue
+        n_ok += 1
         ins_cov_from = x["rcept_dt"]
         if S.insider_ok(p):
             events.append({"signal": "INSIDER", "sub": "장내매수", "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"], "extra": p})
-    print("원문 파싱:", n_doc, "/ 내부자 커버리지 시작일:", ins_cov_from, "/ 총 이벤트:", len(events))
+    n_buy = sum(1 for x in events if x["signal"] == "INSIDER")
+    log(f"내부자 파싱 성공 {n_ok} / 실패 {n_err} / 장내매수 조건충족 {n_buy} / 커버리지 시작일 {ins_cov_from} / 총 이벤트 {len(events)}")
+    # 파서 점검: 장내매수 금액이 0이 아닌 건 비율 (너무 낮으면 정규식 점검 필요)
+    nz = sum(1 for x in ins if (cache.get(x["rcept_no"]) or {}).get("buy_amount", 0) > 0)
+    log(f"파서 점검: 장내매수 금액 추출 {nz}/{n_ok}건, 자사주 금액 추출 {sum(1 for x in events if x['signal']=='BUYBACK' and x['extra'].get('amount'))}/{sum(1 for x in events if x['signal']=='BUYBACK')}건")
 
     # 5) 가격·시장수익률
     mkt = fetch_daily("069500", count=DAYS + 60)
-    cache: dict[str, list] = {}
+    codes = sorted({ev["code"] for ev in events})
+    log(f"주가 조회 종목 {len(codes)}개")
+    from concurrent.futures import ThreadPoolExecutor
+    def _fd(c):
+        try:
+            return c, fetch_daily(c, count=DAYS + 60)
+        except Exception:  # noqa: BLE001
+            return c, []
+    with ThreadPoolExecutor(max_workers=WORKERS) as ex:
+        prices = dict(ex.map(_fd, codes))
     missing = 0
     for ev in events:
         t0 = dt.datetime.strptime(ev["date"], "%Y%m%d").date()
-        if ev["code"] not in cache:
-            try:
-                cache[ev["code"]] = fetch_daily(ev["code"], count=DAYS + 60)
-                time.sleep(0.2)
-            except Exception:  # noqa: BLE001
-                cache[ev["code"]] = []
-        s = cache[ev["code"]]
+        s = prices.get(ev["code"]) or []
         if not s:
             missing += 1
             continue
@@ -161,7 +205,7 @@ def main():
         f = lambda x, key: "-" if not x else x[key]
         L.append(f"| {k} | {f(c or a,'n')} | {f(a,'mean')} | {f(a,'median')} | {f(a,'win')}% | {f(c,'mean')} | {f(c,'median')} | {f(c,'win')}% | {f(c,'mean_net')} |")
     open(os.path.join(ROOT, "data", "backtest_report.md"), "w", encoding="utf-8").write("\n".join(L) + "\n")
-    print("\n".join(L))
+    log("완료"); print("\n".join(L), flush=True)
 
     # 8) 텔레그램 요약
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
