@@ -1,0 +1,45 @@
+name: 관세청 수출 추세
+
+on:
+  schedule:
+    - cron: "30 0 13-25 * *"   # 매월 13~25일 09:30 KST (관세청이 전월분을 ~15일경 반영 → 새 달 데이터가 생긴 날 1회만 알림)
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: "1이면 국가코드 전체조회 가능 여부만 시험"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dividend-update
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      EXPORT_PROBE: ${{ github.event.inputs.probe }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/update_exports.py
+      - name: 결과 커밋
+        if: github.event.inputs.probe == ''
+        run: |
+          cp data/exports.json site/exports.json 2>/dev/null || true
+          git config user.name "dividend-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for f in data/exports.json site/exports.json; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if git diff --cached --quiet; then echo "변경 없음"; else
+            git commit -m "chore: 수출 추세 갱신 $(date -u +%F)" && git pull --rebase origin main && git push
+          fi
