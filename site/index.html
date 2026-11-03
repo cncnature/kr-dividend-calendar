@@ -34,6 +34,14 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
 .tabs{display:flex;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:3px}
 .tabs button{border:0;background:transparent;color:var(--mute);padding:6px 12px;border-radius:6px;font:inherit;font-weight:600;cursor:pointer}
 .tabs button[aria-selected="true"]{background:var(--accent);color:#fff}
+.months-tabs button{padding:6px 9px;min-width:34px}
+.months-tabs button.has::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--ex);margin-left:3px;vertical-align:2px}
+.months-tabs button[aria-selected="true"].has::after{background:#fff}
+.months.single{grid-template-columns:minmax(0,1fr)}
+.months.single .day{min-height:84px;font-size:12px}
+.months.single .chip{font-size:12px;line-height:1.7}
+.months.single .day .n{font-size:12px}
+.months.single .day .n .h{font-size:10px}
 select,input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink)}
 .legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12px;color:var(--mute)}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
@@ -60,6 +68,7 @@ select,input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-r
 .chip:focus-visible{outline:2px solid var(--accent)}
 .chip.more{background:transparent;color:var(--mute);font-size:10px}
 .panel{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;gap:12px}
+.panel[hidden]{display:none}
 .panel h3{margin:0;font-size:17px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .kv{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
 .kv div{border-left:3px solid var(--line);padding:2px 10px}
@@ -96,6 +105,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
   </header>
   <div class="toolbar">
     <div class="tabs" id="years" role="tablist"></div>
+    <div class="tabs months-tabs" id="mtabs" role="tablist"></div>
     <select id="stock"><option value="">전체 종목</option></select>
     <label><input type="checkbox" id="onlyA" checked> 패턴 불확실(C) 종목 숨기기</label>
     <span class="badge" id="holbadge"></span>
@@ -136,11 +146,13 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
   el('gen').textContent = '데이터 생성 ' + DATA.generated_at.slice(0,16).replace('T',' ') + ' KST';
   let year = DATA.years.includes(today.getFullYear()) ? today.getFullYear() : DATA.years[0]; // 접속 시 항상 올해부터
   let stockFilter = ''; let hideC = true; let selected = null;
+  let month = year===today.getFullYear() ? today.getMonth()+1 : 1; // 1~12, 0=연간 전체
   try { const s = JSON.parse(localStorage.getItem('divcal')||'{}');  if (s.stock!==undefined) stockFilter = s.stock; if (s.hideC!==undefined) hideC = s.hideC; } catch(e){}
   el('onlyA').checked = hideC;
-  const save = () => { try { localStorage.setItem('divcal', JSON.stringify({year, stock:stockFilter, hideC})); } catch(e){} };
+  const save = () => { try { localStorage.setItem('divcal', JSON.stringify({year, month, stock:stockFilter, hideC})); } catch(e){} };
 
-  DATA.years.forEach(y => { const b = document.createElement('button'); b.textContent = y; b.setAttribute('role','tab'); b.onclick = () => { year = y; save(); render(); }; el('years').appendChild(b); });
+  DATA.years.forEach(y => { const b = document.createElement('button'); b.textContent = y; b.setAttribute('role','tab'); b.onclick = () => { year = y; month = y===today.getFullYear() ? today.getMonth()+1 : 1; save(); render(); }; el('years').appendChild(b); });
+  [0,1,2,3,4,5,6,7,8,9,10,11,12].forEach(m => { const b = document.createElement('button'); b.textContent = m===0 ? '연간' : m+'월'; b.dataset.m = m; b.setAttribute('role','tab'); b.onclick = () => { month = m; save(); render(); }; el('mtabs').appendChild(b); });
   DATA.stocks.forEach(s => { const o = document.createElement('option'); o.value = s.code; o.textContent = `${s.name} (${s.freq}, ${s.confidence})`; el('stock').appendChild(o); });
   el('stock').value = stockFilter;
   el('stock').onchange = e => { stockFilter = e.target.value; save(); render(); };
@@ -166,8 +178,12 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
       });
     });
     const dows = ['월','화','수','목','금','토','일'];
+    [...el('mtabs').children].forEach(b => { const m=+b.dataset.m; b.setAttribute('aria-selected', String(m===month));
+      b.classList.toggle('has', m>0 && Object.keys(byDay).some(d => d.startsWith(`${year}-${String(m).padStart(2,'0')}`) && byDay[d].some(x=>x.cls==='ex'))); });
+    el('months').classList.toggle('single', month>0);
     let html = '';
     for (let m=1; m<=12; m++){
+      if (month && m!==month) continue;
       const first = new Date(Date.UTC(year, m-1, 1)); const days = new Date(Date.UTC(year, m, 0)).getUTCDate();
       let offset = (first.getUTCDay()+6)%7;
       const exCount = Object.keys(byDay).filter(d => d.startsWith(`${year}-${String(m).padStart(2,'0')}`)).reduce((n,d)=>n+byDay[d].filter(x=>x.cls==='ex').length,0);
@@ -177,10 +193,11 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
         const iso = `${year}-${String(m).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
         const dow = (offset + d - 1) % 7; const we = dow>=5; const hol = hols[iso];
         const items = (byDay[iso]||[]).sort((a,b)=> ({ex:0,buy:1,rec:2})[a.cls]-({ex:0,buy:1,rec:2})[b.cls]);
-        const shown = items.slice(0,3);
+        const maxChips = month ? 5 : 3;
+        const shown = items.slice(0,maxChips);
         html += `<div class="day${we?' we':''}${hol?' hol':''}${iso===tISO?' today':''}"><div class="n"><span>${d}</span>${hol?`<span class="h" title="${hol}">${hol}</span>`:''}</div>`;
         html += shown.map(x => `<button class="chip ${x.cls}" data-id="${x.e.code}|${x.e.record_date}" title="${x.e.name} ${x.label} (${x.e.status})">${x.label==='배당락'?'▼':x.label==='매수마감'?'🛒':'📋'} ${x.e.name}</button>`).join('');
-        if (items.length>3) html += `<button class="chip more" data-day="${iso}">+${items.length-3}건 더</button>`;
+        if (items.length>maxChips) html += `<button class="chip more" data-day="${iso}">+${items.length-maxChips}건 더</button>`;
         html += '</div>';
       }
       html += '</div></div>';
@@ -190,13 +207,13 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
     el('months').querySelectorAll('.chip[data-day]').forEach(b => b.onclick = () => showDay(b.dataset.day));
     renderUpcoming();
     if (selected) showDetail(selected, false);
-    else if (year===today.getFullYear() && !render.scrolled){ render.scrolled=true; const cur=el(`m-${year}-${today.getMonth()+1}`); if (cur) cur.scrollIntoView({block:'start'}); }
+    else if (!month && year===today.getFullYear() && !render.scrolled){ render.scrolled=true; const cur=el(`m-${year}-${today.getMonth()+1}`); if (cur) cur.scrollIntoView({block:'start'}); }
   }
 
   function renderUpcoming(){
     const list = visible().filter(e => e.last_buy_date >= tISO).sort((a,b)=>a.last_buy_date.localeCompare(b.last_buy_date)).slice(0,20);
     el('upcoming').innerHTML = list.map(e => `<button data-id="${e.code}|${e.record_date}"><span class="d">${e.last_buy_date}</span><span>${e.name} <span class="sub">${e.period}</span> · 매수마감 ${fmt(e.last_buy_date)} → 배당락 ${fmt(e.ex_date)} · ${e.ref_dividends[0]?'직전 '+won(e.ref_dividends[0].dps):'배당액 미공시'}</span>${badge(e.status)}</button>`).join('') || '<p class="note">표시할 일정이 없습니다.</p>';
-    el('upcoming').querySelectorAll('button').forEach(b => b.onclick = () => { showDetail(b.dataset.id); el('detail').scrollIntoView({behavior:'smooth'}); });
+    el('upcoming').querySelectorAll('button').forEach(b => b.onclick = () => { const e = DATA.events.find(x => `${x.code}|${x.record_date}`===b.dataset.id); if (e && month){ const [y,m]=e.ex_date.split('-').map(Number); if (y!==year||m!==month){ year=y; month=m; selected=b.dataset.id; save(); render(); } } showDetail(b.dataset.id); el('detail').scrollIntoView({behavior:'smooth'}); });
   }
 
   function showDay(iso){
