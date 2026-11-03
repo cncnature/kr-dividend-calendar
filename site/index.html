@@ -134,7 +134,8 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
 
   const today = new Date(); const tISO = today.toISOString().slice(0,10);
   el('gen').textContent = '데이터 생성 ' + DATA.generated_at.slice(0,16).replace('T',' ') + ' KST';
-  let year = DATA.years.includes(today.getFullYear()) ? today.getFullYear() : DATA.years[0]; // 접속 시 항상 올해부터 let stockFilter = ''; let hideC = true; let selected = null;
+  let year = DATA.years.includes(today.getFullYear()) ? today.getFullYear() : DATA.years[0]; // 접속 시 항상 올해부터
+  let stockFilter = ''; let hideC = true; let selected = null;
   try { const s = JSON.parse(localStorage.getItem('divcal')||'{}');  if (s.stock!==undefined) stockFilter = s.stock; if (s.hideC!==undefined) hideC = s.hideC; } catch(e){}
   el('onlyA').checked = hideC;
   const save = () => { try { localStorage.setItem('divcal', JSON.stringify({year, stock:stockFilter, hideC})); } catch(e){} };
