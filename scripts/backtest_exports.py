@@ -217,12 +217,13 @@ def main():
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if tok and chat:
         from notify_telegram import send
+        esc = lambda t: t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         lines = [f"<b>수출 추세 백테스트</b> ({months[0]}~{months[-1]}, 공개 후 진입, KODEX200 대비)"]
         for k in ("전체", "YoY>0 & 가속", "YoY>0 & 둔화", "YoY≤0 & 둔화", "3개월+ 연속 증가 & 가속", "YoY>+20%", "YoY<-20%"):
             g = groups.get(k)
             if g:
                 a, b = g.get("h20") or {}, g.get("h60") or {}
-                lines.append(f"• {k}: n={a.get('n')} | 1개월 {a.get('mean')}% (승률 {a.get('win')}%, t={a.get('t')}) | 3개월 {b.get('mean')}% (승률 {b.get('win')}%, t={b.get('t')})")
+                lines.append(f"• {esc(k)}: n={a.get('n')} | 1개월 {a.get('mean')}% (승률 {a.get('win')}%, t={a.get('t')}) | 3개월 {b.get('mean')}% (승률 {b.get('win')}%, t={b.get('t')})")
         lines.append("|t|≥2 이고 승률이 55% 이상인 버킷만 신호로 채택. 상세: data/backtest_exports.md")
         send("\n".join(lines))
 
