@@ -77,7 +77,7 @@ def main():
             time.sleep(0.1)
         except Exception:  # noqa: BLE001
             continue
-        if S.insider_ok(p):
+        if S.insider_ok(p, min_amount=3e8):
             who = p["title"] or p["relation"] or ("최대주주" if p["is_major"] else "임원")
             buy.append(f"🟢 <b>{x['corp_name']}</b> 내부자 장내매수 — {who}{' (최대주주)' if p['is_major'] and '최대주주' not in who else ''} {p['buy_amount']/1e8:,.1f}억{stat('INSIDER/최대주주' if p['is_major'] else 'INSIDER')}\n<a href='https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rn}'>공시</a>")
 
@@ -93,7 +93,7 @@ def main():
         blocks.append("🚨 <b>보유/관심 종목 위험 공시</b>\n" + "\n".join(risk_w))
     if risk_o:
         blocks.append(f"⚠️ 기타 위험 공시 {len(risk_o)}건\n" + "\n".join(risk_o[:8]) + ("\n…" if len(risk_o) > 8 else ""))
-    msg = f"<b>DART 시그널 {now.strftime('%m/%d %H:%M')}</b>\n\n" + "\n\n".join(blocks) + "\n\n통계는 과거 실적, 투자 판단은 본인 책임"
+    msg = f"<b>DART 시그널 {now.strftime('%m/%d %H:%M')}</b>\n\n" + "\n\n".join(blocks) + "\n\n매수 후보는 백테스트상 우위가 약함(참고용). 위험 공시는 20일 승률 33~40%로 회피 근거 뚜렷. 투자 판단은 본인 책임"
     tok, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
     if tok and chat:
         from notify_telegram import send
