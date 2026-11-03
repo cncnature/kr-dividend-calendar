@@ -130,14 +130,14 @@ def main():
     def yoy(s, m):
         y, mm = m.split(".")
         pm = f"{int(y) - 1}.{mm}"
-        return (s[m] / s[pm] - 1) * 100 if s.get(pm) else None
+        return (s[m] / s[pm] - 1) * 100 if s.get(pm) and s.get(m) else None
 
     def mom(s, m):
         i = months_all.index(m)
         if i == 0:
             return None
         pm = months_all[i - 1]
-        return (s[m] / s[pm] - 1) * 100 if s.get(pm) else None
+        return (s[m] / s[pm] - 1) * 100 if s.get(pm) and s.get(m) else None
 
     rows = []
     for it in items:
