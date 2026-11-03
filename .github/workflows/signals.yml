@@ -38,6 +38,11 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           BT_TIME_BUDGET: "9000"
+      - name: 파서 점검(수동)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'debug'
+        run: python scripts/debug_docs.py
+        env:
+          PYTHONUNBUFFERED: "1"
       - name: 신규 공시 시그널 알림
         if: github.event.schedule != '0 21 * * 6' && (github.event_name != 'workflow_dispatch' || github.event.inputs.job == 'signals')
         run: python scripts/signals_daily.py
