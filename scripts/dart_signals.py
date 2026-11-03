@@ -43,10 +43,20 @@ def _get(url: str, retry: int = 3) -> bytes:
 def list_all(bgn: str, end: str, pblntf_ty: str | None = None, detail: str | None = None, max_pages: int = 400) -> list[dict]:
     """시장 전체 공시 목록 (법인 지정 없이). 유가·코스닥만."""
     out = []
+    # corp_code 없이 조회하면 검색기간 3개월 제한 → 80일 단위로 분할
+    import datetime as _dt
+    b0, e0 = _dt.datetime.strptime(bgn, "%Y%m%d").date(), _dt.datetime.strptime(end, "%Y%m%d").date()
+    chunks = []
+    cur = b0
+    while cur <= e0:
+        nxt = min(cur + _dt.timedelta(days=80), e0)
+        chunks.append((cur.strftime("%Y%m%d"), nxt.strftime("%Y%m%d")))
+        cur = nxt + _dt.timedelta(days=1)
     for corp_cls in ("Y", "K"):
+      for cb, ce in chunks:
         page = 1
         while page <= max_pages:
-            q = dict(crtfc_key=KEY, bgn_de=bgn, end_de=end, corp_cls=corp_cls, page_no=page, page_count=100, sort="date", sort_mth="asc")
+            q = dict(crtfc_key=KEY, bgn_de=cb, end_de=ce, corp_cls=corp_cls, page_no=page, page_count=100, sort="date", sort_mth="asc")
             if pblntf_ty:
                 q["pblntf_ty"] = pblntf_ty
             if detail:
@@ -56,7 +66,7 @@ def list_all(bgn: str, end: str, pblntf_ty: str | None = None, detail: str | Non
                 print(f"list_all {corp_cls} {detail} p{page}: status={data.get('status')} {data.get('message')}")
                 break
             if page == 1:
-                print(f"list_all {corp_cls} {detail}: total={data.get('total_count')} pages={data.get('total_page')}")
+                print(f"list_all {corp_cls} {detail} {cb}~{ce}: total={data.get('total_count')}")
             out.extend(data.get("list", []))
             if page >= int(data.get("total_page", 1)):
                 break
