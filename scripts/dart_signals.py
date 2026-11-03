@@ -67,6 +67,8 @@ def list_all(bgn: str, end: str, pblntf_ty: str | None = None, detail: str | Non
                 break
             if page == 1:
                 print(f"list_all {corp_cls} {detail} {cb}~{ce}: total={data.get('total_count')}", flush=True)
+            for it in data.get("list", []):
+                it["corp_cls"] = corp_cls
             out.extend(data.get("list", []))
             if page >= int(data.get("total_page", 1)):
                 break
@@ -116,7 +118,7 @@ def classify(report_nm: str) -> tuple[str, str] | None:
         return None
     if "자기주식취득결정" in n and "신탁" not in n:
         return ("BUYBACK", "직접취득")
-    if "자기주식소각결정" in n:
+    if re.search(r"(자기)?주식소각결정", n):
         return ("CANCEL", "소각")
     for sub, pat in RISK_PATTERNS:
         if re.search(pat, n):
@@ -131,32 +133,46 @@ def parse_buyback(txt: str) -> dict:
     shares = _num(g(r"취득예정주식\s*\(?주?\)?\s*(?:보통주식)?\s*([\d,]+)"))
     purpose = (g(r"취득목적\s*(.{2,60}?)\s*취득방법") or "").strip()
     method = (g(r"취득방법\s*(.{2,40}?)\s*위탁투자중개업자") or "").strip()
-    ratio = _num(g(r"발행주식총수\s*대비\s*비율\s*\(?%?\)?\s*(?:보통주식)?\s*([\d.]+)"))
+    ratio = None
+    m = re.search(r"배당가능이익범위\s*내\s*취득\(주\)\s*보통주식\s*([\d,]+)\s*비율\(%\)\s*([\d.]+)", txt)
+    m2 = re.search(r"발행주식총수의\s*1%\s*=\s*([\d,]+)\s*주", txt)
+    total = None
+    if m2 and _num(m2.group(1)):
+        total = _num(m2.group(1)) * 100
+    elif m and _num(m.group(1)) and _num(m.group(2)) and _num(m.group(2)) > 0:
+        total = _num(m.group(1)) / _num(m.group(2)) * 100
+    if total and shares:
+        ratio = round(shares / total * 100, 2)
     purpose = re.sub(r"\s*\d+\.$", "", purpose)
     method = re.sub(r"\s*\d+\.$", "", method)
     return {"amount": amt, "shares": shares, "purpose": purpose, "method": method,
-            "cancel": "소각" in purpose, "ratio_pct": ratio}
+            "cancel": "소각" in purpose or "소각" in txt[txt.find("기타 투자판단"):][:600], "tender": "공개매수" in method, "ratio_pct": ratio}
 
 
 def parse_insider(txt: str) -> dict:
-    """임원·주요주주 보고서. 표 행: 보고사유 | (증권종류) | 변동전 | 증감 | 변동후 | 단가 — 장내매수 행만 합산."""
+    """임원·주요주주 보고서. 세부변동내역 행: 장내매수(+) 날짜 종류 변동전 증감 변동후 단가 — 장내매수 행만 합산.
+    서식 예: '임원(등기여부) 등기임원 직위명 대표이사 선임일 ... 주요주주 사실상지배주주 업무상 연락처'
+             '장내매수(+) 2026년 10월 14일 보통주 3,000 1,005 4,005 14,384' 또는 '2026.10.08'"""
     g = lambda pat: (re.search(pat, txt) or [None, None])[1]
-    rel = (g(r"임원\s*\(등기여부\)\s*([가-힣\s()]{2,20}?)\s*(?:주요주주|직위)") or "").strip()
-    title = (g(r"직위\s*(?:\(직책\))?\s*([가-힣\s()]{2,30}?)\s*(?:주요주주|보고자|선임)") or "").strip()
-    major = "최대주주" in txt[:5000]
+    rel = (g(r"임원\s*\(등기여부\)\s*(.{1,20}?)\s*직위명") or "").strip()
+    title = (g(r"직위명\s*(.{1,30}?)\s*선임일") or "").strip()
+    mj = (g(r"퇴임일\s*.{0,20}?주요주주\s*(.{0,20}?)\s*업무상") or "").strip()
+    major = bool(mj) and mj != "-"
     total_amt = total_qty = 0.0
-    for row in re.finditer(r"장내매수\s*\(\+\)\s*(?:\d{4}-\d{2}-\d{2}\s*)?(?:[가-힣]+\s*)?([\d,]+)\s+([\d,]+)\s+([\d,]+)\s+([\d,]+)", txt):
+    date = r"\d{4}\s*[년.\-]\s*\d{1,2}\s*[월.\-]\s*\d{1,2}\s*일?"
+    num = r"(?:[\d,]+|-)"
+    for row in re.finditer(rf"장내매수\s*\(\+\)\s*(?:{date})?\s*(?:[가-힣]+\s*)?({num})\s+({num})\s+({num})\s+({num})", txt):
         q, p = _num(row.group(2)), _num(row.group(4))
         if q and p and p > 10:
             total_qty += q
             total_amt += q * p
-    return {"relation": rel, "title": title, "is_major": major,
-            "buy_qty": total_qty, "buy_amount": total_amt, "has_sell": "장내매도" in txt,
-            "option": "스톡옵션" in txt or "주식매수선택권" in txt}
+    return {"relation": rel, "title": title, "major_type": mj if major else "", "is_major": major,
+            "buy_qty": total_qty, "buy_amount": total_amt, "has_sell": bool(re.search(r"장내매도\s*\(-\)", txt)),
+            "option": bool(re.search(r"주식매수선택권\s*행사|스톡옵션\s*행사", txt))}
 
 
 def insider_ok(p: dict, min_amount: float = 1e8) -> bool:
-    key_person = p["is_major"] or any(k in (p["title"] + p["relation"]) for k in ("대표이사", "회장", "부회장", "사장", "최대주주", "등기임원", "이사", "감사"))
+    key_person = p["is_major"] or any(k in (p["title"] + p["relation"]) for k in ("대표이사", "회장", "부회장", "사장", "등기임원"))
     return p["buy_amount"] >= min_amount and key_person and not p["option"] and not p["has_sell"]
 
 

@@ -3,7 +3,7 @@
 측정 방식(보수적·재현 가능)
   진입: 공시일(t0) 다음 거래일 종가 (일 1회 배치로 실제 체결 가능한 가장 빠른 가격)
   보유: 5거래일 / 20거래일
-  초과수익(AR) = 종목 수익률 − 시장(KODEX 200, 069500) 같은 기간 수익률
+  초과수익(AR) = 종목 수익률 − 같은 시장 ETF(유가증권 KODEX200 069500 / 코스닥 KODEX코스닥150 229200) 같은 기간 수익률
   보고: 건수, 평균·중앙값 AR, 승률(AR>0 비율), 연도별, 조건별(소각목적·규모)
   주의: 거래비용(세금 0.18%+수수료·슬리피지 ≈ 0.3~0.5%) 별도. 생존편향 없음(상장폐지 종목은 가격 조회 실패 → 제외됨을 명시).
 
@@ -98,12 +98,12 @@ def main():
     for x in S.list_all(b, e, detail="B001"):
         c = S.classify(x["report_nm"])
         if c and x.get("stock_code"):
-            events.append({"signal": c[0], "sub": c[1], "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"]})
+            events.append({"signal": c[0], "sub": c[1], "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"], "mkt": x["corp_cls"]})
     # 2) 거래소 수시공시(I001): 최대주주변경·횡령배임·불성실공시 등
     for x in S.list_all(b, e, detail="I001"):
         c = S.classify(x["report_nm"])
         if c and c[0] == "RISK" and x.get("stock_code"):
-            events.append({"signal": "RISK", "sub": c[1], "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"]})
+            events.append({"signal": "RISK", "sub": c[1], "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"], "mkt": x["corp_cls"]})
     log("B001/I001 이벤트:", len(events), {s: sum(1 for x in events if x["signal"] == s) for s in ("BUYBACK", "CANCEL", "RISK")})
     cache = json.load(open(CACHE, encoding="utf-8")) if os.path.exists(CACHE) else {}
     # 3) 자사주 원문 파싱(소각 목적·규모)
@@ -126,7 +126,7 @@ def main():
         n_ok += 1
         ins_cov_from = x["rcept_dt"]
         if S.insider_ok(p):
-            events.append({"signal": "INSIDER", "sub": "장내매수", "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"], "extra": p})
+            events.append({"signal": "INSIDER", "sub": "장내매수", "code": x["stock_code"], "name": x["corp_name"], "date": x["rcept_dt"], "rcept_no": x["rcept_no"], "mkt": x["corp_cls"], "extra": p})
     n_buy = sum(1 for x in events if x["signal"] == "INSIDER")
     log(f"내부자 파싱 성공 {n_ok} / 실패 {n_err} / 장내매수 조건충족 {n_buy} / 커버리지 시작일 {ins_cov_from} / 총 이벤트 {len(events)}")
     # 파서 점검: 장내매수 금액이 0이 아닌 건 비율 (너무 낮으면 정규식 점검 필요)
@@ -134,7 +134,8 @@ def main():
     log(f"파서 점검: 장내매수 금액 추출 {nz}/{n_ok}건, 자사주 금액 추출 {sum(1 for x in events if x['signal']=='BUYBACK' and x['extra'].get('amount'))}/{sum(1 for x in events if x['signal']=='BUYBACK')}건")
 
     # 5) 가격·시장수익률
-    mkt = fetch_daily("069500", count=DAYS + 60)
+    # 시장 벤치마크: 유가증권 → KODEX 200(069500), 코스닥 → KODEX 코스닥150(229200)
+    bench = {"Y": fetch_daily("069500", count=DAYS + 60), "K": fetch_daily("229200", count=DAYS + 60)}
     codes = sorted({ev["code"] for ev in events})
     log(f"주가 조회 종목 {len(codes)}개")
     from concurrent.futures import ThreadPoolExecutor
@@ -154,7 +155,7 @@ def main():
             continue
         for h in HOLD:
             r = ret_after(s, t0, h)
-            m = ret_after(mkt, t0, h)
+            m = ret_after(bench.get(ev.get("mkt", "Y"), bench["Y"]), t0, h)
             if r and m:
                 ev[f"ar{h}"] = round(r[1] - m[1], 2)
                 ev[f"raw{h}"] = round(r[1], 2)
@@ -182,6 +183,10 @@ def main():
     add("BUYBACK/100억이상", [x for x in bb if (x["extra"].get("amount") or 0) >= 1e10])
     add("INSIDER/최대주주", [x for x in events if x["signal"] == "INSIDER" and x["extra"].get("is_major")])
     add("INSIDER/5억이상", [x for x in events if x["signal"] == "INSIDER" and x["extra"].get("buy_amount", 0) >= 5e8])
+    add("INSIDER/대표이사", [x for x in events if x["signal"] == "INSIDER" and "대표이사" in x["extra"].get("title", "")])
+    add("BUYBACK/공개매수", [x for x in bb if x["extra"].get("tender")])
+    for m_, nm in (("Y", "유가증권"), ("K", "코스닥")):
+        add(f"BUYBACK/{nm}", [x for x in events if x["signal"] == "BUYBACK" and x.get("mkt") == m_])
     risk = [x for x in events if x["signal"] == "RISK"]
     add("RISK", risk)
     for sub in sorted({x["sub"] for x in risk}):
@@ -194,7 +199,7 @@ def main():
 
     # 7) 보고서
     L = [f"# DART 공시 시그널 백테스트 ({b}~{e})", "",
-         f"- 이벤트 {len(events)}건 (가격 조회 불가·상장폐지 등 제외 {missing}건). 진입: 공시 다음 거래일 종가. AR = 종목수익률 − KODEX200 수익률.",
+         f"- 이벤트 {len(events)}건 (가격 조회 불가·상장폐지 등 제외 {missing}건). 진입: 공시 다음 거래일 종가. AR = 종목수익률 − 같은 시장 ETF(KODEX200/코스닥150) 수익률.",
          f"- 내부자 보고서는 API 한도 때문에 최근 {MAX_DOCS}건만 원문 파싱 → 커버리지 {ins_cov_from or '-'} 이후.",
          "- mean_net = 평균 AR − 왕복 거래비용 0.4%p. 승률 = AR>0 비율. 표본 30건 미만은 참고만.", "",
          "| 그룹 | n | 5일 평균AR | 5일 중앙값 | 5일 승률 | 20일 평균AR | 20일 중앙값 | 20일 승률 | 20일 비용차감 |", "|---|---|---|---|---|---|---|---|---|"]
@@ -212,7 +217,7 @@ def main():
     if tok and chat:
         from notify_telegram import send
         lines = [f"<b>DART 시그널 백테스트 결과</b> ({b[:4]}.{b[4:6]}~{e[:4]}.{e[4:6]}, 진입=공시 다음날 종가, 시장 대비)"]
-        for k in ("BUYBACK", "BUYBACK/소각목적", "CANCEL", "INSIDER", "INSIDER/최대주주", "RISK", "RISK/유상증자", "RISK/CB발행"):
+        for k in ("BUYBACK", "BUYBACK/소각목적", "BUYBACK/공개매수", "CANCEL", "INSIDER", "INSIDER/최대주주", "INSIDER/대표이사", "INSIDER/5억이상", "RISK", "RISK/최대주주변경", "RISK/CB발행", "RISK/EB발행"):
             g = groups.get(k)
             if not g or not g.get("h20"):
                 continue

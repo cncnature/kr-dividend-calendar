@@ -38,6 +38,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           BT_TIME_BUDGET: "9000"
+          BT_MAX_DOCS: "10000"
       - name: 파서 점검(수동)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'debug'
         run: python scripts/debug_docs.py
