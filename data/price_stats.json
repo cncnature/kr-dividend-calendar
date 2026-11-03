@@ -373,6 +373,19 @@
    "pre5_pct": 0.1,
    "recover_days": 1,
    "low_close": 87700.0
+  },
+  "2026-11-02": {
+   "pre_close": 89200.0,
+   "ex_close": 87500.0,
+   "ex_day_pct": -1.91,
+   "theory_pct": -0.83,
+   "excess_pct": -1.08,
+   "runup_days": 4,
+   "runup_pct": 3.6,
+   "runup_start": "2026-10-27",
+   "pre5_pct": 1.36,
+   "recover_days": null,
+   "low_close": 86100.0
   }
  },
  "086790": {
