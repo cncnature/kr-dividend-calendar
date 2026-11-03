@@ -44,6 +44,12 @@ jobs:
         run: python scripts/debug_docs.py
         env:
           PYTHONUNBUFFERED: "1"
+      - name: PEAD·공급계약 백테스트(수동)
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'pead'
+        run: python scripts/backtest_pead.py
+        timeout-minutes: 200
+        env:
+          PYTHONUNBUFFERED: "1"
       - name: 신규 공시 시그널 알림
         if: github.event.schedule != '0 21 * * 6' && (github.event_name != 'workflow_dispatch' || github.event.inputs.job == 'signals')
         run: python scripts/signals_daily.py
@@ -52,7 +58,7 @@ jobs:
         run: |
           git config user.name "dividend-bot"
           git config user.email "bot@users.noreply.github.com"
-          for f in data/backtest_signals.json data/backtest_report.md data/signals_seen.json data/signals_cache.json; do
+          for f in data/backtest_signals.json data/backtest_report.md data/signals_seen.json data/signals_cache.json data/pead_cache.json data/backtest_pead.json data/backtest_pead.md; do
             [ -f "$f" ] && git add "$f"
           done
           if git diff --cached --quiet; then echo "변경 없음"; else
