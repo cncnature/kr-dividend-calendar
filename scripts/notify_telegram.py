@@ -74,7 +74,9 @@ def main():
     def line(e, with_yield=False):
         tag = "✅" if e["status"] == "확정" else "🔸"
         d = dps_of(e)
-        s = f"{tag} <b>{e['name']}</b> {e['period']} · {'확정' if e['dps'] is not None else '직전'} {won(d)}"
+        st_ = e.get("ex_stats") or {}
+        medal = "🏅" if st_.get("high_win") else ""
+        s = f"{tag} <b>{medal}{e['name']}</b> {e['period']} · {'확정' if e['dps'] is not None else '직전'} {won(d)}"
         if with_yield and d:
             p = price_now(e["code"])
             if p:
@@ -85,7 +87,8 @@ def main():
         s = e["ex_stats"]
         if not s:
             return ""
-        return (f"   과거 {s['n']}회: 배당락일 평균 {pct(s['avg_ex_day_pct'])}, 저점→배당락 전일 {pct(s['avg_runup_pct'])}"
+        wr = f"배당 승률 {s['win_rate']}%({s['win_k']}/{s['win_n']}), " if s.get("win_rate") is not None else ""
+        return (f"   {wr}과거 {s['n']}회: 배당락일 평균 {pct(s['avg_ex_day_pct'])}, 저점→배당락 전일 {pct(s['avg_runup_pct'])}"
                 f" (D-{round(s['avg_runup_days'])}부터), 회복 평균 {round(s['avg_recover_days']) if s['avg_recover_days'] is not None else '–'}거래일")
 
     blocks = []

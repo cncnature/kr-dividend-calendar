@@ -87,12 +87,18 @@ def main():
         summary = None
         if recent:
             avg = lambda key: round(sum(r[key] for r in recent if r.get(key) is not None) / max(1, len([r for r in recent if r.get(key) is not None])), 2)
+            # 배당 플레이 승률: '마지막 매수일 종가에 사서 배당을 받은 뒤' 배당락 전 종가를 20거래일 안에 회복했거나,
+            # 배당락일 하락이 배당금(이론 배당락)보다 작았던 경우를 '승'으로 본다 (= 배당을 손실 없이 챙긴 경우). 전체 과거 이력 기준.
+            wins = [r for r in hist if (r.get("recover_days") is not None and r["recover_days"] <= 20) or (r.get("excess_pct") is not None and r["excess_pct"] >= 0)]
             summary = {
                 "n": len(recent),
                 "avg_ex_day_pct": avg("ex_day_pct"),
                 "avg_runup_pct": avg("runup_pct"),
                 "avg_runup_days": avg("runup_days"),
                 "avg_recover_days": avg("recover_days"),
+                "win_n": len(hist), "win_k": len(wins),
+                "win_rate": round(len(wins) / len(hist) * 100) if hist else None,
+                "high_win": len(hist) >= 4 and len(wins) / len(hist) >= 0.75,
             }
         for year in YEARS:
             # 규칙으로 산출한 기준일을 귀속기간(period)별로 모으고, 같은 기간에 DART 확정 공시가 있으면 그 날짜로 교체
@@ -130,7 +136,8 @@ def main():
         "holidays": {str(y): H.holidays(y) for y in YEARS},
         "holiday_official_years": [y for y in YEARS if H.is_official(y)],
         "events": events,
-        "stocks": [{"code": s["code"], "name": s["name"], "freq": s["freq"], "confidence": s["confidence"]} for s in stocks],
+        "stocks": [{"code": s["code"], "name": s["name"], "freq": s["freq"], "confidence": s["confidence"],
+                    "win": next((e["ex_stats"] for e in events if e["code"] == s["code"] and e["ex_stats"]), None)} for s in stocks],
     }
     os.makedirs(os.path.join(ROOT, "site"), exist_ok=True)
     with open(os.path.join(ROOT, "site", "data.json"), "w", encoding="utf-8") as f:

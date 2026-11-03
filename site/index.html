@@ -48,6 +48,10 @@ select,input{font:inherit;padding:6px 10px;border:1px solid var(--line);border-r
 .badge{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
 .badge.warn{background:var(--rec-soft);color:var(--rec)}
 .badge.ok{background:var(--buy-soft);color:var(--buy)}
+.badge.gold{background:#fdf3d0;color:#8a6508}
+:root[data-theme="dark"] .badge.gold{background:#3d3312;color:#f0cf6a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .badge.gold{background:#3d3312;color:#f0cf6a}}
+.chip.hw{box-shadow:inset 3px 0 0 #e0b83a}
 .months{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
 .month{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px;min-width:0}
 .month h2{font-size:15px;margin:0 0 8px;display:flex;justify-content:space-between;align-items:baseline}
@@ -116,6 +120,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
     <span><i style="background:var(--ex)"></i>배당락일 (이날부터 매도해도 배당 수령)</span>
     <span><i style="background:var(--rec)"></i>배당기준일</span>
     <span><i style="background:var(--hol)"></i>휴장일</span>
+    <span><span class="badge gold">🏅 승률</span> 과거 배당락 4회 이상 중 75% 이상 '손실 없이 배당 수령'(배당락 전 종가 20거래일 내 회복 또는 하락폭<배당금)</span>
     <span>상태: <span class="badge ok">확정</span> DART 공시 반영 · <span class="badge">예상</span> 정관·최근 2년 패턴 · <span class="badge warn">예상(불확실)</span> 공시 확인 필요</span>
   </div>
 
@@ -154,7 +159,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
 
   DATA.years.forEach(y => { const b = document.createElement('button'); b.textContent = y; b.setAttribute('role','tab'); b.onclick = () => { year = y; month = y===today.getFullYear() ? today.getMonth()+1 : 1; save(); render(); }; el('years').appendChild(b); });
   [0,1,2,3,4,5,6,7,8,9,10,11,12].forEach(m => { const b = document.createElement('button'); b.textContent = m===0 ? '연간' : m+'월'; b.dataset.m = m; b.setAttribute('role','tab'); b.onclick = () => { month = m; save(); render(); }; el('mtabs').appendChild(b); });
-  DATA.stocks.forEach(s => { const o = document.createElement('option'); o.value = s.code; o.textContent = `${s.name} (${s.freq}, ${s.confidence})`; el('stock').appendChild(o); });
+  DATA.stocks.forEach(s => { const o = document.createElement('option'); o.value = s.code; o.textContent = `${s.win&&s.win.high_win?'🏅 ':''}${s.name} (${s.freq}, ${s.confidence}${s.win&&s.win.win_rate!=null?`, 승률 ${s.win.win_rate}%`:''})`; el('stock').appendChild(o); });
   el('stock').value = stockFilter;
   el('stock').onchange = e => { stockFilter = e.target.value; save(); render(); };
   el('onlyA').onchange = e => { hideC = e.target.checked; save(); render(); };
@@ -197,7 +202,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
         const maxChips = month ? 5 : 3;
         const shown = items.slice(0,maxChips);
         html += `<div class="day${we?' we':''}${hol?' hol':''}${iso===tISO?' today':''}"><div class="n"><span>${d}</span>${hol?`<span class="h" title="${hol}">${hol}</span>`:''}</div>`;
-        html += shown.map(x => `<button class="chip ${x.cls}" data-id="${x.e.code}|${x.e.record_date}" title="${x.e.name} ${x.label} (${x.e.status})">${x.label==='배당락'?'▼':x.label==='매수마감'?'🛒':'📋'} ${x.e.name}</button>`).join('');
+        html += shown.map(x => `<button class="chip ${x.cls}${x.e.ex_stats&&x.e.ex_stats.high_win?' hw':''}" data-id="${x.e.code}|${x.e.record_date}" title="${x.e.name} ${x.label} (${x.e.status})${x.e.ex_stats&&x.e.ex_stats.win_rate!=null?` · 배당 승률 ${x.e.ex_stats.win_rate}% (${x.e.ex_stats.win_k}/${x.e.ex_stats.win_n})`:''}">${x.label==='배당락'?'▼':x.label==='매수마감'?'🛒':'📋'} ${x.e.name}</button>`).join('');
         if (items.length>maxChips) html += `<button class="chip more" data-day="${iso}">+${items.length-maxChips}건 더</button>`;
         html += '</div>';
       }
@@ -213,7 +218,7 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
 
   function renderUpcoming(){
     const list = visible().filter(e => e.last_buy_date >= tISO).sort((a,b)=>a.last_buy_date.localeCompare(b.last_buy_date)).slice(0,20);
-    el('upcoming').innerHTML = list.map(e => `<button data-id="${e.code}|${e.record_date}"><span class="d">${e.last_buy_date}</span><span>${e.name} <span class="sub">${e.period}</span> · 매수마감 ${fmt(e.last_buy_date)} → 배당락 ${fmt(e.ex_date)} · ${e.ref_dividends[0]?'직전 '+won(e.ref_dividends[0].dps):'배당액 미공시'}</span>${badge(e.status)}</button>`).join('') || '<p class="note">표시할 일정이 없습니다.</p>';
+    el('upcoming').innerHTML = list.map(e => `<button data-id="${e.code}|${e.record_date}"><span class="d">${e.last_buy_date}</span><span>${e.ex_stats&&e.ex_stats.high_win?'🏅 ':''}${e.name} <span class="sub">${e.period}</span> · 매수마감 ${fmt(e.last_buy_date)} → 배당락 ${fmt(e.ex_date)} · ${e.ref_dividends[0]?'직전 '+won(e.ref_dividends[0].dps):'배당액 미공시'}</span>${badge(e.status)}</button>`).join('') || '<p class="note">표시할 일정이 없습니다.</p>';
     el('upcoming').querySelectorAll('button').forEach(b => b.onclick = () => { const e = DATA.events.find(x => `${x.code}|${x.record_date}`===b.dataset.id); if (e && month){ const [y,m]=e.ex_date.split('-').map(Number); if (y!==year||m!==month){ year=y; month=m; selected=b.dataset.id; save(); render(); } } showDetail(b.dataset.id); el('detail').scrollIntoView({behavior:'smooth'}); });
   }
 
@@ -233,16 +238,17 @@ footer{font-size:12px;color:var(--mute);line-height:1.6}
       : '<p class="note">아직 수집된 배당액 공시가 없습니다. DART 자동 갱신(update_dart.py)으로 채워집니다.</p>';
     const s = e.ex_stats;
     const stats = s ? `<div class="stats">
+        <div class="stat"><b>${s.win_rate!=null?s.win_rate+'%':'–'}</b><span>배당 승률 — 손실 없이 배당 수령 (${s.win_k}/${s.win_n}회, 전체 이력)</span></div>
         <div class="stat"><b>${pct(s.avg_ex_day_pct)}</b><span>배당락일 평균 등락 (전일 종가 대비, 최근 ${s.n}회)</span></div>
         <div class="stat"><b>D-${Math.round(s.avg_runup_days)}</b><span>배당락 전 저점 → 상승 시작 시점(평균)</span></div>
         <div class="stat"><b>${pct(s.avg_runup_pct)}</b><span>저점 → 배당락 전일 상승폭(평균)</span></div>
         <div class="stat"><b>${s.avg_recover_days!=null? Math.round(s.avg_recover_days)+'일':'–'}</b><span>배당락 전 종가 회복까지(평균 거래일)</span></div></div>
-      <div class="tw"><table><thead><tr><th>배당락일</th><th>상승 시작</th><th>상승폭</th><th>직전 5일</th><th>배당락일</th><th>이론 배당락</th><th>초과 하락</th><th>회복</th></tr></thead><tbody>` +
-      e.ex_history.map(h => `<tr><td>${h.ex_date}</td><td>${h.runup_start} (D-${h.runup_days})</td><td>${pct(h.runup_pct)}</td><td>${pct(h.pre5_pct)}</td><td>${pct(h.ex_day_pct)}</td><td>${pct(h.theory_pct)}</td><td>${pct(h.excess_pct)}</td><td>${h.recover_days!=null?h.recover_days+'일':'60일내 미회복'}</td></tr>`).join('') + '</tbody></table></div>'
+      <div class="tw"><table><thead><tr><th>배당락일</th><th>상승 시작</th><th>상승폭</th><th>직전 5일</th><th>배당락일</th><th>이론 배당락</th><th>초과 하락</th><th>회복</th><th>판정</th></tr></thead><tbody>` +
+      e.ex_history.map(h => `<tr><td>${h.ex_date}</td><td>${h.runup_start} (D-${h.runup_days})</td><td>${pct(h.runup_pct)}</td><td>${pct(h.pre5_pct)}</td><td>${pct(h.ex_day_pct)}</td><td>${pct(h.theory_pct)}</td><td>${pct(h.excess_pct)}</td><td>${h.recover_days!=null?h.recover_days+'일':'60일내 미회복'}</td><td>${(h.recover_days!=null&&h.recover_days<=20)||(h.excess_pct!=null&&h.excess_pct>=0)?'<span class="pos">승</span>':'<span class="neg">패</span>'}</td></tr>`).join('') + '</tbody></table></div>'
       : '<p class="note">배당락 전후 주가 통계는 GitHub Actions에서 네이버 일봉을 받아 계산합니다(update_prices.py). 첫 실행 후 표시됩니다.</p>';
     el('detail').hidden = false;
     el('detail').innerHTML = `
-      <h3>${e.name} <span class="sub">${e.code} · ${e.period} · ${e.freq}배당</span> ${badge(e.status)}</h3>
+      <h3>${e.name} <span class="sub">${e.code} · ${e.period} · ${e.freq}배당</span> ${badge(e.status)}${s&&s.win_rate!=null?` <span class="badge${s.high_win?' gold':''}">${s.high_win?'🏅 ':''}배당 승률 ${s.win_rate}% (${s.win_k}/${s.win_n})</span>`:''}</h3>
       <div class="kv">
         <div class="buy"><b>${e.last_buy_date}</b><span>마지막 매수일 (장 마감까지 보유)</span></div>
         <div class="ex"><b>${e.ex_date}</b><span>배당락일</span></div>
