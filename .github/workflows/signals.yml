@@ -1,0 +1,50 @@
+name: DART 공시 시그널
+
+on:
+  schedule:
+    - cron: "15 0-7 * * 1-5"   # 평일 09:15~16:15 KST 매시간 (UTC 00~07)
+    - cron: "0 21 * * 6"       # 일요일 06:00 KST 주간 백테스트 갱신
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "signals(신규 공시 알림) / backtest(2년 백테스트)"
+        default: "backtest"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dart-signals
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      DART_API_KEY: ${{ secrets.DART_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      WATCH_CODES: ${{ vars.WATCH_CODES }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install korean_lunar_calendar
+      - name: 백테스트 (주간 또는 수동)
+        if: github.event.schedule == '0 21 * * 6' || (github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'backtest')
+        run: python scripts/backtest_signals.py
+        timeout-minutes: 120
+      - name: 신규 공시 시그널 알림
+        if: github.event.schedule != '0 21 * * 6' && (github.event_name != 'workflow_dispatch' || github.event.inputs.job == 'signals')
+        run: python scripts/signals_daily.py
+      - name: 결과 커밋
+        run: |
+          git config user.name "dividend-bot"
+          git config user.email "bot@users.noreply.github.com"
+          for f in data/backtest_signals.json data/backtest_report.md data/signals_seen.json; do
+            [ -f "$f" ] && git add "$f"
+          done
+          if git diff --cached --quiet; then echo "변경 없음"; else
+            git commit -m "chore: DART 시그널 데이터 갱신 $(date -u +%F)" && git pull --rebase origin main && git push
+          fi

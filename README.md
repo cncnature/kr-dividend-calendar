@@ -14,6 +14,10 @@ scripts/build.py        기준일 → 배당락 → 마지막 매수일 계산, 
 scripts/update_dart.py  OpenDART '현금·현물배당결정' 수집
 scripts/update_prices.py 네이버 일봉으로 배당락 통계 계산
 scripts/notify_telegram.py 매매 타이밍 텔레그램 알림
+scripts/dart_signals.py   공시 시그널 분류·원문 파서 (자사주·내부자매수·위험공시)
+scripts/backtest_signals.py 시장 전체 공시 2년 백테스트 (시장 대비 초과수익·승률)
+scripts/signals_daily.py  신규 공시 시그널 텔레그램 알림 (평일 장중 매시간)
+.github/workflows/signals.yml 시그널 알림 + 주간 백테스트
 site/index.html         캘린더 웹페이지 (GitHub Pages)
 .github/workflows/update.yml  매일 07:10 KST 자동 갱신 + Pages 배포
 ```
