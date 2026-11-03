@@ -8,6 +8,9 @@ on:
       probe:
         description: "1이면 국가코드 전체조회 가능 여부만 시험"
         default: ""
+      job:
+        description: "update(월간 갱신) / backtest(2016~ 업종 로테이션 백테스트)"
+        default: "update"
 
 permissions:
   contents: write
@@ -30,14 +33,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/update_exports.py
+      - run: pip install korean_lunar_calendar
+      - name: 월간 갱신
+        if: github.event.inputs.job != 'backtest'
+        run: python scripts/update_exports.py
+      - name: 백테스트
+        if: github.event.inputs.job == 'backtest'
+        run: python scripts/backtest_exports.py
+        timeout-minutes: 120
       - name: 결과 커밋
-        if: github.event.inputs.probe == ''
+        if: always() && github.event.inputs.probe == ''
         run: |
           cp data/exports.json site/exports.json 2>/dev/null || true
           git config user.name "dividend-bot"
           git config user.email "bot@users.noreply.github.com"
-          for f in data/exports.json site/exports.json; do
+          for f in data/exports.json site/exports.json data/exports_history.json data/backtest_exports.json data/backtest_exports.md; do
             [ -f "$f" ] && git add "$f"
           done
           if git diff --cached --quiet; then echo "변경 없음"; else
