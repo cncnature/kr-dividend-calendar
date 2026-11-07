@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T11:24:03+09:00",
+ "generated_at": "2026-11-07T10:54:03+09:00",
  "years": [
   2026,
   2027,
@@ -967,16 +967,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -1018,20 +1032,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -1164,10 +1164,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -1505,7 +1505,7 @@
    "status": "확정",
    "dps": 460,
    "pay_date": null,
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
    "holiday_official": true,
    "confidence": "B",
    "note": "2025 결산배당 기준일 2026-02-27(460원).",
@@ -1515,10 +1515,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
-     "rcept_no": "20260227800271",
-     "disclosed": "20260227",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+     "rcept_no": "20260204800001",
+     "disclosed": "20260204",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -2355,16 +2355,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -2406,20 +2420,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -2539,7 +2539,7 @@
    "status": "확정",
    "dps": 150,
    "pay_date": "2026-05-29",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
    "holiday_official": true,
    "confidence": "B",
    "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
@@ -2569,10 +2569,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -4041,16 +4041,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -4092,20 +4106,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -4255,10 +4255,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -5418,16 +5418,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -5469,20 +5483,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -5528,10 +5528,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -7511,16 +7511,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -7562,20 +7576,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -7708,10 +7708,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -8059,10 +8059,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
-     "rcept_no": "20260227800271",
-     "disclosed": "20260227",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+     "rcept_no": "20260204800001",
+     "disclosed": "20260204",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -8829,16 +8829,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -8880,20 +8894,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -9043,10 +9043,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -10515,16 +10515,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -10566,20 +10580,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -10729,10 +10729,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -11892,16 +11892,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -11943,20 +11957,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -12002,10 +12002,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -13659,16 +13659,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -13710,20 +13724,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -13856,10 +13856,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -14207,10 +14207,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
-     "rcept_no": "20260227800271",
-     "disclosed": "20260227",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+     "rcept_no": "20260204800001",
+     "disclosed": "20260204",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -15303,16 +15303,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -15354,20 +15368,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -15517,10 +15517,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -16989,16 +16989,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -17040,20 +17054,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -17203,10 +17203,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -18366,16 +18366,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -18417,20 +18431,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -18563,10 +18563,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -20133,16 +20133,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -20184,20 +20198,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -20330,10 +20330,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -20681,10 +20681,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
-     "rcept_no": "20260227800271",
-     "disclosed": "20260227",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+     "rcept_no": "20260204800001",
+     "disclosed": "20260204",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -21777,16 +21777,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -21828,20 +21842,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -21991,10 +21991,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -23463,16 +23463,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -23514,20 +23528,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -23573,10 +23573,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -24840,16 +24840,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -24891,20 +24905,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -24950,10 +24950,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -26607,16 +26607,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -26658,20 +26672,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -26804,10 +26804,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -27155,10 +27155,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
-     "rcept_no": "20260227800271",
-     "disclosed": "20260227",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+     "rcept_no": "20260204800001",
+     "disclosed": "20260204",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -28251,16 +28251,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -28302,20 +28316,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -28465,10 +28465,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -29937,16 +29937,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -29988,20 +30002,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -30151,10 +30151,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -31314,16 +31314,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 122000.0,
+     "ex_close": 118300.0,
+     "ex_day_pct": -3.03,
+     "theory_pct": -0.95,
+     "excess_pct": -2.08,
+     "runup_days": 8,
+     "runup_pct": 7.87,
+     "runup_start": "2026-10-27",
+     "pre5_pct": 1.41,
+     "recover_days": null,
+     "low_close": 113100.0,
+     "ex_date": "2026-11-06"
+    },
     {
      "pre_close": 133300.0,
      "ex_close": 134700.0,
@@ -31365,20 +31379,6 @@
      "recover_days": 24,
      "low_close": 106000.0,
      "ex_date": "2026-05-08"
-    },
-    {
-     "pre_close": 126000.0,
-     "ex_close": 124900.0,
-     "ex_day_pct": -0.87,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 32,
-     "runup_pct": 37.11,
-     "runup_start": "2026-01-08",
-     "pre5_pct": -1.25,
-     "recover_days": 42,
-     "low_close": 91900.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -31424,10 +31424,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
-     "rcept_no": "20260518800521",
-     "disclosed": "20260518",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+     "rcept_no": "20260430800627",
+     "disclosed": "20260430",
+     "report": "현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -32662,13 +32662,13 @@
    "confidence": "B",
    "win": {
     "n": 4,
-    "avg_ex_day_pct": -0.21,
-    "avg_runup_pct": 24.11,
-    "avg_runup_days": 30.0,
-    "avg_recover_days": 20.0,
-    "win_n": 4,
+    "avg_ex_day_pct": -0.75,
+    "avg_runup_pct": 16.8,
+    "avg_runup_days": 24.0,
+    "avg_recover_days": 12.67,
+    "win_n": 5,
     "win_k": 2,
-    "win_rate": 50,
+    "win_rate": 40,
     "high_win": false
    }
   },
