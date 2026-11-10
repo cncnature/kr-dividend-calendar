@@ -494,6 +494,19 @@
    "pre5_pct": -0.9,
    "recover_days": 57,
    "low_close": 31700.0
+  },
+  "2026-11-09": {
+   "pre_close": 31700.0,
+   "ex_close": 31450.0,
+   "ex_day_pct": -0.79,
+   "theory_pct": -0.69,
+   "excess_pct": -0.09,
+   "runup_days": 9,
+   "runup_pct": 9.12,
+   "runup_start": "2026-10-27",
+   "pre5_pct": 3.09,
+   "recover_days": null,
+   "low_close": 29050.0
   }
  },
  "017670": {
@@ -716,6 +729,19 @@
    "pre5_pct": -5.18,
    "recover_days": 1,
    "low_close": 17190.0
+  },
+  "2026-11-09": {
+   "pre_close": 13040.0,
+   "ex_close": 12760.0,
+   "ex_day_pct": -2.15,
+   "theory_pct": -1.15,
+   "excess_pct": -1.0,
+   "runup_days": 10,
+   "runup_pct": 11.36,
+   "runup_start": "2026-10-26",
+   "pre5_pct": -0.84,
+   "recover_days": null,
+   "low_close": 11710.0
   }
  },
  "139130": {
