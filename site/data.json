@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T11:37:24+09:00",
+ "generated_at": "2026-11-14T11:23:22+09:00",
  "years": [
   2026,
   2027,
@@ -625,6 +625,16 @@
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
     {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
      "dps": 2000,
@@ -1158,10 +1168,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -1178,10 +1188,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -1547,7 +1557,7 @@
    "status": "확정",
    "dps": 460,
    "pay_date": null,
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
    "holiday_official": true,
    "confidence": "B",
    "note": "2025 결산배당 기준일 2026-02-27(460원).",
@@ -1557,10 +1567,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -2623,7 +2633,7 @@
    "status": "확정",
    "dps": 150,
    "pay_date": "2026-05-29",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
    "holiday_official": true,
    "confidence": "B",
    "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
@@ -2633,10 +2643,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -2653,10 +2663,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -2816,6 +2826,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -4361,10 +4381,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -4381,10 +4401,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -4544,6 +4564,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -5624,7 +5654,7 @@
    "status": "확정",
    "dps": 150,
    "pay_date": "2026-11-25",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
    "holiday_official": true,
    "confidence": "B",
    "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
@@ -5634,10 +5664,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -5654,10 +5684,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -6138,124 +6168,6 @@
    ]
   },
   {
-   "code": "005490",
-   "name": "POSCO홀딩스",
-   "market": "KOSPI",
-   "freq": "분기",
-   "period": "2026-3Q",
-   "record_date": "2026-11-24",
-   "ex_date": "2026-11-23",
-   "last_buy_date": "2026-11-20",
-   "status": "예상",
-   "dps": null,
-   "pay_date": null,
-   "source": null,
-   "holiday_official": true,
-   "confidence": "B",
-   "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
-   "ref_dividends": [
-    {
-     "period": "2026-2Q",
-     "record_date": "2026-08-24",
-     "dps": 2000,
-     "pay_date": "2026-09-07",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
-     "rcept_no": "20260807800561",
-     "disclosed": "20260807",
-     "report": "현금ㆍ현물배당결정              "
-    },
-    {
-     "period": "2026-1Q",
-     "record_date": "2026-05-27",
-     "dps": 2000,
-     "pay_date": "2026-06-12",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
-     "rcept_no": "20260512800729",
-     "disclosed": "20260512",
-     "report": "현금ㆍ현물배당결정              "
-    },
-    {
-     "period": "2025-결산",
-     "record_date": "2026-02-27",
-     "dps": 2500,
-     "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
-     "rcept_no": "20260203801053",
-     "disclosed": "20260203",
-     "report": "현금ㆍ현물배당결정              "
-    }
-   ],
-   "ex_stats": {
-    "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
-    "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
-    "high_win": true
-   },
-   "ex_history": [
-    {
-     "pre_close": 321500.0,
-     "ex_close": 310000.0,
-     "ex_day_pct": -3.58,
-     "theory_pct": -0.62,
-     "excess_pct": -2.95,
-     "runup_days": 16,
-     "runup_pct": 11.44,
-     "runup_start": "2026-07-29",
-     "pre5_pct": -1.08,
-     "recover_days": 1,
-     "low_close": 288500.0,
-     "ex_date": "2026-08-21"
-    },
-    {
-     "pre_close": 305000.0,
-     "ex_close": 333000.0,
-     "ex_day_pct": 9.18,
-     "theory_pct": -0.23,
-     "excess_pct": 9.41,
-     "runup_days": 1,
-     "runup_pct": 0.0,
-     "runup_start": "2026-06-26",
-     "pre5_pct": -14.45,
-     "recover_days": 1,
-     "low_close": 305000.0,
-     "ex_date": "2026-06-29"
-    },
-    {
-     "pre_close": 447500.0,
-     "ex_close": 442000.0,
-     "ex_day_pct": -1.23,
-     "theory_pct": -0.45,
-     "excess_pct": -0.78,
-     "runup_days": 37,
-     "runup_pct": 34.59,
-     "runup_start": "2026-03-31",
-     "pre5_pct": -4.28,
-     "recover_days": null,
-     "low_close": 332500.0,
-     "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
-    }
-   ]
-  },
-  {
    "code": "000660",
    "name": "SK하이닉스",
    "market": "KOSPI",
@@ -6492,6 +6404,134 @@
      "recover_days": 1,
      "low_close": 214500.0,
      "ex_date": "2025-11-27"
+    }
+   ]
+  },
+  {
+   "code": "005490",
+   "name": "POSCO홀딩스",
+   "market": "KOSPI",
+   "freq": "분기",
+   "period": "2026-3Q",
+   "record_date": "2026-11-30",
+   "ex_date": "2026-11-27",
+   "last_buy_date": "2026-11-26",
+   "status": "확정",
+   "dps": 2000,
+   "pay_date": "2026-12-11",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+   "holiday_official": true,
+   "confidence": "B",
+   "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
+   "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-2Q",
+     "record_date": "2026-08-24",
+     "dps": 2000,
+     "pay_date": "2026-09-07",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800561",
+     "rcept_no": "20260807800561",
+     "disclosed": "20260807",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2026-1Q",
+     "record_date": "2026-05-27",
+     "dps": 2000,
+     "pay_date": "2026-06-12",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260512800729",
+     "rcept_no": "20260512800729",
+     "disclosed": "20260512",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
+     "period": "2025-결산",
+     "record_date": "2026-02-27",
+     "dps": 2500,
+     "pay_date": null,
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203801053",
+     "rcept_no": "20260203801053",
+     "disclosed": "20260203",
+     "report": "현금ㆍ현물배당결정              "
+    }
+   ],
+   "ex_stats": {
+    "n": 4,
+    "avg_ex_day_pct": 1.15,
+    "avg_runup_pct": 20.67,
+    "avg_runup_days": 22.5,
+    "avg_recover_days": 1.0,
+    "win_n": 4,
+    "win_k": 3,
+    "win_rate": 75,
+    "high_win": true
+   },
+   "ex_history": [
+    {
+     "pre_close": 321500.0,
+     "ex_close": 310000.0,
+     "ex_day_pct": -3.58,
+     "theory_pct": -0.62,
+     "excess_pct": -2.95,
+     "runup_days": 16,
+     "runup_pct": 11.44,
+     "runup_start": "2026-07-29",
+     "pre5_pct": -1.08,
+     "recover_days": 1,
+     "low_close": 288500.0,
+     "ex_date": "2026-08-21"
+    },
+    {
+     "pre_close": 305000.0,
+     "ex_close": 333000.0,
+     "ex_day_pct": 9.18,
+     "theory_pct": -0.23,
+     "excess_pct": 9.41,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-06-26",
+     "pre5_pct": -14.45,
+     "recover_days": 1,
+     "low_close": 305000.0,
+     "ex_date": "2026-06-29"
+    },
+    {
+     "pre_close": 447500.0,
+     "ex_close": 442000.0,
+     "ex_day_pct": -1.23,
+     "theory_pct": -0.45,
+     "excess_pct": -0.78,
+     "runup_days": 37,
+     "runup_pct": 34.59,
+     "runup_start": "2026-03-31",
+     "pre5_pct": -4.28,
+     "recover_days": null,
+     "low_close": 332500.0,
+     "ex_date": "2026-05-26"
+    },
+    {
+     "pre_close": 406500.0,
+     "ex_close": 407500.0,
+     "ex_day_pct": 0.25,
+     "theory_pct": -0.62,
+     "excess_pct": 0.86,
+     "runup_days": 36,
+     "runup_pct": 36.64,
+     "runup_start": "2026-01-02",
+     "pre5_pct": 8.26,
+     "recover_days": 1,
+     "low_close": 297500.0,
+     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -7337,6 +7377,16 @@
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
     {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
      "dps": 2000,
@@ -7870,10 +7920,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -7890,10 +7940,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -8269,10 +8319,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -9275,10 +9325,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -9295,10 +9345,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -9458,6 +9508,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -11003,10 +11063,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -11023,10 +11083,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -11186,6 +11246,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -12276,10 +12346,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -12296,10 +12366,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -12796,6 +12866,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -13601,6 +13681,16 @@
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
     {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
      "dps": 2000,
@@ -14186,10 +14276,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -14206,10 +14296,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -14585,10 +14675,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -15917,10 +16007,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -15937,10 +16027,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -16100,6 +16190,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -17645,10 +17745,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -17665,10 +17765,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -17828,6 +17928,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -19019,10 +19129,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -19039,10 +19149,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -19438,6 +19548,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -20361,6 +20481,16 @@
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
     {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
      "dps": 2000,
@@ -20828,10 +20958,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -20848,10 +20978,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -21227,10 +21357,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -22559,10 +22689,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -22579,10 +22709,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -22742,6 +22872,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -24169,10 +24309,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -24189,10 +24329,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -24470,6 +24610,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -25560,10 +25710,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -25580,10 +25730,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -26080,6 +26230,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -27003,6 +27163,16 @@
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
     {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
+    {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
      "dps": 2000,
@@ -27470,10 +27640,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -27490,10 +27660,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -27869,10 +28039,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -29201,10 +29371,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -29221,10 +29391,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -29384,6 +29554,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -30929,10 +31109,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -30949,10 +31129,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -31112,6 +31292,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",
@@ -32202,10 +32392,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -32222,10 +32412,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -32722,6 +32912,16 @@
    "confidence": "B",
    "note": "2026 공시: 2Q 기준일 8/24(2,000원). 분기 실적 후 결의 — 다른 분기는 추정. (1Q 기준일은 2026 공시 반영)",
    "ref_dividends": [
+    {
+     "period": "2026-3Q",
+     "record_date": "2026-11-30",
+     "dps": 2000,
+     "pay_date": "2026-12-11",
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+     "rcept_no": "20261113801151",
+     "disclosed": "20261113",
+     "report": "현금ㆍ현물배당결정              "
+    },
     {
      "period": "2026-2Q",
      "record_date": "2026-08-24",

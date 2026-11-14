@@ -279,10 +279,10 @@
    "record_date": "2026-02-27",
    "dps": 460,
    "pay_date": null,
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-   "rcept_no": "20260204800001",
-   "disclosed": "20260204",
-   "report": "현금ㆍ현물배당결정              "
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+   "rcept_no": "20260227800271",
+   "disclosed": "20260227",
+   "report": "[기재정정]현금ㆍ현물배당결정              "
   }
  ],
  "175330": [
@@ -323,10 +323,10 @@
    "record_date": "2026-11-10",
    "dps": 150,
    "pay_date": "2026-11-25",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-   "rcept_no": "20261110800452",
-   "disclosed": "20261110",
-   "report": "[기재정정]현금ㆍ현물배당결정              "
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+   "rcept_no": "20261026800296",
+   "disclosed": "20261026",
+   "report": "현금ㆍ현물배당결정              "
   },
   {
    "period": "2026-2Q",
@@ -343,13 +343,23 @@
    "record_date": "2026-05-15",
    "dps": 150,
    "pay_date": "2026-05-29",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-   "rcept_no": "20260430800627",
-   "disclosed": "20260430",
-   "report": "현금ㆍ현물배당결정              "
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+   "rcept_no": "20260518800521",
+   "disclosed": "20260518",
+   "report": "[기재정정]현금ㆍ현물배당결정              "
   }
  ],
  "005490": [
+  {
+   "period": "2026-3Q",
+   "record_date": "2026-11-30",
+   "dps": 2000,
+   "pay_date": "2026-12-11",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113801151",
+   "rcept_no": "20261113801151",
+   "disclosed": "20261113",
+   "report": "현금ㆍ현물배당결정              "
+  },
   {
    "period": "2026-2Q",
    "record_date": "2026-08-24",
