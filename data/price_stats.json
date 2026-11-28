@@ -237,6 +237,19 @@
    "pre5_pct": 0.49,
    "recover_days": 15,
    "low_close": 198100.0
+  },
+  "2026-11-27": {
+   "pre_close": 259500.0,
+   "ex_close": 270500.0,
+   "ex_day_pct": 4.24,
+   "theory_pct": -0.96,
+   "excess_pct": 5.2,
+   "runup_days": 4,
+   "runup_pct": 4.43,
+   "runup_start": "2026-11-23",
+   "pre5_pct": -2.99,
+   "recover_days": null,
+   "low_close": 248500.0
   }
  },
  "000660": {
@@ -304,6 +317,19 @@
    "pre5_pct": 2.31,
    "recover_days": 6,
    "low_close": 1322000.0
+  },
+  "2026-11-27": {
+   "pre_close": 1055000.0,
+   "ex_close": 1111000.0,
+   "ex_day_pct": 5.31,
+   "theory_pct": -1.9,
+   "excess_pct": 7.2,
+   "runup_days": 2,
+   "runup_pct": 4.04,
+   "runup_start": "2026-11-25",
+   "pre5_pct": -11.34,
+   "recover_days": null,
+   "low_close": 1014000.0
   }
  },
  "105560": {
@@ -535,6 +561,19 @@
    "pre5_pct": 2.59,
    "recover_days": null,
    "low_close": 78200.0
+  },
+  "2026-11-27": {
+   "pre_close": 64500.0,
+   "ex_close": 65600.0,
+   "ex_day_pct": 1.71,
+   "theory_pct": -1.29,
+   "excess_pct": 2.99,
+   "runup_days": 1,
+   "runup_pct": 0.0,
+   "runup_start": "2026-11-26",
+   "pre5_pct": -21.53,
+   "recover_days": null,
+   "low_close": 64500.0
   }
  },
  "030200": {
@@ -865,6 +904,19 @@
    "pre5_pct": 8.26,
    "recover_days": 1,
    "low_close": 297500.0
+  },
+  "2026-11-27": {
+   "pre_close": 249000.0,
+   "ex_close": 258000.0,
+   "ex_day_pct": 3.61,
+   "theory_pct": -0.8,
+   "excess_pct": 4.42,
+   "runup_days": 4,
+   "runup_pct": 1.84,
+   "runup_start": "2026-11-23",
+   "pre5_pct": -4.78,
+   "recover_days": null,
+   "low_close": 244500.0
   }
  },
  "138040": {

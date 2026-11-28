@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:13:28+09:00",
+ "generated_at": "2026-11-28T12:54:17+09:00",
  "years": [
   2026,
   2027,
@@ -414,16 +414,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -465,20 +479,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -539,16 +539,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -590,20 +604,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -667,16 +667,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -718,20 +732,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -774,17 +774,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -1168,10 +1182,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -1188,10 +1202,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -1557,7 +1571,7 @@
    "status": "확정",
    "dps": 460,
    "pay_date": null,
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
    "holiday_official": true,
    "confidence": "B",
    "note": "2025 결산배당 기준일 2026-02-27(460원).",
@@ -1567,10 +1581,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -2633,7 +2647,7 @@
    "status": "확정",
    "dps": 150,
    "pay_date": "2026-05-29",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
    "holiday_official": true,
    "confidence": "B",
    "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
@@ -2643,10 +2657,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -2663,10 +2677,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -2869,16 +2883,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -2920,20 +2948,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -3102,16 +3116,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -3153,20 +3181,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -3227,16 +3241,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -3278,20 +3306,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -3334,17 +3348,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -4381,10 +4409,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -4401,10 +4429,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -4607,16 +4635,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -4658,20 +4700,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -4722,16 +4750,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -4773,20 +4815,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -4847,16 +4875,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -4898,20 +4940,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -4954,17 +4982,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -5654,7 +5696,7 @@
    "status": "확정",
    "dps": 150,
    "pay_date": "2026-11-25",
-   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
+   "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
    "holiday_official": true,
    "confidence": "B",
    "note": "2026 공시 기준일: 결산 2/27, 2Q 8/12, 3Q 11/10(각 150원). (1Q 기준일은 2026 공시 반영)",
@@ -5664,10 +5706,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -5684,10 +5726,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -6214,16 +6256,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -6265,20 +6321,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -6339,16 +6381,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -6390,20 +6446,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -6467,16 +6509,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -6518,20 +6574,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -6574,17 +6616,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -7166,16 +7222,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -7217,20 +7287,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -7291,16 +7347,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -7342,20 +7412,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -7419,16 +7475,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -7470,20 +7540,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -7526,17 +7582,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -7920,10 +7990,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -7940,10 +8010,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -8319,10 +8389,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -9325,10 +9395,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -9345,10 +9415,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -9551,16 +9621,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -9602,20 +9686,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -9784,16 +9854,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -9835,20 +9919,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -9909,16 +9979,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -9960,20 +10044,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -10016,17 +10086,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -11063,10 +11147,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -11083,10 +11167,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -11289,16 +11373,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -11340,20 +11438,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -11404,16 +11488,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -11455,20 +11553,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -11529,16 +11613,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -11580,20 +11678,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -11636,17 +11720,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -12346,10 +12444,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -12366,10 +12464,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -12909,16 +13007,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -12960,20 +13072,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -13024,16 +13122,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -13075,20 +13187,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -13149,16 +13247,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -13200,20 +13312,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -13256,17 +13354,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -13723,16 +13835,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -13774,20 +13900,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -14276,10 +14388,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -14296,10 +14408,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -14675,10 +14787,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -14776,16 +14888,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -14827,20 +14953,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -14901,16 +15013,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -14952,20 +15078,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -15008,17 +15120,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -16007,10 +16133,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -16027,10 +16153,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -16233,16 +16359,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -16284,20 +16424,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -16466,16 +16592,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -16517,20 +16657,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -16591,16 +16717,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -16642,20 +16782,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -16698,17 +16824,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -17745,10 +17885,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -17765,10 +17905,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -17971,16 +18111,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -18022,20 +18176,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -18086,16 +18226,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -18137,20 +18291,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -18211,16 +18351,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -18262,20 +18416,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -18318,17 +18458,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -19129,10 +19283,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -19149,10 +19303,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -19591,16 +19745,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -19642,20 +19810,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -19706,16 +19860,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -19757,20 +19925,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -19831,16 +19985,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -19882,20 +20050,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -19938,17 +20092,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -20523,16 +20691,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -20574,20 +20756,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -20958,10 +21126,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -20978,10 +21146,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -21357,10 +21525,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -21458,16 +21626,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -21509,20 +21691,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -21583,16 +21751,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -21634,20 +21816,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -21690,17 +21858,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -22689,10 +22871,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -22709,10 +22891,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -22915,16 +23097,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -22966,20 +23162,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -23148,16 +23330,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -23199,20 +23395,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -23273,16 +23455,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -23324,20 +23520,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -23380,17 +23562,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -24309,10 +24505,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -24329,10 +24525,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -24653,16 +24849,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -24704,20 +24914,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -24768,16 +24964,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -24819,20 +25029,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -24893,16 +25089,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -24944,20 +25154,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -25000,17 +25196,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -25710,10 +25920,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -25730,10 +25940,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -26273,16 +26483,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -26324,20 +26548,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -26388,16 +26598,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -26439,20 +26663,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -26513,16 +26723,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -26564,20 +26788,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -26620,17 +26830,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -27205,16 +27429,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -27256,20 +27494,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -27640,10 +27864,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -27660,10 +27884,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -28039,10 +28263,10 @@
      "record_date": "2026-02-27",
      "dps": 460,
      "pay_date": null,
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260204800001",
-     "rcept_no": "20260204800001",
-     "disclosed": "20260204",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227800271",
+     "rcept_no": "20260227800271",
+     "disclosed": "20260227",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -28140,16 +28364,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -28191,20 +28429,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -28265,16 +28489,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -28316,20 +28554,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -28372,17 +28596,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -29371,10 +29609,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -29391,10 +29629,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -29597,16 +29835,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -29648,20 +29900,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -29830,16 +30068,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -29881,20 +30133,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -29955,16 +30193,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -30006,20 +30258,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -30062,17 +30300,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -31109,10 +31361,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -31129,10 +31381,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -31335,16 +31587,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -31386,20 +31652,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -31450,16 +31702,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -31501,20 +31767,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -31575,16 +31827,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -31626,20 +31892,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -31682,17 +31934,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -32392,10 +32658,10 @@
      "record_date": "2026-11-10",
      "dps": 150,
      "pay_date": "2026-11-25",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110800452",
-     "rcept_no": "20261110800452",
-     "disclosed": "20261110",
-     "report": "[기재정정]현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800296",
+     "rcept_no": "20261026800296",
+     "disclosed": "20261026",
+     "report": "현금ㆍ현물배당결정              "
     },
     {
      "period": "2026-2Q",
@@ -32412,10 +32678,10 @@
      "record_date": "2026-05-15",
      "dps": 150,
      "pay_date": "2026-05-29",
-     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800627",
-     "rcept_no": "20260430800627",
-     "disclosed": "20260430",
-     "report": "현금ㆍ현물배당결정              "
+     "source": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518800521",
+     "rcept_no": "20260518800521",
+     "disclosed": "20260518",
+     "report": "[기재정정]현금ㆍ현물배당결정              "
     }
    ],
    "ex_stats": {
@@ -32955,16 +33221,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 249000.0,
+     "ex_close": 258000.0,
+     "ex_day_pct": 3.61,
+     "theory_pct": -0.8,
+     "excess_pct": 4.42,
+     "runup_days": 4,
+     "runup_pct": 1.84,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -4.78,
+     "recover_days": null,
+     "low_close": 244500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 321500.0,
      "ex_close": 310000.0,
@@ -33006,20 +33286,6 @@
      "recover_days": null,
      "low_close": 332500.0,
      "ex_date": "2026-05-26"
-    },
-    {
-     "pre_close": 406500.0,
-     "ex_close": 407500.0,
-     "ex_day_pct": 0.25,
-     "theory_pct": -0.62,
-     "excess_pct": 0.86,
-     "runup_days": 36,
-     "runup_pct": 36.64,
-     "runup_start": "2026-01-02",
-     "pre5_pct": 8.26,
-     "recover_days": 1,
-     "low_close": 297500.0,
-     "ex_date": "2026-02-26"
     }
    ]
   },
@@ -33070,16 +33336,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 1055000.0,
+     "ex_close": 1111000.0,
+     "ex_day_pct": 5.31,
+     "theory_pct": -1.9,
+     "excess_pct": 7.2,
+     "runup_days": 2,
+     "runup_pct": 4.04,
+     "runup_start": "2026-11-25",
+     "pre5_pct": -11.34,
+     "recover_days": null,
+     "low_close": 1014000.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 1730000.0,
      "ex_close": 1653000.0,
@@ -33121,20 +33401,6 @@
      "recover_days": 1,
      "low_close": 336500.0,
      "ex_date": "2025-11-27"
-    },
-    {
-     "pre_close": 260000.0,
-     "ex_close": 268500.0,
-     "ex_day_pct": 3.27,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 5,
-     "runup_pct": 6.12,
-     "runup_start": "2025-08-21",
-     "pre5_pct": 1.76,
-     "recover_days": 1,
-     "low_close": 245000.0,
-     "ex_date": "2025-08-28"
     }
    ]
   },
@@ -33195,16 +33461,30 @@
    ],
    "ex_stats": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    },
    "ex_history": [
+    {
+     "pre_close": 259500.0,
+     "ex_close": 270500.0,
+     "ex_day_pct": 4.24,
+     "theory_pct": -0.96,
+     "excess_pct": 5.2,
+     "runup_days": 4,
+     "runup_pct": 4.43,
+     "runup_start": "2026-11-23",
+     "pre5_pct": -2.99,
+     "recover_days": null,
+     "low_close": 248500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 398000.0,
      "ex_close": 399500.0,
@@ -33246,20 +33526,6 @@
      "recover_days": 1,
      "low_close": 286000.0,
      "ex_date": "2026-02-26"
-    },
-    {
-     "pre_close": 261500.0,
-     "ex_close": 261500.0,
-     "ex_day_pct": 0.0,
-     "theory_pct": null,
-     "excess_pct": null,
-     "runup_days": 39,
-     "runup_pct": 21.91,
-     "runup_start": "2025-09-26",
-     "pre5_pct": -0.95,
-     "recover_days": 1,
-     "low_close": 214500.0,
-     "ex_date": "2025-11-27"
     }
    ]
   },
@@ -33302,17 +33568,31 @@
     }
    ],
    "ex_stats": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    },
    "ex_history": [
+    {
+     "pre_close": 64500.0,
+     "ex_close": 65600.0,
+     "ex_day_pct": 1.71,
+     "theory_pct": -1.29,
+     "excess_pct": 2.99,
+     "runup_days": 1,
+     "runup_pct": 0.0,
+     "runup_start": "2026-11-26",
+     "pre5_pct": -21.53,
+     "recover_days": null,
+     "low_close": 64500.0,
+     "ex_date": "2026-11-27"
+    },
     {
      "pre_close": 99100.0,
      "ex_close": 98600.0,
@@ -33634,12 +33914,12 @@
    "confidence": "A",
    "win": {
     "n": 4,
-    "avg_ex_day_pct": 1.56,
-    "avg_runup_pct": 47.04,
-    "avg_runup_days": 34.25,
+    "avg_ex_day_pct": 2.62,
+    "avg_runup_pct": 42.67,
+    "avg_runup_days": 25.5,
     "avg_recover_days": 1.0,
-    "win_n": 7,
-    "win_k": 7,
+    "win_n": 8,
+    "win_k": 8,
     "win_rate": 100,
     "high_win": true
    }
@@ -33651,12 +33931,12 @@
    "confidence": "A",
    "win": {
     "n": 4,
-    "avg_ex_day_pct": 2.65,
-    "avg_runup_pct": 41.75,
-    "avg_runup_days": 26.25,
-    "avg_recover_days": 2.25,
-    "win_n": 5,
-    "win_k": 5,
+    "avg_ex_day_pct": 3.16,
+    "avg_runup_pct": 41.23,
+    "avg_runup_days": 25.5,
+    "avg_recover_days": 2.67,
+    "win_n": 6,
+    "win_k": 6,
     "win_rate": 100,
     "high_win": true
    }
@@ -33735,13 +34015,13 @@
    "freq": "분기",
    "confidence": "A",
    "win": {
-    "n": 1,
-    "avg_ex_day_pct": -0.5,
-    "avg_runup_pct": 26.73,
-    "avg_runup_days": 20.0,
+    "n": 2,
+    "avg_ex_day_pct": 0.6,
+    "avg_runup_pct": 13.37,
+    "avg_runup_days": 10.5,
     "avg_recover_days": 0.0,
-    "win_n": 1,
-    "win_k": 1,
+    "win_n": 2,
+    "win_k": 2,
     "win_rate": 100,
     "high_win": false
    }
@@ -33879,13 +34159,13 @@
    "confidence": "B",
    "win": {
     "n": 4,
-    "avg_ex_day_pct": 1.15,
-    "avg_runup_pct": 20.67,
-    "avg_runup_days": 22.5,
+    "avg_ex_day_pct": 1.99,
+    "avg_runup_pct": 11.97,
+    "avg_runup_days": 14.5,
     "avg_recover_days": 1.0,
-    "win_n": 4,
-    "win_k": 3,
-    "win_rate": 75,
+    "win_n": 5,
+    "win_k": 4,
+    "win_rate": 80,
     "high_win": true
    }
   },
